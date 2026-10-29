@@ -26,6 +26,12 @@ Não é recomendação de investimento.
      7 dias úteis e as divulgadas no pregão anterior. Cada uma vira um evento com
      `"kind": "resultado"` e `"tickers": [...]` — o Atlas suspende sugestões nesses ativos.
    - Agenda do dia (horário de Brasília) e da noite anterior.
+   - **Viés de abertura do mini índice (WIN) e do mini dólar (WDO)** — só na edição de
+     abertura. Leia o que aconteceu fora do pregão brasileiro: futuros de S&P 500 e Nasdaq
+     nesta manhã, ADRs brasileiros/EWZ no after-market e no pré-mercado, bolsas da Ásia e da
+     Europa, DXY e moedas emergentes, juros dos Treasuries, petróleo e minério, e notícias da
+     noite (Brasil e exterior). Para cada contrato: `bias` (alta/baixa/neutro), `confidence`,
+     `drivers` (o que sustenta, com números das fontes) e `against` (o que pode inverter).
 2. **Escrever** o JSON no formato abaixo, em português, com palavras próprias
    (resumir, nunca copiar trechos das matérias).
 3. **Validar**: `python3 tools/validar.py briefings/AAAA-MM-DD.json` precisa terminar com `OK`.
@@ -78,6 +84,9 @@ Não é recomendação de investimento.
                "impact": "alto|medio|baixo",
                "kind": "resultado|indicador|politica|outro",
                "tickers": ["VALE3"] }],
+  "opening": [{ "contract": "WIN|WDO", "bias": "alta|baixa|neutro",
+                "confidence": "baixa|media|alta", "drivers": ["..."], "against": ["..."],
+                "note": "opcional" }],
   "sources": [{ "title": "...", "url": "https://...", "publisher": "...",
                 "publishedAt": "AAAA-MM-DD" }]
 }

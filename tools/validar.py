@@ -113,6 +113,23 @@ def main(path: str) -> int:
         if e.get("kind") == "resultado" and not e.get("tickers"):
             avisos.append(f"events[{i}] é resultado sem tickers do universo (não bloqueia nenhum ativo)")
 
+    contratos = set()
+    for i, o in enumerate(b.get("opening", [])):
+        if o.get("contract") not in {"WIN", "WDO"}:
+            err(f"opening[{i}].contract inválido: {o.get('contract')}")
+        elif o["contract"] in contratos:
+            err(f"opening[{i}]: contrato {o['contract']} repetido")
+        else:
+            contratos.add(o["contract"])
+        if o.get("bias") not in {"alta", "baixa", "neutro"}:
+            err(f"opening[{i}].bias inválido: {o.get('bias')}")
+        if o.get("confidence") not in CONFIANCA:
+            err(f"opening[{i}].confidence inválido: {o.get('confidence')}")
+        if not o.get("drivers"):
+            err(f"opening[{i}].drivers vazio: explique o que sustenta o viés")
+    if b.get("edition", "abertura") == "abertura" and contratos != {"WIN", "WDO"}:
+        avisos.append("edição de abertura sem viés de abertura para WIN e WDO")
+
     if not b.get("sources"):
         err("sources vazio: todo relatório precisa citar as fontes")
     for i, s in enumerate(b.get("sources", [])):
