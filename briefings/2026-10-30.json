@@ -2,6 +2,7 @@
   "version": 1,
   "date": "2026-10-30",
   "generatedAt": "2026-10-29T19:35:00Z",
+  "edition": "abertura",
   "summary": "Mercado ainda em choque com a reeleição de Lula: o Ibovespa acumula queda de cerca de 17% na semana (com circuit breaker na segunda), os juros futuros subiram com força e a curva já precifica alta da Selic em dezembro. O governo promete um pacote para perseguir o centro da meta fiscal, mas sem detalhes nem nome definido para a Fazenda — esse anúncio é o principal gatilho de curto prazo, para os dois lados. No exterior, o Fed manteve os juros com dois votos por alta e o mercado vê grande chance de aumento em dezembro, o que fortalece o dólar contra emergentes. Petróleo segue acima de US$ 110 com a crise em Ormuz; minério está perto da mínima em dois anos. Vale divulga resultado hoje após o fechamento. Viés geral: defensivo, com preferência por exportadoras privadas e cautela máxima com setores sensíveis a juros e com estatais.",
   "factors": [
     {
@@ -97,42 +98,54 @@
       "bias": "negativo",
       "confidence": "baixa",
       "rationale": "B3 caiu 4,6% na quarta: juros mais altos reduzem o apetite por renda variável.",
-      "against": ["Volume recorde de negociação (R$ 59,8 bi na quarta) aumenta a receita da bolsa"]
+      "against": [
+        "Volume recorde de negociação (R$ 59,8 bi na quarta) aumenta a receita da bolsa"
+      ]
     },
     {
       "sector": "Consumo e varejo",
       "bias": "negativo",
       "confidence": "alta",
       "rationale": "Setor mais sensível a juros e crédito; a perspectiva de alta da Selic piora consumo e custo de dívida. Varejistas e educação estiveram entre as maiores quedas.",
-      "against": ["Ações muito descontadas podem ter repiques técnicos violentos"]
+      "against": [
+        "Ações muito descontadas podem ter repiques técnicos violentos"
+      ]
     },
     {
       "sector": "Locação de veículos",
       "bias": "negativo",
       "confidence": "media",
       "rationale": "Negócio alavancado e dependente de juros; a Vamos caiu 11% na quarta e divulga resultado hoje.",
-      "against": ["Localiza tem balanço mais robusto que os pares"]
+      "against": [
+        "Localiza tem balanço mais robusto que os pares"
+      ]
     },
     {
       "sector": "Combustíveis e logística",
       "bias": "negativo",
       "confidence": "alta",
       "rationale": "Cosan liderou as quedas da quarta (−12,3%): holding endividada sofre com juros mais altos.",
-      "against": ["Petróleo alto favorece parte do portfólio"]
+      "against": [
+        "Petróleo alto favorece parte do portfólio"
+      ]
     },
     {
       "sector": "Energia elétrica",
       "bias": "negativo",
       "confidence": "baixa",
       "rationale": "Juros mais altos reduzem o valor presente de empresas de fluxo longo.",
-      "against": ["Perfil defensivo e dividendos atraem em momentos de estresse"]
+      "against": [
+        "Perfil defensivo e dividendos atraem em momentos de estresse"
+      ]
     },
     {
       "sector": "Saneamento",
       "bias": "negativo",
       "confidence": "baixa",
       "rationale": "Investimento pesado e financiamento sensível a juros.",
-      "against": ["Sabesp privatizada está menos exposta à interferência política"]
+      "against": [
+        "Sabesp privatizada está menos exposta à interferência política"
+      ]
     },
     {
       "sector": "Petróleo e gás",
@@ -148,35 +161,45 @@
       "bias": "neutro",
       "confidence": "baixa",
       "rationale": "Minério perto da mínima em dois anos pesa contra; dólar alto e perfil exportador pesam a favor. O resultado da Vale sai hoje após o fechamento e deve definir a direção.",
-      "against": ["Minério em Dalian subiu 2,4% nesta quinta"]
+      "against": [
+        "Minério em Dalian subiu 2,4% nesta quinta"
+      ]
     },
     {
       "sector": "Siderurgia",
       "bias": "negativo",
       "confidence": "baixa",
       "rationale": "Demanda de aço fraca na China e margens apertadas no setor.",
-      "against": ["Dólar alto favorece receitas externas (Gerdau tem operação relevante nos EUA)"]
+      "against": [
+        "Dólar alto favorece receitas externas (Gerdau tem operação relevante nos EUA)"
+      ]
     },
     {
       "sector": "Papel e celulose",
       "bias": "positivo",
       "confidence": "baixa",
       "rationale": "Receita em dólar e baixa dependência do mercado doméstico costumam proteger em estresse local com real fraco.",
-      "against": ["Endividamento em dólar e preço da celulose não verificado neste relatório"]
+      "against": [
+        "Endividamento em dólar e preço da celulose não verificado neste relatório"
+      ]
     },
     {
       "sector": "Bens de capital",
       "bias": "positivo",
       "confidence": "media",
       "rationale": "WEG subiu 2,25% na quarta em meio à queda geral: receita externa relevante e balanço forte, perfil procurado como proteção.",
-      "against": ["Valuation elevado limita o potencial de alta"]
+      "against": [
+        "Valuation elevado limita o potencial de alta"
+      ]
     },
     {
       "sector": "Bebidas",
       "bias": "negativo",
       "confidence": "baixa",
       "rationale": "Ambev teve lucro de R$ 4,37 bi no 3º trimestre, abaixo dos R$ 4,86 bi de um ano antes; dólar alto encarece insumos.",
-      "against": ["Perfil defensivo e geração de caixa estável"]
+      "against": [
+        "Perfil defensivo e geração de caixa estável"
+      ]
     }
   ],
   "assets": [
@@ -214,38 +237,51 @@
   "events": [
     {
       "date": "2026-10-29",
-      "time": "após 18h",
-      "title": "Resultados do 3º trimestre: Vale, Multiplan e Vamos",
-      "impact": "alto"
+      "title": "Resultados do 3º trimestre após o fechamento: Vale, Multiplan e Vamos",
+      "impact": "alto",
+      "kind": "resultado",
+      "tickers": [
+        "VALE3"
+      ]
     },
     {
       "date": "2026-10-30",
       "time": "07:00",
       "title": "Zona do euro: PIB do 3º trimestre e desemprego",
-      "impact": "baixo"
+      "impact": "baixo",
+      "kind": "indicador",
+      "tickers": []
     },
     {
       "date": "2026-10-30",
       "time": "08:30",
       "title": "BCB: estatísticas fiscais de setembro",
-      "impact": "medio"
+      "impact": "medio",
+      "kind": "indicador",
+      "tickers": []
     },
     {
       "date": "2026-10-30",
       "time": "09:00",
       "title": "IBGE: PNAD Contínua (desemprego de setembro)",
-      "impact": "medio"
+      "impact": "medio",
+      "kind": "indicador",
+      "tickers": []
     },
     {
       "date": "2026-10-30",
       "title": "Possível anúncio da equipe econômica / ministro da Fazenda (sem data definida)",
-      "impact": "alto"
+      "impact": "alto",
+      "kind": "politica",
+      "tickers": []
     },
     {
       "date": "2026-10-30",
       "time": "22:30",
       "title": "China: PMI composto de outubro",
-      "impact": "medio"
+      "impact": "medio",
+      "kind": "indicador",
+      "tickers": []
     }
   ],
   "sources": [

@@ -22,11 +22,23 @@ Não é recomendação de investimento.
    - Commodities: petróleo (Brent), minério de ferro.
    - Geopolítica com efeito em mercado.
    - Resultados de empresas e fatos relevantes dos 20 ativos do universo.
+   - **Calendário de resultados**: datas de divulgação dos ativos do universo nos próximos
+     7 dias úteis e as divulgadas no pregão anterior. Cada uma vira um evento com
+     `"kind": "resultado"` e `"tickers": [...]` — o Atlas suspende sugestões nesses ativos.
    - Agenda do dia (horário de Brasília) e da noite anterior.
 2. **Escrever** o JSON no formato abaixo, em português, com palavras próprias
    (resumir, nunca copiar trechos das matérias).
 3. **Validar**: `python3 tools/validar.py briefings/AAAA-MM-DD.json` precisa terminar com `OK`.
 4. **Publicar**: copiar para `briefings/latest.json`, commitar e fazer push em `main`.
+
+### Edições
+
+- **Abertura** (`"edition": "abertura"`, antes do pregão): relatório completo do dia.
+- **Meio-dia** (`"edition": "meio-dia"`): parte do relatório da manhã e atualiza o que mudou
+  durante a manhã (juros futuros, dólar, notícias, anúncios do governo, resultados). Se um
+  setor mudou de direção, ajuste `bias`/`confidence` e explique no `summary`, que deve
+  começar com "Atualização do meio-dia:". Se nada relevante mudou, republique com
+  `generatedAt` novo e diga isso no `summary`. Sobrescreve o arquivo do mesmo dia.
 
 ### Regras
 
@@ -36,6 +48,9 @@ Não é recomendação de investimento.
   (o que pode dar errado). Na dúvida, `neutro` com confiança `baixa`.
 - Use somente os nomes de setor e tickers do universo (listas em `tools/validar.py`).
 - `date` é o pregão a que o relatório se refere; `generatedAt` é o horário real de geração (UTC).
+- `time` em eventos é sempre `HH:MM` (horário de Brasília). Sem horário definido, omita o campo.
+  Eventos de impacto `alto` com horário bloqueiam entradas no Atlas de 30 minutos antes até
+  15 minutos depois; sem horário, viram alerta.
 - Se a pesquisa falhar, **não publique** — o Atlas mostra "sem relatório" e não sugere
   operações, que é o comportamento seguro.
 
@@ -46,6 +61,7 @@ Não é recomendação de investimento.
   "version": 1,
   "date": "AAAA-MM-DD",
   "generatedAt": "AAAA-MM-DDTHH:MM:SSZ",
+  "edition": "abertura|meio-dia",
   "summary": "Parágrafo com a leitura do dia e o viés geral.",
   "factors": [
     { "factor": "juros|dolar|petroleo|minerio|china|risco-fiscal",
@@ -59,7 +75,9 @@ Não é recomendação de investimento.
   ],
   "assets": [{ "ticker": "PETR4", "bias": "positivo|negativo|neutro", "note": "..." }],
   "events": [{ "date": "AAAA-MM-DD", "time": "09:00", "title": "...",
-               "impact": "alto|medio|baixo" }],
+               "impact": "alto|medio|baixo",
+               "kind": "resultado|indicador|politica|outro",
+               "tickers": ["VALE3"] }],
   "sources": [{ "title": "...", "url": "https://...", "publisher": "...",
                 "publishedAt": "AAAA-MM-DD" }]
 }

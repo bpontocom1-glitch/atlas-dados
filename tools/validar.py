@@ -38,6 +38,9 @@ DIRECOES = {"alta", "baixa", "estavel", "incerto"}
 VIES = {"positivo", "negativo", "neutro"}
 CONFIANCA = {"baixa", "media", "alta"}
 IMPACTO = {"alto", "medio", "baixo"}
+TIPOS = {"resultado", "indicador", "politica", "outro"}
+EDICOES = {"abertura", "meio-dia"}
+HORA = re.compile(r"^\d{1,2}:\d{2}$")
 DATA = re.compile(r"^\d{4}-\d{2}-\d{2}$")
 
 
@@ -55,6 +58,8 @@ def main(path: str) -> int:
         err("version deve ser 1")
     if not isinstance(b.get("date"), str) or not DATA.match(b["date"]):
         err("date deve ser aaaa-mm-dd")
+    if b.get("edition", "abertura") not in EDICOES:
+        err(f"edition inválido: {b.get('edition')}")
     if not isinstance(b.get("generatedAt"), str):
         err("generatedAt ausente")
     if not isinstance(b.get("summary"), str) or len(b["summary"]) < 40:
@@ -98,6 +103,15 @@ def main(path: str) -> int:
             err(f"events[{i}] precisa de date e title")
         if e.get("impact") not in IMPACTO:
             err(f"events[{i}].impact inválido: {e.get('impact')}")
+        if e.get("kind", "outro") not in TIPOS:
+            err(f"events[{i}].kind inválido: {e.get('kind')}")
+        if "time" in e and not HORA.match(str(e["time"])):
+            err(f"events[{i}].time deve ser HH:MM (sem horário definido: omita o campo): {e['time']}")
+        for t in e.get("tickers", []):
+            if t not in TICKERS:
+                avisos.append(f"events[{i}].tickers fora do universo: {t}")
+        if e.get("kind") == "resultado" and not e.get("tickers"):
+            avisos.append(f"events[{i}] é resultado sem tickers do universo (não bloqueia nenhum ativo)")
 
     if not b.get("sources"):
         err("sources vazio: todo relatório precisa citar as fontes")
