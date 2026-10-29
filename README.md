@@ -26,6 +26,10 @@ Não é recomendação de investimento.
      7 dias úteis e as divulgadas no pregão anterior. Cada uma vira um evento com
      `"kind": "resultado"` e `"tickers": [...]` — o Atlas suspende sugestões nesses ativos.
    - Agenda do dia (horário de Brasília) e da noite anterior.
+   - **Curva de juros (DI futuro)**: taxas dos principais contratos DI1 (ex.: DI1F27, DI1F28,
+     DI1F29, DI1F31, DI1F33, DI1F35) com a variação do dia, como publicadas nas fontes. Na
+     abertura, as do fechamento anterior; no meio-dia, as da manhã. Só publique taxas que
+     estejam numa fonte listada; se não houver, omita a seção `rates`.
    - **Viés de abertura do mini índice (WIN) e do mini dólar (WDO)** — só na edição de
      abertura. Leia o que aconteceu fora do pregão brasileiro: futuros de S&P 500 e Nasdaq
      nesta manhã, ADRs brasileiros/EWZ no after-market e no pré-mercado, bolsas da Ásia e da
@@ -84,6 +88,8 @@ Não é recomendação de investimento.
                "impact": "alto|medio|baixo",
                "kind": "resultado|indicador|politica|outro",
                "tickers": ["VALE3"] }],
+  "rates": { "asOf": "Fechamento de DD/MM", "items": [{ "contract": "DI1F27", "rate": 14.97,
+             "change": 0.12 }] },
   "opening": [{ "contract": "WIN|WDO", "bias": "alta|baixa|neutro",
                 "confidence": "baixa|media|alta", "drivers": ["..."], "against": ["..."],
                 "note": "opcional" }],

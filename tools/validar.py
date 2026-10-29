@@ -113,6 +113,22 @@ def main(path: str) -> int:
         if e.get("kind") == "resultado" and not e.get("tickers"):
             avisos.append(f"events[{i}] é resultado sem tickers do universo (não bloqueia nenhum ativo)")
 
+    rates = b.get("rates")
+    if rates is not None:
+        if not isinstance(rates.get("asOf"), str) or not rates["asOf"].strip():
+            err("rates.asOf ausente (ex.: \"Fechamento de 29/10\")")
+        for i, r in enumerate(rates.get("items", [])):
+            if not re.match(r"^DI1[FGHJKMNQUVXZ]\d{2}$", str(r.get("contract", ""))):
+                err(f"rates.items[{i}].contract inválido: {r.get('contract')} (ex.: DI1F27)")
+            rate = r.get("rate")
+            if not isinstance(rate, (int, float)) or not (0 < rate < 100):
+                err(f"rates.items[{i}].rate inválido: {rate} (taxa em % a.a., ex.: 14.97)")
+            ch = r.get("change")
+            if ch is not None and (not isinstance(ch, (int, float)) or abs(ch) > 5):
+                err(f"rates.items[{i}].change suspeito: {ch} (variação em pontos percentuais, ex.: 0.12)")
+    elif b.get("edition", "abertura") == "abertura":
+        avisos.append("relatório sem curva de juros (rates)")
+
     contratos = set()
     for i, o in enumerate(b.get("opening", [])):
         if o.get("contract") not in {"WIN", "WDO"}:
