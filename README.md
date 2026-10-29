@@ -102,3 +102,58 @@ Os fatores são lidos pelo Atlas junto com a sensibilidade de cada ativo. Exempl
 `juros` em `alta`, ativos sensíveis a juros (varejo, locadoras, elétricas) recebem
 contexto negativo. O Atlas só sugere uma opção quando esse contexto e a análise
 técnica apontam para o mesmo lado.
+
+---
+
+## Fundamentos por empresa (`fundamentos/latest.json`)
+
+Resultado do último trimestre divulgado de cada ativo do universo (exceto BOVA11). O Atlas
+calcula uma nota de qualidade (forte/neutra/fraca) e barra CALL em empresa fraca e PUT em
+empresa forte.
+
+### Procedimento (tarefa agendada semanal)
+
+1. Partir do `fundamentos/latest.json` atual (se existir) e, para cada ticker do universo,
+   procurar se saiu resultado trimestral mais recente que o registrado (release de resultados
+   na página de RI da empresa, ou matéria de fonte jornalística reconhecida sobre o resultado).
+2. Só atualizar a empresa que divulgou trimestre novo; as outras ficam como estão.
+3. Preencher apenas os campos que estão na fonte. **Campo sem fonte é omitido** — nunca
+   calcular, estimar ou completar com memória.
+4. Validar: `python3 tools/validar_fundamentos.py fundamentos/latest.json` precisa terminar com `OK`.
+5. Copiar para `fundamentos/AAAA-MM-DD.json` (histórico), commitar e fazer push em `main`.
+
+### Formato (versão 1)
+
+```json
+{
+  "version": 1,
+  "generatedAt": "AAAA-MM-DDTHH:MM:SSZ",
+  "companies": [
+    {
+      "ticker": "VALE3",
+      "period": "3T26",
+      "reportedAt": "AAAA-MM-DD",
+      "revenue": 45000,
+      "revenueYoyPct": -3.2,
+      "netIncome": 9800,
+      "netIncomeYoyPct": 12.5,
+      "ebitda": 18000,
+      "ebitdaYoyPct": 4.1,
+      "netDebtToEbitda": 0.9,
+      "roePct": 18.2,
+      "netMarginPct": 21.8,
+      "highlights": ["Frase curta com palavras próprias sobre o que mais pesou."],
+      "sources": [{ "title": "...", "url": "https://...", "publisher": "...",
+                    "publishedAt": "AAAA-MM-DD" }]
+    }
+  ]
+}
+```
+
+- Valores monetários em **R$ milhões**; variações (`...YoyPct`) em % contra o mesmo trimestre do
+  ano anterior; `roePct` e `netMarginPct` em %.
+- Lucro e EBITDA: usar o número **ajustado/recorrente** quando a empresa divulgar, e dizer isso
+  em `highlights`.
+- Bancos (ITUB4, BBDC4, BBAS3): sem EBITDA e sem dívida líquida/EBITDA; usar lucro, ROE e
+  margem quando houver.
+- Empresa sem nenhum resultado encontrado com fonte: deixar fora do arquivo.
