@@ -29,12 +29,10 @@ NAMES = [
 
 def main(day: str) -> None:
     out: list[str] = []
-    print_ = print
 
-    def print(*a):  # noqa: A001 — grava também em arquivo para leitura fora do Actions
-        line = " ".join(str(x) for x in a)
+    def log(line: str) -> None:  # grava também em arquivo para leitura fora do Actions
         out.append(line)
-        print_(line)
+        print(line)
 
     for name in NAMES:
         body = json.dumps({"Name": name, "Date": day, "FinalDate": day}).encode()
@@ -45,10 +43,10 @@ def main(day: str) -> None:
             with urllib.request.urlopen(req, timeout=60) as r:
                 data = r.read()
             text = data.decode("utf-8", "replace")
-            print(f"== {name}: HTTP {r.status}, {len(data)} bytes")
-            print("\n".join(text.splitlines()[:4])[:600])
+            log(f"== {name}: HTTP {r.status}, {len(data)} bytes")
+            log("\n".join(text.splitlines()[:4])[:600])
         except Exception as e:  # noqa: BLE001
-            print(f"== {name}: falhou ({e})")
+            log(f"== {name}: falhou ({e})")
     Path("sondagem").mkdir(exist_ok=True)
     Path(f"sondagem/boletim-{day}.txt").write_text("\n".join(out), encoding="utf-8")
 

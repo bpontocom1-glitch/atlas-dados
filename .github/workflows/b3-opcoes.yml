@@ -36,7 +36,7 @@ jobs:
       - name: Baixar e extrair COTAHIST
         run: python3 tools/b3_opcoes.py ${{ github.event.inputs.data }}
       - name: Sondar Boletim Diário
-        if: ${{ github.event.inputs.sondar == 'true' }}
+        if: ${{ inputs.sondar }}
         continue-on-error: true
         run: python3 tools/b3_sondar.py ${{ github.event.inputs.data }}
       - name: Publicar
