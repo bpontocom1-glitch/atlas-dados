@@ -21,7 +21,7 @@ Não é recomendação de investimento.
    - Exterior: Fed, dados dos EUA, Europa, China.
    - Commodities: petróleo (Brent), minério de ferro.
    - Geopolítica com efeito em mercado.
-   - Resultados de empresas e fatos relevantes dos 20 ativos do universo.
+   - Resultados de empresas e fatos relevantes dos ativos do universo.
    - **Calendário de resultados**: datas de divulgação dos ativos do universo nos próximos
      7 dias úteis e as divulgadas no pregão anterior. Cada uma vira um evento com
      `"kind": "resultado"` e `"tickers": [...]` — o Atlas suspende sugestões nesses ativos.

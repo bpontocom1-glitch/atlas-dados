@@ -27,11 +27,13 @@ SETORES = {
     "Energia elétrica",
     "Saneamento",
     "Combustíveis e logística",
+    "Construção civil",
+    "Proteínas",
 }
 TICKERS = {
     "BOVA11", "PETR4", "PRIO3", "VALE3", "GGBR4", "CSNA3", "USIM5", "ITUB4", "BBDC4",
     "BBAS3", "B3SA3", "ABEV3", "MGLU3", "LREN3", "SUZB3", "WEGE3", "RENT3", "CMIG4",
-    "SBSP3", "CSAN3",
+    "SBSP3", "CSAN3", "BPAC11", "ITSA4", "EMBJ3", "EQTL3", "AXIA3", "CYRE3", "BEEF3",
 }
 FATORES = {"juros", "dolar", "petroleo", "minerio", "china", "risco-fiscal"}
 DIRECOES = {"alta", "baixa", "estavel", "incerto"}
