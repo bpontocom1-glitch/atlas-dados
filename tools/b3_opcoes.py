@@ -56,8 +56,16 @@ MARKET_CALL = "070"
 MARKET_PUT = "080"
 #: série com pelo menos isto de negócios no dia conta como "líquida"
 LIQUID_TRADES = 10
-#: vencimentos publicados por ativo do universo
-MAX_EXPIRIES = 2
+#: vencimentos publicados por ativo do universo: os próximos mensais e semanais
+MAX_MONTHLY = 2
+MAX_WEEKLY = 2
+#: faixa de strikes publicada, em torno do fechamento da ação
+STRIKE_BAND = 0.25
+
+
+def is_weekly(symbol: str) -> bool:
+    """Opções semanais terminam em W1–W5 (ex.: CSNAV420W5)."""
+    return len(symbol) > 2 and symbol[-2] == "W" and symbol[-1].isdigit()
 
 
 def field(line: str, name: str) -> str:
@@ -138,24 +146,38 @@ def build(day: date, spots: list[dict], options: list[dict], source_url: str) ->
         )
         if ticker not in TICKERS:
             continue
-        expiries = sorted({o["expiry"] for o in opts if o["expiry"] >= day.isoformat()})
-        keep = set(expiries[:MAX_EXPIRIES])
+        future = [o for o in opts if o["expiry"] > day.isoformat()]
+        monthly = sorted({o["expiry"] for o in future if not is_weekly(o["symbol"])})[:MAX_MONTHLY]
+        weekly = sorted({o["expiry"] for o in future if is_weekly(o["symbol"])})[:MAX_WEEKLY]
+        spot = spot_by_root.get(root) if ticker[:4] == root else None
+        spot_close = next((s["close"] for s in spots if s["symbol"] == ticker), None) or (
+            spot["close"] if spot else None
+        )
+        lo, hi = (
+            (spot_close * (1 - STRIKE_BAND), spot_close * (1 + STRIKE_BAND))
+            if spot_close
+            else (0, float("inf"))
+        )
         series = sorted(
             (
-                {k: o[k] for k in ("symbol", "type", "strike", "expiry", "close", "bid", "ask",
-                                   "trades", "contracts", "volume")}
-                for o in opts
-                if o["expiry"] in keep and (o["trades"] > 0 or o["bid"] or o["ask"])
+                {
+                    **{k: o[k] for k in ("symbol", "type", "strike", "expiry", "close", "bid",
+                                         "ask", "trades", "contracts", "volume")},
+                    "weekly": is_weekly(o["symbol"]),
+                }
+                for o in future
+                if (o["expiry"] in monthly and not is_weekly(o["symbol"]))
+                or (o["expiry"] in weekly and is_weekly(o["symbol"]))
+                if lo <= o["strike"] <= hi and (o["trades"] > 0 or o["bid"] or o["ask"])
             ),
-            key=lambda o: (o["expiry"], o["type"], o["strike"]),
+            key=lambda o: (o["expiry"], o["weekly"], o["type"], o["strike"]),
         )
-        spot = spot_by_root.get(root) if ticker[:4] == root else None
         underlyings.append(
             {
                 "ticker": ticker,
-                "spotClose": next((s["close"] for s in spots if s["symbol"] == ticker), None)
-                or (spot["close"] if spot else None),
-                "expiries": sorted(keep),
+                "spotClose": spot_close,
+                "monthlyExpiries": monthly,
+                "weeklyExpiries": weekly,
                 "series": series,
             }
         )
@@ -174,6 +196,8 @@ def build(day: date, spots: list[dict], options: list[dict], source_url: str) ->
         "notes": [
             "bid e ask são as melhores ofertas de compra e de venda no fechamento do pregão.",
             f"Série líquida: {LIQUID_TRADES} negócios ou mais no dia.",
+            f"Séries do universo: 2 próximos vencimentos mensais e 2 semanais, strikes até "
+            f"{int(STRIKE_BAND * 100)}% do fechamento; só séries com negócio ou oferta.",
         ],
         "ranking": ranking[:60],
         "underlyings": underlyings,

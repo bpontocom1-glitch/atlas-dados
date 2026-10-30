@@ -41,10 +41,10 @@ jobs:
         run: python3 tools/b3_sondar.py ${{ github.event.inputs.data }}
       - name: Publicar
         run: |
-          if [ -n "$(git status --porcelain opcoes)" ]; then
+          if [ -n "$(git status --porcelain opcoes sondagem)" ]; then
             git config user.name "atlas-dados bot"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add opcoes
+            git add opcoes sondagem 2>/dev/null || git add opcoes
             git commit -m "Opções B3 — $(python3 -c "import json;print(json.load(open('opcoes/latest.json'))['date'])")"
             git push
           else

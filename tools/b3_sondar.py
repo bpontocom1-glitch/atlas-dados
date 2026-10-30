@@ -9,6 +9,7 @@ Os demais são tentativas para posições em aberto e negócios de ações.
 import json
 import sys
 import urllib.request
+from pathlib import Path
 from datetime import date
 
 URL = "https://arquivos.b3.com.br/bdi/table/export/csv?lang=pt-br"
@@ -27,6 +28,14 @@ NAMES = [
 
 
 def main(day: str) -> None:
+    out: list[str] = []
+    print_ = print
+
+    def print(*a):  # noqa: A001 — grava também em arquivo para leitura fora do Actions
+        line = " ".join(str(x) for x in a)
+        out.append(line)
+        print_(line)
+
     for name in NAMES:
         body = json.dumps({"Name": name, "Date": day, "FinalDate": day}).encode()
         req = urllib.request.Request(
@@ -40,6 +49,8 @@ def main(day: str) -> None:
             print("\n".join(text.splitlines()[:4])[:600])
         except Exception as e:  # noqa: BLE001
             print(f"== {name}: falhou ({e})")
+    Path("sondagem").mkdir(exist_ok=True)
+    Path(f"sondagem/boletim-{day}.txt").write_text("\n".join(out), encoding="utf-8")
 
 
 if __name__ == "__main__":
