@@ -1,0 +1,18 @@
+== ConsolidatedTradesDerivatives: HTTP 200, 624958 bytes
+﻿Resume as transações realizadas em derivativos durante um pregão, incluindo volumes e valores. Os detalhes sobre as regras utilizadas, bem como a definição de cada um dos campos, estão disponíveis no 
+Glossário;https://www.b3.com.br/data/files/F8/42/7A/61/FEC4A8103234E0A8AC094EA8/TradeInformationConsolidatedFileV3_PT.pdf
+
+Instrumento financeiro;Código ISIN;Segmento;Preço de abertura;Preço mínimo;Preço máximo;Preço médio;Preço de fechamento;Oscilação;Ajuste;Ajuste de referência;Ajuste do dia anterior;Preço de referência;Variação;Valor do ajuste por contrato (R$);Última oferta de compra;Última 
+== ConsolidatedTradesEquities: HTTP 200, 5669633 bytes
+﻿Resumo das operações realizadas em um dia de negociação, incluindo volumes, valores e principais ativos negociados, proporcionando uma visão abrangente da atividade do mercado. Os detalhes sobre as regras utilizadas, bem como a definição de cada um dos campos, estão disponíveis no 
+Glossário;https://www.b3.com.br/data/files/F8/42/7A/61/FEC4A8103234E0A8AC094EA8/TradeInformationConsolidatedFileV3_PT.pdf
+
+Instrumento financeiro;Código ISIN;Segmento;Preço de abertura;Preço mínimo;Preço máximo;Preço médio;Preço de fechamento;Oscilação;Ajuste;Ajuste de referência;Ajuste do dia anterior;Preço de ref
+== ConsolidatedTrades: falhou (HTTP Error 500: Internal Server Error)
+== OpenPositionsDerivatives: falhou (HTTP Error 500: Internal Server Error)
+== DerivativesOpenPositions: falhou (HTTP Error 500: Internal Server Error)
+== OpenPositions: falhou (HTTP Error 500: Internal Server Error)
+== OpenPosition: falhou (HTTP Error 500: Internal Server Error)
+== OpenInterest: falhou (HTTP Error 500: Internal Server Error)
+== EquityOptionsOpenPositions: falhou (HTTP Error 500: Internal Server Error)
+== LendingOpenPositions: falhou (HTTP Error 500: Internal Server Error)
