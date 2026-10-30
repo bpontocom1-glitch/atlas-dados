@@ -157,3 +157,19 @@ empresa forte.
 - Bancos (ITUB4, BBDC4, BBAS3): sem EBITDA e sem dívida líquida/EBITDA; usar lucro, ROE e
   margem quando houver.
 - Empresa sem nenhum resultado encontrado com fonte: deixar fora do arquivo.
+
+---
+
+## Opções — arquivo oficial da B3 (`opcoes/latest.json`)
+
+Gerado automaticamente por um GitHub Action (`.github/workflows/b3-opcoes.yml`) depois do
+fechamento, a partir do arquivo público **Cotações Históricas — arquivo diário (COTAHIST)** da
+B3. Script: `tools/b3_opcoes.py`.
+
+- `ranking`: todos os ativos com opções negociadas no dia, por volume financeiro em opções,
+  com negócios, número de séries líquidas (10+ negócios) e volume de CALL e de PUT.
+- `underlyings`: para os ativos do universo, as séries dos dois próximos vencimentos com último
+  preço, melhor oferta de compra (`bid`) e de venda (`ask`) no fechamento, negócios e volume.
+
+Nada é estimado: os números são os do arquivo da B3. Não é dado em tempo real (fechamento do
+pregão).
