@@ -1,381 +1,252 @@
 {
   "version": 1,
-  "date": "2026-11-03",
-  "generatedAt": "2026-11-03T15:11:08Z",
-  "edition": "meio-dia",
-  "summary": "Atualização do meio-dia: o viés do dia virou de neutro para negativo. O repique esperado pelos ADRs não veio: por volta das 11h20 o Ibovespa caía 1,89%, a 164.754,80 pontos, e o dólar à vista bateu máxima de R$ 5,5151 de manhã, operando perto de R$ 5,50. Três fatores pesaram: o primeiro Focus pós-eleição piorou tudo (Selic de 2026 a 13,50% e de 2027 a 12,50%, IPCA de 2027 a 4,76%, dólar de 2026 a R$ 5,34); a curva de juros subiu e ficou mais inclinada (às 9h21 o DI1F29 subia 0,205 p.p., a 15,14%, e o DI1F35 0,275 p.p., a 15,52%, com o DI1F27 estável); e a Petrobras caiu cerca de 6% ajustando a queda do petróleo na segunda, enquanto o Brent virou para baixo hoje (US$ 102,74, -1,94%). O ministro da Fazenda, Dario Durigan, negou que o governo estude tabelar a Selic ou usar reservas e disse que o pacote fiscal vai ao Congresso ainda este ano, mas não acalmou o mercado; o coordenador do programa de Lula, José Sérgio Gabrielli, defendeu a proposta de Lara Resende. Setores sensíveis a juros (varejo, construção, locadoras, elétricas) e bancos pioram; exportadoras ganham com o dólar e a Embraer sobe com contrato de KC-390 com a Grécia. Seguem no radar: Copom (decisão amanhã às 18h30; opções da B3 indicavam cerca de 70% de chance de manutenção em 13,75%), JOLTS às 12h, eleições nos EUA e balanço do Itaú após o fechamento.",
+  "date": "2026-11-04",
+  "generatedAt": "2026-11-04T11:26:46Z",
+  "edition": "abertura",
+  "summary": "Viés geral levemente positivo para a abertura, com confiança limitada. Depois de seis quedas seguidas (Ibovespa -1,42% ontem, a 165.528,92 pontos, e dólar a R$ 5,4872, maior fechamento desde o fim de 2025), o exterior vira a favor: a vitória ampla dos democratas no Congresso dos EUA enfraquece o dólar global (DXY -0,3%) e derruba o juro do Treasury de 10 anos para perto de 4,90%, os futuros de Nova York sobem (S&P 500 +0,71% por volta das 8h), a Europa e a China sobem e o EWZ aparece em alta de 1,80%. Isso favorece um repique do WIN e queda do WDO na abertura. O pano de fundo doméstico, porém, segue ruim: a curva de juros voltou a subir ontem (DI1F29 a 15,07%), o mercado ainda desconfia da política econômica do próximo mandato de Lula e o ADR do Itaú caiu no after-market apesar de um balanço em linha. O principal gatilho é o Copom às 18h30 (Selic hoje em 13,75%; a maioria espera manutenção, mas parte do mercado ainda via corte de 0,25 p.p.), que sai depois do fechamento e pode mexer forte com juros, dólar e bolsa amanhã; no pregão, Caged às 14h30 e ADP/ISM nos EUA. Petróleo segue em queda com avanço diplomático entre EUA e Irã, o que pesa sobre petroleiras; Prio, Axia e Minerva divulgam resultados após o fechamento.",
   "factors": [
     {
       "factor": "juros",
       "direction": "alta",
-      "comment": "A curva abriu em alta e inclinou: às 9h21 o DI1F27 estava estável (13,638%), o DI1F28 em 14,625% (+0,14 p.p.), o DI1F29 em 15,14% (+0,205 p.p.) e os vencimentos de 2031 a 2035 subiam entre 0,26 e 0,305 p.p. O Focus elevou a Selic esperada para 13,50% no fim de 2026 e 12,50% no fim de 2027, e as taxas dos prefixados do Tesouro Direto renovaram o pico pós-eleição. O mercado espera manutenção da Selic em 13,75% amanhã."
+      "comment": "A curva subiu de novo ontem: no fechamento, DI1F28 a 14,565% (de 14,483%), DI1F29 a 15,070% (de 14,962%), DI1F31 a 15,370%, DI1F33 a 15,435% e DI1F35 a 15,410%. O Focus elevou a Selic esperada para 13,50% no fim de 2026 e 12,50% no fim de 2027, com IPCA de 2027 em 4,76%. Hoje a queda dos Treasuries (10 anos perto de 4,90%) pode aliviar a abertura, mas a decisão do Copom às 18h30 é o risco principal."
     },
     {
       "factor": "dolar",
-      "direction": "alta",
-      "comment": "O dólar à vista chegou a R$ 5,5151 de manhã e operava perto de R$ 5,50 (+1,1%) por volta das 10h50, com alta mais forte que no exterior (DXY +0,09%). O Focus elevou o dólar esperado para o fim de 2026 de R$ 5,05 para R$ 5,34."
+      "direction": "incerto",
+      "comment": "O dólar à vista fechou ontem a R$ 5,4872 (+0,79%), maior nível desde 30/12/2025, mesmo com o DXY praticamente estável: o movimento foi doméstico. Hoje o dólar perde força no mundo após a vitória democrata (DXY -0,3%, a 101,4; euro +0,5%), o que favorece queda do real na abertura, mas o risco fiscal local tem dominado."
     },
     {
       "factor": "petroleo",
       "direction": "baixa",
-      "comment": "O petróleo abriu em alta após o ataque dos EUA a Qeshm, mas virou: por volta das 11h20 o Brent caía 1,94%, a US$ 102,74, depois de ter recuado 7,6% na segunda. A queda reforça a pressão sobre petroleiras e alivia custos de combustível."
+      "comment": "O Brent fechou ontem em queda de 1,11%, a US$ 103,60, após notícia de que os EUA aprovaram um rascunho de memorando de entendimento com o Irã, e recuava 0,73%, a US$ 102,84, nesta manhã. Na segunda havia caído 7,6%. O Irã diz manter cautela nas negociações e a Guarda Revolucionária alega, sem confirmação, que petroleiros foram atingidos por minas, o que mantém risco de repique."
     },
     {
       "factor": "minerio",
       "direction": "baixa",
-      "comment": "Minério em Dalian caiu 0,74%, a 671 iuanes (cerca de US$ 100,6) por tonelada, com demanda fraca e oferta abundante; a Vale opera praticamente estável."
+      "comment": "O minério em Dalian recuava 0,59%, a 672 iuanes (cerca de US$ 101) por tonelada, e o contrato de Singapura caía 0,59%, a US$ 90,70, com embarques maiores e demanda chinesa fraca."
     },
     {
       "factor": "china",
       "direction": "incerto",
-      "comment": "PMI industrial S&P Global/RatingDog de outubro em 52, praticamente igual aos 52,1 de setembro, com exportações crescendo mais devagar. Xangai -0,82% e Hang Seng +0,57% hoje. PMI de serviços às 22h45."
+      "comment": "As bolsas chinesas subiram forte hoje (Xangai +2,16%, Hang Seng +1,67%), mas a demanda por aço e minério segue fraca, segundo os relatos de mercado de minério."
     },
     {
       "factor": "risco-fiscal",
       "direction": "alta",
-      "comment": "Durigan negou estudo de tabelamento da Selic ou uso de reservas, disse que não há reunião marcada entre Lula e Lara Resende e que o pacote de ajuste gradual vai ao Congresso ainda este ano; o mercado seguiu cético porque Gabrielli, coordenador do programa de Lula, defendeu a proposta de Lara Resende e não há nome para a Fazenda no próximo mandato. Déficit nominal de setembro foi de R$ 113,0 bilhões (9,51% do PIB em 12 meses)."
+      "comment": "O ministro Dario Durigan disse que a ideia de Lara Resende de limitar os juros tem várias deficiências e não está em avaliação, e defendeu ajuste fiscal gradual, mas admitiu que o debate interno não terminou e não há nome definido para a política econômica do próximo mandato. O Focus piorou projeções de inflação, Selic e câmbio. O mercado segue cobrando sinal concreto."
     }
   ],
   "macro": [
     {
-      "title": "Manhã de 03/11",
-      "detail": "Ibovespa abriu em queda e por volta das 11h20 recuava 1,89%, a 164.754,80 pontos, com giro de R$ 7,63 bilhões. Petrobras PN -6,15% e ON -5,95%; bancos em baixa (Bradesco -1,23%, BTG -1,82%, Itaú -0,3%, Banco do Brasil -0,36%); Embraer +3,87%; Vale +0,15%. Construtoras e educação entre as quedas (Tenda -5,05%, índice imobiliário -1,58%, Cogna -10,13% após rebaixamento do Citi). BB Investimentos recomenda cautela em novembro por juros longos altos e exterior menos favorável."
+      "title": "Copom decide a Selic hoje às 18h30",
+      "detail": "A Selic está em 13,75%. Reportagens desta semana indicam que a maioria do mercado espera manutenção, depois da forte alta do dólar e dos juros futuros pós-eleição; uma prévia publicada antes do ajuste de mercado ainda via corte de 0,25 p.p., para 13,50%. O tom do comunicado sobre câmbio e fiscal é o ponto central. A ata sai em 10/11."
     },
     {
-      "title": "Fechamento de 30/10",
-      "detail": "Ibovespa caiu 0,75%, a 167.921,80 pontos (quinta queda seguida; -18,12% na semana e -9,88% em outubro), com volume de R$ 41,8 bilhões. Dólar à vista subiu 1,05%, a R$ 5,4443. Maiores altas: CMIN3 (+8%), Magazine Luiza (+4,29%), Cosan (+3,56%) e Vale (+3,28%, com o cobre e a geração de caixa compensando custos no balanço); Petrobras PN +0,98%. Maiores quedas: Usiminas (-8,59%, balanço fraco), CSN (-8,49%), B3 (-5,42%), Minerva (-5,20%) e MBRF (-5,05%); o índice financeiro caiu 2,75%. Em Nova York, S&P 500 -1,82% e Nasdaq -2,86%."
+      "title": "Itaú: lucro recorde, em linha, mas ADR cai",
+      "detail": "O Itaú teve lucro recorrente de R$ 12,6 bilhões no 3T26 (+6,7% em um ano), ROE de 23,6% (24,3% no 2T), inadimplência acima de 90 dias de 2,0% (+0,1 p.p. no trimestre) e custo de crédito de R$ 10,4 bilhões. Manteve as projeções de 2026 e reduziu a alíquota efetiva para 28%-29%. O ADR caiu 1,67% no after-market, a US$ 7,05."
     },
     {
-      "title": "Copom",
-      "detail": "A reunião começou hoje e a decisão sai amanhã às 18h30, com a Selic em 13,75%. A maioria das projeções em pesquisa da Reuters vê manutenção, e as opções de Copom da B3 indicavam cerca de 70% de chance de pausa. O Focus de hoje subiu o IPCA de 2026 para 5,22% (de 5,19%) e o de 2027 para 4,76% (de 4,34%), e cortou o PIB de 2026 para 1,76%."
+      "title": "Focus pós-eleição e Caged",
+      "detail": "O Focus elevou Selic, IPCA e dólar projetados e reduziu o PIB. Hoje sai o Caged de setembro às 14h30 (expectativa citada de cerca de 163,6 mil vagas) e o fluxo cambial."
     },
     {
-      "title": "Proposta Lara Resende",
-      "detail": "A proposta prevê um conselho fiscal e monetário e levar a Selic de 13,75% para cerca de 7,5% em 12 meses. Durigan disse que é uma ideia em debate público, não uma proposta em avaliação, e negou reunião marcada com Lula; Gabrielli, coordenador do programa de governo, defendeu a ideia. O mercado continua tratando o tema como risco de interferência nos juros."
-    },
-    {
-      "title": "Estados Unidos",
-      "detail": "Futuros mistos antes da abertura, com o Dow em queda e o Nasdaq levemente positivo; Apple e Palantir caem após balanços. JOLTS de setembro sai às 12h (expectativa de 7,1 milhões de vagas); AMD divulga após o fechamento; payroll na sexta. Juros dos Treasuries de 2, 10 e 30 anos subiam entre 2,1 e 3,5 pontos-base de manhã."
-    },
-    {
-      "title": "Europa e Ásia",
-      "detail": "Na abertura europeia, FTSE -0,62%, DAX -0,76% e CAC -0,31%. Na Ásia, Nikkei -0,33%, Hang Seng +0,57% e Xangai -0,82%. O banco central da Austrália subiu os juros em 0,25 p.p., a 4,85%, quinta alta de 2026."
-    },
-    {
-      "title": "B3",
-      "detail": "Com o fim do horário de verão nos EUA, o pregão regular passa a ir até 17h55 a partir de hoje."
+      "title": "EUA: dados de emprego e serviços",
+      "detail": "ADP de outubro às 10h15, balança comercial às 10h30, PMI de serviços às 11h45 e ISM de serviços às 12h. O payroll sai na sexta (6)."
     }
   ],
   "geopolitics": [
     {
-      "title": "EUA–Irã",
-      "detail": "Depois da queda de cerca de 7% do petróleo na segunda com sinais de avanço diplomático, os EUA atacaram a ilha iraniana de Qeshm, segundo o Wall Street Journal; Teerã diz que vai responder e que um acordo ainda está longe, e condiciona a reabertura de Ormuz ao atendimento de suas exigências. Trump disse não estar considerando ataques depois das eleições."
+      "title": "Democratas conquistam Câmara e Senado nos EUA",
+      "detail": "Resultados preliminares mostram maioria democrata na Câmara e no Senado, com viradas em estados como Texas e Ohio. O mercado leu como freio à agenda de Trump (inclusive tarifas): dólar e juros dos Treasuries caem, ouro sobe cerca de 2,9% e futuros de ações sobem após oscilação negativa de madrugada."
     },
     {
-      "title": "Eleições de meio de mandato nos EUA",
-      "detail": "Votação hoje para 435 cadeiras da Câmara e 35 do Senado; pesquisas favorecem os democratas na Câmara, e o Senado está indefinido. Primeiros resultados à noite, mas a apuração pode levar dias."
+      "title": "EUA–Irã e Estreito de Ormuz",
+      "detail": "Relatos de rascunho de memorando de entendimento entre EUA e Irã derrubaram o petróleo, mas Teerã condiciona a reabertura de Ormuz a alívio de sanções e fim do bloqueio, e alegações não confirmadas de ataques a petroleiros mantêm o risco de alta."
     }
   ],
   "sectors": [
     {
       "sector": "Índice",
-      "bias": "negativo",
-      "confidence": "media",
-      "rationale": "O repique sugerido pelos ADRs não se confirmou: o Ibovespa caía 1,89% por volta das 11h20, puxado por Petrobras (-6%) e bancos, com juros longos em alta após o Focus, dólar em R$ 5,50 e ceticismo com o fiscal mesmo após a negativa de Durigan sobre tabelamento da Selic.",
+      "bias": "positivo",
+      "confidence": "baixa",
+      "rationale": "Exterior favorável (futuros dos EUA em alta, Europa e China sobem, DXY e Treasuries em queda) e EWZ +1,80% sugerem repique após seis quedas seguidas.",
       "against": [
-        "Sobrevenda depois de -18% na semana passada pode gerar repique técnico à tarde",
-        "Anúncio da equipe econômica ou sinal fiscal concreto",
-        "Resultado das eleições nos EUA e decisão do Copom amanhã"
+        "Risco fiscal doméstico e curva de juros em alta seguem dominando",
+        "Copom às 18h30 pode fazer o mercado reduzir posição durante a tarde",
+        "Petrobras e Vale pressionadas por petróleo e minério em queda"
       ]
     },
     {
       "sector": "Petróleo e gás",
       "bias": "negativo",
-      "confidence": "alta",
-      "rationale": "A Petrobras ajusta hoje a queda de 7,6% do Brent na segunda (ADRs também caíram), e o petróleo voltou a cair (US$ 102,74, -1,94%); PETR4 recuava 6,15% por volta das 11h20.",
+      "confidence": "media",
+      "rationale": "Brent em queda pelo terceiro dia (US$ 102,84, -0,73% nesta manhã) com avanço diplomático entre EUA e Irã; PETR4 caiu 3,79% e PRIO3 4,73% ontem. Prio divulga resultado após o fechamento.",
       "against": [
-        "Nova escalada EUA–Irã pode puxar o Brent de volta acima de US$ 106",
-        "Queda já forte pode atrair compradores",
-        "Prio divulga resultado amanhã após o fechamento"
+        "Brent ainda acima de US$ 100 e notícias de ataques em Ormuz podem provocar repique",
+        "Fluxo estrangeiro de volta à bolsa tende a favorecer as ações mais líquidas"
       ]
     },
     {
       "sector": "Mineração",
       "bias": "neutro",
       "confidence": "baixa",
-      "rationale": "Vale praticamente estável (+0,15%) com o minério caindo 0,74% em Dalian; o dólar alto ajuda a receita em reais e compensa parte do minério fraco.",
+      "rationale": "Minério em queda em Dalian e Singapura (-0,59%) pesa, mas as bolsas chinesas sobem forte e o fluxo estrangeiro pode ajudar a Vale, que caiu 2,85% ontem.",
       "against": [
-        "Minério segue com fundamentos fracos na China",
-        "Aversão a risco doméstica pode atingir também as exportadoras"
+        "Demanda chinesa por aço segue fraca"
       ]
     },
     {
       "sector": "Siderurgia",
-      "bias": "negativo",
+      "bias": "neutro",
       "confidence": "baixa",
-      "rationale": "Minério e aço fracos na China e balanço ruim da Usiminas na semana passada; juros altos pesam sobre a demanda doméstica de construção e bens duráveis.",
+      "rationale": "Minério fraco e demanda chinesa lenta seguram preços do aço; dólar menor reduz o efeito exportador. Sem notícia específica nova.",
       "against": [
-        "Quedas fortes de sexta abrem espaço para repique",
-        "Dólar alto ajuda contra o aço importado"
+        "Repique amplo da bolsa pode puxar ações que caíram muito após a eleição"
       ]
     },
     {
       "sector": "Bancos",
-      "bias": "negativo",
+      "bias": "neutro",
       "confidence": "baixa",
-      "rationale": "Bradesco (-1,23%), BTG (-1,82%) e Banco do Brasil (-0,36%) recuam com a curva de juros subindo e o risco fiscal; o BTG tirou o Itaú da carteira de novembro citando piora do crédito. Itaú (-0,3%) divulga o 3T26 após o fechamento.",
+      "rationale": "O Itaú veio em linha, mas o ADR caiu 1,67% no after-market; bancos caíram ontem (Bradesco -2,02%, Banco do Brasil -1,70%) com preocupação com crédito e política econômica. O exterior positivo compensa parcialmente.",
       "against": [
-        "Resultado forte do Itaú pode puxar o setor amanhã",
-        "Juros altos sustentam a margem financeira"
+        "Copom e curva de juros podem mexer com a leitura de crédito",
+        "Notícias sobre controle de juros/equipe econômica afetam diretamente o setor"
       ]
     },
     {
       "sector": "Serviços financeiros",
-      "bias": "negativo",
+      "bias": "neutro",
       "confidence": "baixa",
-      "rationale": "BTG cai 1,82% e B3 segue pressionada pela saída de estrangeiros e pela percepção de risco doméstico.",
+      "rationale": "B3 e BTG ganham com volume e repique, mas ficam expostos à piora de juros e ao risco político; BTG caiu 1,05% ontem.",
       "against": [
-        "Volume alto com a volatilidade ajuda a B3",
-        "Horário estendido do pregão"
+        "Nova rodada de aversão a risco local"
       ]
     },
     {
       "sector": "Consumo e varejo",
       "bias": "negativo",
       "confidence": "media",
-      "rationale": "Juros longos subindo de 0,2 a 0,3 p.p. e Focus apontando Selic de 12,50% no fim de 2027 (antes 11,75%) adiam o alívio no crédito e reduzem o valor das varejistas; o dólar mais alto encarece importados.",
+      "rationale": "Juros futuros voltaram a subir ontem e o Focus elevou a Selic esperada até 2027, o que encarece crédito e reduz consumo; o Copom de hoje não deve trazer alívio.",
       "against": [
-        "Mercado de trabalho forte sustenta o consumo",
-        "Repique técnico após quedas"
+        "Ações muito descontadas após a eleição podem ter repique forte com o exterior positivo",
+        "Lojas Renner e Magazine Luiza divulgam resultados nos próximos dias"
       ]
     },
     {
       "sector": "Bebidas",
       "bias": "neutro",
       "confidence": "baixa",
-      "rationale": "Perfil defensivo, mas o dólar perto de R$ 5,50 encarece insumos e o balanço da semana passada foi fraco.",
-      "against": [
-        "Fluxo para defensivas em dia de aversão a risco"
-      ]
+      "rationale": "Sem notícia nova relevante; perfil defensivo.",
+      "against": []
     },
     {
       "sector": "Papel e celulose",
-      "bias": "positivo",
-      "confidence": "media",
-      "rationale": "Dólar subindo para perto de R$ 5,50 e Focus projetando câmbio mais alto aumentam a receita em reais das exportadoras de celulose.",
+      "bias": "neutro",
+      "confidence": "baixa",
+      "rationale": "O dólar alto vinha ajudando a Suzano, mas hoje o dólar global cai, o que tira parte do apoio na abertura. Suzano divulga o 3T26 amanhã após o fechamento.",
       "against": [
-        "Queda do dólar se houver anúncio fiscal",
-        "Suzano divulga resultado em 5/11 (uma fonte cita 6/11)"
+        "Se o risco fiscal voltar a puxar o dólar, o setor volta a se beneficiar"
       ]
     },
     {
       "sector": "Bens de capital",
       "bias": "positivo",
-      "confidence": "media",
-      "rationale": "Embraer sobe 3,87% depois de a Grécia assinar contrato de três KC-390 com opção de mais três; o dólar alto favorece exportadoras como Embraer e WEG.",
+      "confidence": "baixa",
+      "rationale": "Embraer subiu 4,10% ontem com contrato de três KC-390 para a Grécia (com opção de mais três); exportadoras com receita em dólar seguem como refúgio no mercado local.",
       "against": [
-        "Realização após a alta",
-        "Correção das ações de tecnologia nos EUA pode afetar a WEG"
+        "Dólar em queda reduz o ganho cambial",
+        "Embraer divulga resultado em 10/11"
       ]
     },
     {
       "sector": "Locação de veículos",
       "bias": "negativo",
       "confidence": "media",
-      "rationale": "Locadoras são endividadas e sensíveis aos juros; a curva subiu de novo e o Focus adiou os cortes da Selic. O JPMorgan rebaixou a Vamos citando juros altos por mais tempo, sinal de cautela com o segmento.",
+      "rationale": "Setor muito sensível a juros: a parte intermediária da curva (DI1F29 a 15,07%) subiu de novo, encarecendo a dívida. Localiza divulga resultado amanhã após o fechamento.",
       "against": [
-        "Localiza divulga resultado em 5/11",
-        "Fechamento dos juros se o Copom for firme"
+        "Repique técnico com o exterior positivo e queda dos Treasuries"
       ]
     },
     {
       "sector": "Energia elétrica",
       "bias": "negativo",
-      "confidence": "media",
-      "rationale": "Elétricas são avaliadas como ativos de longo prazo e sofrem com os DIs de 2031 a 2035 subindo perto de 0,3 p.p. e acima de 15,4%.",
+      "confidence": "baixa",
+      "rationale": "Juros longos mais altos (DI1F35 a 15,41%) reduzem o valor de empresas de fluxo longo e regulado. Axia divulga resultado após o fechamento.",
       "against": [
-        "Perfil defensivo em dia de aversão a risco",
-        "Axia divulga resultado amanhã"
+        "Perfil defensivo pode atrair fluxo se a bolsa voltar a cair"
       ]
     },
     {
       "sector": "Saneamento",
-      "bias": "negativo",
+      "bias": "neutro",
       "confidence": "baixa",
-      "rationale": "Sabesp é sensível aos juros longos, que voltaram a subir com o Focus e o fiscal.",
+      "rationale": "Juros altos pesam, mas a Sabesp tem resultado amanhã e perfil mais defensivo.",
       "against": [
-        "Resultado do 3T26 em 5/11 pode surpreender",
-        "Queda dos juros longos com sinal fiscal"
+        "Alta adicional dos juros longos"
       ]
     },
     {
       "sector": "Combustíveis e logística",
       "bias": "neutro",
       "confidence": "baixa",
-      "rationale": "Petróleo em queda alivia custos de combustível e logística, mas a Cosan é muito endividada e sofre com a alta dos juros longos.",
+      "rationale": "Petróleo em queda alivia custo de combustível e logística, mas juros altos pesam sobre empresas alavancadas como a Cosan.",
       "against": [
-        "Recuperação do Brent com a tensão EUA–Irã",
-        "Juros longos continuam subindo"
+        "Repique do petróleo com notícias de Ormuz"
       ]
     },
     {
       "sector": "Construção civil",
       "bias": "negativo",
       "confidence": "media",
-      "rationale": "Juros futuros mais altos e financiamento imobiliário mais caro derrubam incorporadoras: Tenda cai 5,05% (quarta queda seguida) e o índice imobiliário recua 1,58%, contexto ruim para a Cyrela.",
+      "rationale": "Juros futuros em alta e Selic esperada maior até 2027 encarecem financiamento e reduzem demanda.",
       "against": [
-        "Programas habitacionais sustentam a demanda",
-        "Repique depois das quedas"
+        "Repique técnico com o exterior positivo"
       ]
     },
     {
       "sector": "Proteínas",
       "bias": "neutro",
       "confidence": "baixa",
-      "rationale": "Dólar alto ajuda exportadores de carne, mas a Minerva divulga resultado amanhã após o fechamento.",
+      "rationale": "Exportadoras ganham com dólar alto, mas hoje o dólar recua; Minerva divulga resultado após o fechamento.",
       "against": [
-        "Risco de evento com o resultado da Minerva"
+        "Volatilidade do resultado da Minerva"
       ]
     }
   ],
   "assets": [
     {
-      "ticker": "PETR4",
-      "bias": "negativo",
-      "note": "Caía 6,15% por volta das 11h20, ajustando a queda de 7,6% do Brent na segunda; petróleo volta a cair hoje (US$ 102,74). Resultado do 3T26 em 10/11."
-    },
-    {
       "ticker": "ITUB4",
-      "bias": "neutro",
-      "note": "Recuava 0,3% antes do resultado do 3T26, hoje após o fechamento; BTG tirou o papel da carteira de novembro citando piora do crédito."
-    },
-    {
-      "ticker": "VALE3",
-      "bias": "neutro",
-      "note": "Estável (+0,15%) com minério em queda de 0,74% em Dalian."
+      "bias": "negativo",
+      "note": "Lucro de R$ 12,6 bilhões em linha com o esperado e ROE de 23,6% (abaixo do 2T); ADR -1,67% no after-market."
     },
     {
       "ticker": "EMBJ3",
       "bias": "positivo",
-      "note": "Sobe 3,87% após a Grécia assinar contrato de três KC-390, com opção de mais três; dólar alto ajuda."
+      "note": "Contrato de KC-390 com a Grécia sustentou alta de 4,10% ontem; resultado em 10/11."
     },
     {
-      "ticker": "ABEV3",
+      "ticker": "PETR4",
+      "bias": "negativo",
+      "note": "Caiu 3,79% ontem com petróleo em queda; Brent segue recuando nesta manhã."
+    },
+    {
+      "ticker": "PRIO3",
+      "bias": "negativo",
+      "note": "Caiu 4,73% ontem com petróleo; divulga 3T26 hoje após o fechamento (Atlas suspende sugestões)."
+    },
+    {
+      "ticker": "VALE3",
       "bias": "neutro",
-      "note": "ADR subiu 1,50% na segunda."
-    },
-    {
-      "ticker": "USIM5",
-      "bias": "negativo",
-      "note": "Caiu 8,59% na sexta após resultado do 3T26 abaixo do esperado."
-    },
-    {
-      "ticker": "CSNA3",
-      "bias": "negativo",
-      "note": "Caiu 8,49% na sexta; resultado do 3T26 em 10/11."
-    },
-    {
-      "ticker": "BBDC4",
-      "bias": "negativo",
-      "note": "Caía 1,23% com a pressão sobre o setor bancário."
-    },
-    {
-      "ticker": "BPAC11",
-      "bias": "negativo",
-      "note": "Caía 1,82% com juros e risco doméstico; resultado do 3T26 em 10/11."
-    },
-    {
-      "ticker": "BBAS3",
-      "bias": "neutro",
-      "note": "Recuava 0,36%; resultado do 3T26 em 11/11."
+      "note": "Caiu 2,85% ontem; minério recua hoje, mas bolsas chinesas sobem."
     }
   ],
   "events": [
     {
-      "date": "2026-11-03",
-      "time": "08:00",
-      "title": "FGV: confiança empresarial e IPC-S de outubro",
-      "impact": "baixo",
-      "kind": "indicador",
-      "tickers": []
-    },
-    {
-      "date": "2026-11-03",
-      "time": "08:25",
-      "title": "BC: Boletim Focus (excepcionalmente na terça)",
-      "impact": "medio",
-      "kind": "indicador",
-      "tickers": []
-    },
-    {
-      "date": "2026-11-03",
-      "time": "10:00",
-      "title": "Brasil: PMI industrial S&P Global de outubro",
-      "impact": "baixo",
-      "kind": "indicador",
-      "tickers": []
-    },
-    {
-      "date": "2026-11-03",
-      "time": "10:00",
-      "title": "Copom: primeiro dia de reunião (sessões às 10h e 14h; decisão amanhã)",
-      "impact": "medio",
-      "kind": "politica",
-      "tickers": []
-    },
-    {
-      "date": "2026-11-03",
-      "time": "12:00",
-      "title": "EUA: JOLTS (vagas em aberto) e encomendas à indústria de setembro",
-      "impact": "medio",
-      "kind": "indicador",
-      "tickers": []
-    },
-    {
-      "date": "2026-11-03",
-      "title": "EUA: eleições de meio de mandato; primeiros resultados à noite, apuração pode levar dias",
-      "impact": "alto",
-      "kind": "politica",
-      "tickers": []
-    },
-    {
-      "date": "2026-11-03",
-      "title": "Proposta de teto para a Selic (Lara Resende) e definição da equipe econômica: notícias sem data podem mexer com juros e dólar",
-      "impact": "alto",
-      "kind": "politica",
-      "tickers": []
-    },
-    {
-      "date": "2026-11-03",
-      "title": "Itaú Unibanco: resultado do 3T26 após o fechamento",
-      "impact": "alto",
-      "kind": "resultado",
-      "tickers": [
-        "ITUB4"
-      ]
-    },
-    {
-      "date": "2026-11-03",
-      "title": "Sabesp e Magazine Luiza: uma fonte citou resultado hoje, mas calendários atualizados indicam 5/11 (Sabesp) e 9/11 (Magazine Luiza)",
-      "impact": "baixo",
-      "kind": "resultado",
-      "tickers": [
-        "SBSP3",
-        "MGLU3"
-      ]
-    },
-    {
-      "date": "2026-11-03",
-      "time": "22:45",
-      "title": "China: PMI de serviços/composto de outubro",
-      "impact": "baixo",
-      "kind": "indicador",
-      "tickers": []
-    },
-    {
       "date": "2026-11-04",
-      "title": "Caged de setembro (horário a definir)",
-      "impact": "medio",
+      "time": "07:00",
+      "title": "IPC-Fipe de outubro",
+      "impact": "baixo",
       "kind": "indicador",
       "tickers": []
     },
@@ -389,63 +260,93 @@
     },
     {
       "date": "2026-11-04",
+      "time": "10:30",
+      "title": "EUA: balança comercial de setembro",
+      "impact": "baixo",
+      "kind": "indicador",
+      "tickers": []
+    },
+    {
+      "date": "2026-11-04",
+      "time": "11:45",
+      "title": "EUA: PMIs de serviços e composto de outubro",
+      "impact": "baixo",
+      "kind": "indicador",
+      "tickers": []
+    },
+    {
+      "date": "2026-11-04",
+      "time": "12:00",
+      "title": "EUA: ISM de serviços de outubro",
+      "impact": "medio",
+      "kind": "indicador",
+      "tickers": []
+    },
+    {
+      "date": "2026-11-04",
+      "time": "14:30",
+      "title": "Caged de setembro e fluxo cambial",
+      "impact": "medio",
+      "kind": "indicador",
+      "tickers": []
+    },
+    {
+      "date": "2026-11-04",
       "time": "18:30",
-      "title": "Copom: decisão da Selic (hoje em 13,75%; opções da B3 indicavam cerca de 70% de chance de manutenção)",
+      "title": "Copom: decisão da Selic (hoje em 13,75%) e comunicado",
       "impact": "alto",
       "kind": "politica",
       "tickers": []
     },
     {
       "date": "2026-11-04",
-      "title": "Resultados do 3T26 após o fechamento: Prio, Minerva e Axia",
+      "title": "Política econômica do próximo mandato (Lara Resende, equipe econômica, pacote fiscal): notícias sem horário podem mexer com juros e dólar",
+      "impact": "alto",
+      "kind": "politica",
+      "tickers": []
+    },
+    {
+      "date": "2026-11-04",
+      "title": "Resultados do 3T26 após o fechamento: Prio, Axia e Minerva",
       "impact": "medio",
       "kind": "resultado",
       "tickers": [
         "PRIO3",
-        "BEEF3",
-        "AXIA3"
+        "AXIA3",
+        "BEEF3"
       ]
     },
     {
-      "date": "2026-11-05",
-      "time": "09:00",
-      "title": "IBGE: produção industrial de setembro; BoE decide juros",
-      "impact": "medio",
+      "date": "2026-11-04",
+      "time": "20:50",
+      "title": "Japão: ata do BoJ",
+      "impact": "baixo",
       "kind": "indicador",
       "tickers": []
     },
     {
       "date": "2026-11-05",
-      "title": "Resultados do 3T26: Suzano (uma fonte cita 6/11), Sabesp, Localiza e Lojas Renner (e Magazine Luiza, segundo uma fonte)",
+      "title": "Resultados do 3T26 após o fechamento: Suzano, Localiza, Lojas Renner e Sabesp (Magazine Luiza em 5/11 segundo um calendário; outro indica 9/11)",
       "impact": "medio",
       "kind": "resultado",
       "tickers": [
         "SUZB3",
-        "SBSP3",
         "RENT3",
         "LREN3",
+        "SBSP3",
         "MGLU3"
       ]
     },
     {
       "date": "2026-11-06",
-      "time": "10:30",
       "title": "EUA: payroll de outubro",
       "impact": "alto",
       "kind": "indicador",
       "tickers": []
     },
     {
-      "date": "2026-11-06",
-      "time": "15:00",
-      "title": "Secex: balança comercial de outubro",
-      "impact": "baixo",
-      "kind": "indicador",
-      "tickers": []
-    },
-    {
       "date": "2026-11-09",
-      "title": "Resultados do 3T26: Itaúsa e Magazine Luiza (após o fechamento)",
+      "title": "Resultados do 3T26: Itaúsa (e Magazine Luiza, segundo outra fonte)",
       "impact": "medio",
       "kind": "resultado",
       "tickers": [
@@ -455,19 +356,19 @@
     },
     {
       "date": "2026-11-10",
-      "title": "Resultados do 3T26: BTG Pactual (antes da abertura); Petrobras, CSN e Embraer",
+      "title": "Ata do Copom; resultados do 3T26: Petrobras, BTG Pactual e Embraer (CSN sem data confirmada)",
       "impact": "alto",
       "kind": "resultado",
       "tickers": [
-        "BPAC11",
         "PETR4",
-        "CSNA3",
-        "EMBJ3"
+        "BPAC11",
+        "EMBJ3",
+        "CSNA3"
       ]
     },
     {
       "date": "2026-11-11",
-      "title": "Resultados do 3T26 após o fechamento: Banco do Brasil e Equatorial",
+      "title": "Resultados do 3T26: Banco do Brasil e Equatorial",
       "impact": "alto",
       "kind": "resultado",
       "tickers": [
@@ -488,7 +389,7 @@
     },
     {
       "date": "2026-11-13",
-      "title": "Cosan: resultado do 3T26 após o fechamento",
+      "title": "Cosan: resultado do 3T26",
       "impact": "medio",
       "kind": "resultado",
       "tickers": [
@@ -497,250 +398,173 @@
     }
   ],
   "rates": {
-    "asOf": "Manhã de 03/11, por volta de 09h21 (variação sobre o fechamento de 30/10, segundo o InfoMoney)",
+    "asOf": "Fechamento de 03/11 (variação sobre o fechamento anterior, segundo a Exame)",
     "items": [
       {
-        "contract": "DI1F27",
-        "rate": 13.638,
-        "change": 0.001
-      },
-      {
         "contract": "DI1F28",
-        "rate": 14.625,
-        "change": 0.14
+        "rate": 14.565,
+        "change": 0.082
       },
       {
         "contract": "DI1F29",
-        "rate": 15.14,
-        "change": 0.205
+        "rate": 15.07,
+        "change": 0.108
       },
       {
         "contract": "DI1F31",
-        "rate": 15.47,
-        "change": 0.26
+        "rate": 15.37,
+        "change": 0.098
       },
       {
         "contract": "DI1F33",
-        "rate": 15.545,
-        "change": 0.275
+        "rate": 15.435,
+        "change": 0.086
       },
       {
         "contract": "DI1F35",
-        "rate": 15.52,
-        "change": 0.275
+        "rate": 15.41,
+        "change": 0.077
       }
     ]
   },
   "opening": [
     {
       "contract": "WIN",
-      "bias": "neutro",
-      "confidence": "baixa",
+      "bias": "alta",
+      "confidence": "media",
       "drivers": [
-        "A favor de alta: EWZ +0,88% (US$ 32,77) e índice de ADRs +0,65% na segunda, com a B3 fechada; Itaú ADR +2,17% e Embraer +3,62%",
-        "A favor de alta: Ibovespa em sobrevenda (IFR de 25,4) após -18,12% na semana; Nasdaq futuro +0,46%",
-        "A favor de baixa: Europa em queda (DAX -0,76%, FTSE -0,62%), Dow futuro -0,42% e Xangai -0,82%",
-        "A favor de baixa: ADR da Petrobras -2,31% na segunda com o petróleo -7%; proposta de teto da Selic assusta o mercado"
+        "EWZ em alta de 1,80% (US$ 32,30) nesta manhã",
+        "Futuros de NY em alta por volta das 8h: S&P 500 +0,71%, Nasdaq +0,62%, Dow +1,11%",
+        "Europa sobe (DAX +1,05%, CAC +1,21%) e China também (Xangai +2,16%, Hang Seng +1,67%)",
+        "Dólar global e juros dos Treasuries em queda após vitória democrata (DXY -0,3%; 10 anos perto de 4,90%)",
+        "Seis quedas seguidas deixam espaço para repique técnico"
       ],
       "against": [
-        "Gatilho do Copom (decisão amanhã às 18h30) e qualquer nome para a Fazenda podem dar direção forte em qualquer sentido",
-        "No pré-mercado o EWZ aparece com +0,12% a US$ 32,20, abaixo do fechamento de segunda: sinal de ganho menor",
-        "Apuração das eleições nos EUA e resposta do Irã ao ataque em Qeshm"
+        "ADR do Itaú -1,67% no after-market e Petrobras/Vale pressionadas por petróleo (-0,73%) e minério (-0,59%) em queda",
+        "Risco fiscal e curva de juros em alta seguem dominando o mercado local",
+        "Copom às 18h30 pode reduzir o apetite ao longo da tarde",
+        "Os futuros de NY oscilaram em queda de madrugada antes de virar"
       ],
-      "note": "WINZ26 fechou a sexta a 170.350 (-0,41%); suportes 169.605/169.070 e resistências 170.645/171.455 segundo análise técnica da InfoMoney."
+      "note": "Repique favorecido pelo exterior; confiança limitada pelo quadro doméstico."
     },
     {
       "contract": "WDO",
-      "bias": "neutro",
+      "bias": "baixa",
       "confidence": "baixa",
       "drivers": [
-        "A favor de alta: risco fiscal sem resposta, proposta de teto da Selic e expectativa de pausa no Copom mantêm a pressão sobre o real; estrutura gráfica diária segue positiva",
-        "A favor de baixa: o dólar não mostra força no exterior hoje e EWZ/ADRs subiram na segunda, sinal de algum alívio para ativos brasileiros",
-        "Dólar subiu 9,04% na semana passada, a R$ 5,4443, o que abre espaço para realização"
+        "DXY -0,3% (101,4) e euro +0,5% após a vitória democrata no Congresso dos EUA",
+        "Queda dos juros dos Treasuries e apetite por risco global",
+        "Dólar fechou ontem no maior nível desde 30/12/2025 (R$ 5,4872), deixando espaço para correção"
       ],
       "against": [
-        "Anúncio da equipe econômica ou de pacote fiscal pode derrubar o dólar com força",
-        "Nova piora fiscal ou Copom visto como leniente pode levar a novas máximas"
-      ],
-      "note": "WDOZ26 fechou a sexta a 5.470 (+0,93%); suportes 5.464,5/5.449,5 e resistências 5.475/5.488,5 segundo a InfoMoney."
+        "Ontem o real se desvalorizou 0,79% com DXY estável: o fator doméstico (fiscal, equipe econômica) tem prevalecido",
+        "Petróleo em queda reduz fluxo de exportação de commodities",
+        "Posicionamento defensivo antes do Copom"
+      ]
     }
   ],
   "sources": [
     {
-      "title": "Ibovespa tem 5ª queda seguida com incerteza fiscal e registra pior semana em seis anos; dólar sobe a R$ 5,44",
-      "url": "https://www.moneytimes.com.br/ibovespa-30-10-26-lils/",
-      "publisher": "Money Times",
-      "publishedAt": "2026-10-30"
-    },
-    {
-      "title": "Ibovespa B3 recua, puxado por exterior e fecha outubro com -9%; dólar vai a R$ 5,44",
-      "url": "https://borainvestir.b3.com.br/noticias/mercado/ibovespa-b3-recua-puxado-por-exterior-e-fecha-outubro-com-9-dolar-vai-a-r-544/",
-      "publisher": "Bora Investir (B3)",
-      "publishedAt": "2026-10-30"
-    },
-    {
-      "title": "Fechamento do mercado financeiro - 30/10/2026",
-      "url": "https://www.dgabc.com.br/Noticia/4366080/fechamento-do-mercado-financeiro",
-      "publisher": "Diário do Grande ABC",
-      "publishedAt": "2026-10-30"
-    },
-    {
-      "title": "Juros futuros fecham semana em alta após reeleição de Lula",
-      "url": "https://www.cnnbrasil.com.br/economia/money/mercado/juros-futuros-fecham-semana-em-alta-apos-reeleicao-de-lula/",
-      "publisher": "CNN Brasil",
-      "publishedAt": "2026-10-30"
-    },
-    {
-      "title": "Day Trade hoje (03): Ibovespa amplia perdas; até onde pode cair?",
-      "url": "https://www.infomoney.com.br/mercados/mercados-day-trade-hoje-analistas-03112026/",
-      "publisher": "InfoMoney",
-      "publishedAt": "2026-11-03"
-    },
-    {
-      "title": "Índice de ADRs brasileiros sobe em dia de queda de petróleo e altas em NY",
-      "url": "https://www.infomoney.com.br/mercados/indice-de-adrs-brasileiros-sobe-em-dia-de-queda-de-petroleo-e-altas-em-ny/",
-      "publisher": "InfoMoney",
-      "publishedAt": "2026-11-02"
-    },
-    {
-      "title": "Disputa pelo futuro da Selic dá pontapé na semana do Copom; Ibovespa em dólar sobe nesta terça-feira (3)",
-      "url": "https://www.moneytimes.com.br/disputa-pelo-futuro-da-selic-da-pontape-na-semana-do-copom-ibovespa-em-dolar-sobe-nesta-terca-feira-3-rens/",
-      "publisher": "Money Times",
-      "publishedAt": "2026-11-03"
-    },
-    {
-      "title": "Início da reunião do Copom, midterms nos EUA e balanço do Itaú: o que move os mercados",
-      "url": "https://exame.com/invest/mercados/inicio-da-reuniao-do-copom-midterms-nos-eua-e-balanco-do-itau-o-que-move-os-mercados/",
+      "title": "Ibovespa tem 6ª queda seguida e dólar sobe ao maior nível do ano",
+      "url": "https://exame.com/invest/mercados/ibovespa-tem-6a-queda-seguida-e-dolar-sobe-ao-maior-nivel-do-ano/",
       "publisher": "Exame",
       "publishedAt": "2026-11-03"
     },
     {
-      "title": "Calendário econômico da semana: Copom, trabalho e eleições nos EUA são destaques",
-      "url": "https://www.infomoney.com.br/mercados/calendario-economico-da-semana-copom-trabalho-e-eleicoes-nos-eua-sao-destaques/",
-      "publisher": "InfoMoney",
-      "publishedAt": "2026-11-01"
+      "title": "Onda democrata 'engole' governo Trump e mercado aguarda decisão sobre Selic hoje",
+      "url": "https://moneytimes.com.br/onda-democrata-engole-governo-trump-e-mercado-aguarda-decisao-sobre-selic-hoje-ibovespa-em-dolar-sobe-nesta-quarta-feira-4-rens",
+      "publisher": "Money Times",
+      "publishedAt": "2026-11-04"
     },
     {
-      "title": "Proposta de Lara Resende para limitar Selic entra no radar de Lula e assusta mercado",
-      "url": "https://www.jornaldocomercio.com/economia/2026/11/1268980-proposta-de-lara-resende-para-limitar-selic-entra-no-radar-de-lula-e-assusta-mercado.html",
-      "publisher": "Jornal do Comércio",
-      "publishedAt": "2026-11-02"
+      "title": "Agenda econômica: o que pode mexer com a Bolsa e o dólar nesta quarta-feira (4)",
+      "url": "https://www.moneytimes.com.br/agenda-economica-mexe-com-bolsa-dolar-nesta-quarta-feira-mlem/",
+      "publisher": "Money Times",
+      "publishedAt": "2026-11-04"
     },
     {
-      "title": "US stock futures mixed as Apple slides, midterms loom",
-      "url": "https://www.investing.com/news/stock-market-news/us-stock-futures-mixed-as-apple-slides-midterms-loom-4994306",
-      "publisher": "Reuters/Investing.com",
+      "title": "Fechamento de mercado: maiores altas e baixas da Bolsa nesta terça-feira",
+      "url": "https://gazetabrasil.com.br/ultimas-noticias/2026/11/03/fechamento-mercado-ibovespa-dolar-petroleo-3-novembro-2026/",
+      "publisher": "Gazeta Brasil",
       "publishedAt": "2026-11-03"
     },
     {
-      "title": "Morning wrap: Stock Indices Fall Again; Oil Tries To Rebound Following US Strike on Iran's Qeshm Island (03.11.2026)",
-      "url": "https://www.xtb.com/en/market-analysis/morning-wrap-stock-indices-fall-again-oil-tries-to-rebound-following-us-strike-on-iran-s-qeshm-island-03-11-2026",
-      "publisher": "XTB",
-      "publishedAt": "2026-11-03"
-    },
-    {
-      "title": "Forex Today: No signs of Dollar strength on US midterm election day",
-      "url": "https://www.fxstreet.com/news/forex-today-no-signs-of-dollar-strength-on-us-midterm-election-day-202611030723",
-      "publisher": "FXStreet",
-      "publishedAt": "2026-11-03"
-    },
-    {
-      "title": "Minério de ferro fecha quase estável com queda menor que o esperado na demanda chinesa",
-      "url": "https://news.symplexia.com/pt-br/2026/11/noticias/destaques/minerio-de-ferro-fecha-quase-estavel-com-queda-menor-que-o-esperado-na-demanda-chinesa/",
-      "publisher": "Symplexia (Reuters)",
-      "publishedAt": "2026-11-02"
-    },
-    {
-      "title": "PMI industrial da China recua em outubro, com exportações mais lentas",
-      "url": "https://istoedinheiro.com.br/pmi-industrial-china-outubro-2026",
-      "publisher": "IstoÉ Dinheiro"
-    },
-    {
-      "title": "Calendário de resultados do 3T26",
-      "url": "https://www.moneytimes.com.br/calendario-de-resultados-do-3t26-balancos-vale-vale3-petrobras-petr4-itau-itub4-mlem/",
-      "publisher": "Money Times"
-    },
-    {
-      "title": "Itaú, BB Seguridade e PRIO: veja a agenda de balanços do 3T26 desta semana",
-      "url": "https://bpmoney.com.br/negocios/empresas-na-bolsa/balancos-3t26-itau-bb-seguridade-prio-agenda-completa/",
-      "publisher": "BPMoney"
-    },
-    {
-      "title": "Ibovespa Hoje Ao Vivo: Bolsa cai com Focus e preocupação fiscal; PETR4 recua 6%",
-      "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-03112026/",
-      "publisher": "InfoMoney",
-      "publishedAt": "2026-11-03"
-    },
-    {
-      "title": "Ibovespa cai mais de 1% na volta do feriado com pressão de Petrobras e preocupações sobre economia",
+      "title": "Ibovespa cai abaixo dos 165 mil pontos com Petrobras e preocupações sobre economia",
       "url": "https://br.investing.com/news/stock-market-news/ibovespa-cai-mais-de-1-na-volta-do-feriado-com-pressao-de-petrobras-e-preocupacoes-sobre-economia-2113119",
       "publisher": "Reuters/Investing.com",
       "publishedAt": "2026-11-03"
     },
     {
-      "title": "PETR4: Por que ações da Petrobras caem nesta terça?",
-      "url": "https://www.infomoney.com.br/mercados/petr4-por-que-acoes-da-petrobras-caem-nesta-terca/",
+      "title": "Ibovespa chega à 6ª baixa seguida, com novo temor sobre fiscal",
+      "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-03112026/",
       "publisher": "InfoMoney",
       "publishedAt": "2026-11-03"
     },
     {
-      "title": "Bolsa abre em baixa diante de desconfiança fiscal e Midterms nos EUA",
-      "url": "https://www.metropoles.com/brasil/bolsa-abre-em-baixa-diante-de-desconfianca-fiscal-e-midterms-nos-eua",
-      "publisher": "Metrópoles",
+      "title": "Lucro do Itaú bate novo recorde e chega a R$ 12,6 bilhões no 3º trimestre",
+      "url": "https://exame.com/invest/mercados/lucro-do-itau-bate-novo-recorde-e-chega-a-r-126-bilhoes-no-3o-trimestre/",
+      "publisher": "Exame",
       "publishedAt": "2026-11-03"
     },
     {
-      "title": "Ibovespa cai mais de 1%, aos 165,4 mil pontos",
-      "url": "https://bpmoney.com.br/mercado/ibovespa-cai-mais-de-1-aos-1654-mil-pontos/",
-      "publisher": "BPMoney",
+      "title": "Itaú entrega balanço 'como sempre': lucro de R$ 12,6 bilhões e inadimplência sob controle",
+      "url": "https://neofeed.com.br/negocios/itau-entrega-balanco-como-sempre-lucro-de-r-126-bilhoes-e-inadimplencia-sob-controle/",
+      "publisher": "NeoFeed",
       "publishedAt": "2026-11-03"
     },
     {
-      "title": "Taxas do Tesouro Direto disparam e superam pico pós-eleição às vésperas do Copom",
-      "url": "https://bpmoney.com.br/mercado/renda-fixa/tesouro-direto-taxas-disparam-pico-pos-eleicao-copom/",
-      "publisher": "BPMoney",
+      "title": "Durigan: ideia de Lara Resende tem 'deficiências' e 'não deve ser avaliada ainda'",
+      "url": "https://www.infomoney.com.br/politica/durigan-ideia-de-lara-resende-tem-deficiencias-e-nao-deve-avaliada-ainda/",
+      "publisher": "InfoMoney/Estadão Conteúdo",
       "publishedAt": "2026-11-03"
     },
     {
-      "title": "Abertura: Dólar e juros futuros disparam com piora do Focus e cautela fiscal",
-      "url": "https://www.bomdiamercado.com.br/mercado-financeiro/giro-dos-mercados/abertura-dolar-e-juros-futuros-disparam-com-piora-do-focus-e-cautela-fiscal/",
-      "publisher": "Bom Dia Mercado",
+      "title": "Petróleo fecha em queda com avanços diplomáticos sobre Irã e corte de ajuda dos EUA a Israel",
+      "url": "https://eixos.com.br/petroleo-e-gas/petroleo-fecha-em-queda-com-avancos-diplomaticos-sobre-ira-e-corte-de-ajuda-dos-eua-a-israel/",
+      "publisher": "eixos",
       "publishedAt": "2026-11-03"
     },
     {
-      "title": "Dólar sobe antes de decisão de juros e com incerteza fiscal em foco",
-      "url": "https://www.cnnbrasil.com.br/economia/money/mercado/mercado-financeiro-ibovespa-dolar-3-novembro-2026-2/",
-      "publisher": "CNN Brasil",
-      "publishedAt": "2026-11-03"
+      "title": "Iron ore dips on higher shipments, sluggish China demand",
+      "url": "https://www.brecorder.com/news/40447257/iron-ore-dips-on-higher-shipments-sluggish-china-demand",
+      "publisher": "Business Recorder/Reuters",
+      "publishedAt": "2026-11-04"
     },
     {
-      "title": "O que Durigan disse sobre a proposta de tabelar juros e reunião entre Lula e Lara Resende",
-      "url": "https://gazetabrasil.com.br/economia/2026/11/03/o-que-durigan-disse-sobre-a-proposta-de-tabelar-juros-e-reuniao-entre-lula-e-lara-resende/",
-      "publisher": "Gazeta Brasil",
-      "publishedAt": "2026-11-03"
+      "title": "Dólar cai fortemente com avanço dos democratas nas eleições legislativas dos EUA",
+      "url": "https://www.oeconomico.com/dolar-cai-fortemente-com-avanco-dos-democratas-nas-eleicoes-legislativas-dos-eua/",
+      "publisher": "O Económico",
+      "publishedAt": "2026-11-04"
     },
     {
-      "title": "Ministro da Fazenda nega que governo avalie tabelar juros ou queimar reservas cambiais",
-      "url": "https://www.radiopampa.com.br/ministro-da-fazenda-nega-que-governo-avalie-tabelar-juros-ou-queimar-reservas-cambiais/",
-      "publisher": "Rádio Pampa",
+      "title": "Morning wrap (04.11.2026)",
+      "url": "https://www.xtb.com/int/market-analysis/news-and-research/morning-wrap-04-11-2026",
+      "publisher": "XTB",
+      "publishedAt": "2026-11-04"
+    },
+    {
+      "title": "Estados Unidos: derrota de Trump nas intercalares muda cálculo para Europa e mercados",
+      "url": "https://pt.euronews.com/2026/11/04/estados-unidos-derrota-de-trump-nas-intercalares-muda-calculo-para-europa-e-mercados",
+      "publisher": "Euronews",
+      "publishedAt": "2026-11-04"
+    },
+    {
+      "title": "3T26: Itaú, Axia, Prio e mais; veja quais empresas divulgam balanços nesta semana",
+      "url": "https://www.moneytimes.com.br/3t26-itau-itub4-axia-axia3-prio-prio3-balancos-nesta-semana-mlem/",
+      "publisher": "Money Times",
       "publishedAt": "2026-11-02"
     },
     {
-      "title": "Resultados 3T26: quando Petrobras (PETR4), Vale e outras divulgam",
-      "url": "https://www.suno.com.br/noticias/temporada-de-resultados-3t26-calendario/",
-      "publisher": "Suno"
+      "title": "Resultados 3T26: calendário de balanços da B3",
+      "url": "https://bpmoney.com.br/negocios/empresas-na-bolsa/resultados-3t26-calendario-balancos-b3/",
+      "publisher": "BPMoney",
+      "publishedAt": "2026-10-13"
     },
     {
-      "title": "Balanços do 3T26: Itaú, Prio, Suzano e Vivara divulgam resultados nesta semana",
-      "url": "https://timesbrasil.com.br/empresas-e-negocios/balancos-do-3t26-itau-prio-suzano-e-vivara-divulgam-resultados-nesta-semana-veja-lista-completa/",
-      "publisher": "Times Brasil",
-      "publishedAt": "2026-11-02"
-    },
-    {
-      "title": "Stock market today: Dow, S&P 500, Nasdaq waver ahead of midterm election results, AMD earnings",
-      "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-3-dow-sp-500-nasdaq-midterms-amd-090846378.html",
-      "publisher": "Yahoo Finance",
-      "publishedAt": "2026-11-03"
+      "title": "Copom de novembro: o que esperar da reunião de 3 e 4 de novembro",
+      "url": "https://www.jurosfacil.com/blog/copom-novembro-2026-o-que-esperar",
+      "publisher": "Juros Fácil",
+      "publishedAt": "2026-10-31"
     }
   ]
 }
