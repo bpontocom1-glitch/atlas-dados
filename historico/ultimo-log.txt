@@ -1,0 +1,26 @@
+2019: ok (6696 candles até aqui)
+2020: ok (13419 candles até aqui)
+2021: ok (20088 candles até aqui)
+2022: ok (26838 candles até aqui)
+2023: ok (33534 candles até aqui)
+2024: ok (40311 candles até aqui)
+2025: ok (47061 candles até aqui)
+2026: ok (52731 candles até aqui)
+OK: 27 ativos, 17 ajustes, IV de 27 ativos
+  ajuste: {'ticker': 'B3SA3', 'date': '2021-05-17', 'factor': 3.0}
+  ajuste: {'ticker': 'B3SA3', 'date': '2026-10-26', 'factor': 2.0}
+  ajuste: {'ticker': 'BBAS3', 'date': '2024-04-16', 'factor': 2.0}
+  ajuste: {'ticker': 'BPAC11', 'date': '2021-07-01', 'factor': 4.0}
+  ajuste: {'ticker': 'CSAN3', 'date': '2021-05-06', 'factor': 4.0}
+  ajuste: {'ticker': 'CSAN3', 'date': '2026-10-26', 'factor': 2.0}
+  ajuste: {'ticker': 'CYRE3', 'date': '2026-10-26', 'factor': 2.0}
+  ajuste: {'ticker': 'EQTL3', 'date': '2019-11-28', 'factor': 5.0}
+  ajuste: {'ticker': 'MGLU3', 'date': '2019-08-06', 'factor': 8.0}
+  ajuste: {'ticker': 'MGLU3', 'date': '2020-10-14', 'factor': 4.0}
+  ajuste: {'ticker': 'MGLU3', 'date': '2024-05-27', 'factor': 0.1}
+  ajuste: {'ticker': 'MGLU3', 'date': '2026-10-26', 'factor': 2.0}
+  ajuste: {'ticker': 'PRIO3', 'date': '2019-03-06', 'factor': 10.0}
+  ajuste: {'ticker': 'PRIO3', 'date': '2021-05-06', 'factor': 5.0}
+  ajuste: {'ticker': 'RENT3', 'date': '2026-10-26', 'factor': 2.0}
+  ajuste: {'ticker': 'SBSP3', 'date': '2026-04-29', 'factor': 5.0}
+  ajuste: {'ticker': 'WEGE3', 'date': '2021-04-28', 'factor': 2.0}
