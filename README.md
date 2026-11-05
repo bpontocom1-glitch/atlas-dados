@@ -173,3 +173,16 @@ B3. Script: `tools/b3_opcoes.py`.
 
 Nada é estimado: os números são os do arquivo da B3. Não é dado em tempo real (fechamento do
 pregão).
+
+---
+
+## Histórico oficial (`historico/`) — backtest e IV rank
+
+Montado a partir dos arquivos anuais da B3 (`.github/workflows/b3-historico.yml`, manual) e
+mantido em dia pelo Action diário (`tools/b3_historico.py --dia`).
+
+- `index.json`: anos disponíveis, último pregão, fonte e a lista de desdobramentos/grupamentos
+  ajustados.
+- `precos/AAAA.json`: candles diários das ações do universo (à vista, lote padrão). Tickers
+  renomeados herdam o histórico antigo (AXIA3 ← ELET3, EMBJ3 ← EMBR3). Dividendos não ajustados.
+- `iv/AAAA.json`: volatilidade implícita no fechamento, perto do dinheiro, por ativo e pregão.
