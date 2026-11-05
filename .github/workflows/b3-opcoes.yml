@@ -42,6 +42,10 @@ jobs:
         if: ${{ inputs.sondar }}
         continue-on-error: true
         run: python3 tools/b3_sondar.py ${{ github.event.inputs.data }}
+      - name: Sondar fluxo estrangeiro
+        if: ${{ inputs.sondar }}
+        continue-on-error: true
+        run: python3 tools/b3_sondar_estrangeiro.py
       - name: Publicar
         run: |
           if [ -n "$(git status --porcelain opcoes sondagem historico)" ]; then

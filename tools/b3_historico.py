@@ -302,6 +302,49 @@ def load_all() -> tuple[dict, list, dict] | None:
     return prices, meta["adjustments"], iv
 
 
+#: Janela do IV rank: último ano de pregões com leitura
+IV_WINDOW = 252
+#: Mínimo de leituras para o rank valer
+IV_MIN_OBS = 120
+
+
+def iv_summary(iv: dict, now: str) -> dict:
+    """Por ativo: implícita mais recente, IV rank e percentil no último ano.
+
+    IV rank = (atual − mínima) ÷ (máxima − mínima) da janela, 0–100.
+    Percentil = % das leituras da janela abaixo da atual.
+    """
+    out = {}
+    for t, rows in iv.items():
+        rows = sorted(rows)[-IV_WINDOW:]
+        if len(rows) < IV_MIN_OBS:
+            continue
+        values = [v for _, v in rows]
+        cur_date, cur = rows[-1]
+        lo, hi = min(values), max(values)
+        out[t] = {
+            "date": cur_date,
+            "iv": cur,
+            "rank": round(100 * (cur - lo) / (hi - lo), 1) if hi > lo else None,
+            "percentile": round(100 * sum(1 for v in values if v < cur) / len(values), 1),
+            "min": lo,
+            "max": hi,
+            "median": round(sorted(values)[len(values) // 2], 4),
+            "observations": len(values),
+        }
+    return {
+        "version": 1,
+        "generatedAt": now,
+        "source": SOURCE,
+        "notes": [
+            f"Janela: últimas {IV_WINDOW} leituras de volatilidade implícita no fechamento "
+            f"(mínimo {IV_MIN_OBS}).",
+            "rank = (atual − mínima) ÷ (máxima − mínima) × 100; percentile = % das leituras abaixo da atual.",
+        ],
+        "tickers": out,
+    }
+
+
 def write(prices: dict, adjustments: list, iv: dict, years: set[str] | None = None) -> None:
     """Grava um arquivo por ano (precos/AAAA.json e iv/AAAA.json) e o índice.
 
@@ -315,6 +358,7 @@ def write(prices: dict, adjustments: list, iv: dict, years: set[str] | None = No
                 continue
             subset = {t: [r for r in rows if r[0][:4] == y] for t, rows in data.items()}
             dump(OUT / kind / f"{y}.json", {"version": 1, "year": y, "tickers": {t: r for t, r in subset.items() if r}})
+    dump(OUT / "iv-resumo.json", iv_summary(iv, now))
     dump(
         OUT / "index.json",
         {
