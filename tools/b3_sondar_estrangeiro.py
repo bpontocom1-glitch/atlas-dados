@@ -38,7 +38,7 @@ def main() -> None:
             raw = r.read()
         text = raw.decode("latin-1")
         out.append(f"== CSV: HTTP {r.status}, {len(raw)} bytes, {len(text.splitlines())} linhas")
-        out.extend("  | " + ln[:400] for ln in text.splitlines()[:120])
+        out.extend("  | " + ln[:400] for ln in text.splitlines())
     except Exception as e:  # noqa: BLE001
         out.append(f"== CSV falhou ({e})")
     Path("sondagem").mkdir(exist_ok=True)
