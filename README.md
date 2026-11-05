@@ -186,3 +186,13 @@ mantido em dia pelo Action diário (`tools/b3_historico.py --dia`).
 - `precos/AAAA.json`: candles diários das ações do universo (à vista, lote padrão). Tickers
   renomeados herdam o histórico antigo (AXIA3 ← ELET3, EMBJ3 ← EMBR3). Dividendos não ajustados.
 - `iv/AAAA.json`: volatilidade implícita no fechamento, perto do dinheiro, por ativo e pregão.
+
+---
+
+## Fluxo de investidor estrangeiro (`estrangeiro/latest.json`)
+
+Do relatório oficial "Dados de Mercado" da B3 (CSV), atualizado pelo Action diário
+(`tools/b3_estrangeiro.py`): saldo mensal e anual do investidor estrangeiro no mercado à vista
+(compras, vendas, IPO/follow-on, saldo, em R$ milhões) e o saldo diário, obtido pela diferença
+entre os acumulados do mês de execuções seguidas (`estrangeiro/acumulado.json`). A B3 publica
+com cerca de dois pregões de defasagem.
