@@ -123,3 +123,51 @@
   | 2020;21,40%;27,20%;46,60%;4,00%;0,90%
   | 2019;18,20%;31,50%;45,00%;4,60%;0,80%
   | Nota: Considerada a soma do volume de compra e venda.
+  | Obs.: A partir de janeiro de 2004, a participacao dos investidores Pessoas Fisicas passou a incorporar a de
+  | Clubes de Investimento, antes computada em investidor Institucional. A serie historica acima esta ajustada a nova metodologia.
+  | Pessoas Fisicas + Clubes de Investimento
+  | *** Empresas Publicas e Privadas + Outros
+  | Notes: (1) Considers the sum of the buy and sell volumes.  (2) Since January 2004 the participation of individual investors has been incorporated into the Investment Clubs,
+  | which were in turn incorporated into the institutional investor category. The information on this chart has been adjusted to the new methodology.
+  |      
+  | Movimentacao dos Investidores Estrangeiros Mensal (R$ Milhoes) - Monthly Financial Movement of  Foreign Investors (BRL million)
+  | Mes / Month;Compras / Buyers (A);Vendas / Sellers (B);IPO / Follow On (C);A+C-B (Saldo) / A+C-B (Balance)
+  | Jan/Jan/2025;289209,8;282385,4;0,0;6824,3
+  | Fev/Feb/2025;289386,7;288687,4;0,0;699,3
+  | Mar/Mar/2025;272230,0;269111,7;344,5;3462,8
+  | Abr/Apr/2025;323322,2;323455,8;0,0;-133,6
+  | Mai/May/2025;327029,2;316447,5;80,5;10662,2
+  | Jun/Jun/2025;289016,1;283657,4;30,9;5389,7
+  | Jul/Jul/2025;271637,3;278009,3;104,2;-6267,7
+  | Ago/Aug/2025;274825,0;273656,7;0,0;1168,3
+  | Set/Sep/2025;278884,7;273617,6;0,0;5267,1
+  | Out/Oct/2025;299445,7;300672,2;94,5;-1132,0
+  | Nov/Nov/2025;311447,0;309386,2;489,3;2550,1
+  | Dez/Dec/2025;339636,1;341509,6;253,3;-1620,1
+  | Jan/Jan/2026;421435,4;395121,9;157,7;26471,3
+  | Fev/Feb/2026;426600,6;411204,8;0,0;15395,7
+  | Mar/Mar/2026;512799,1;501143,6;308,8;11964,3
+  | Abr/Apr/2026;447133,0;443954,3;42,9;3221,6
+  | Mai/May/2026;379005,4;393915,4;1635,1;-13274,9
+  | Jun/Jun/2026;358749,0;366534,5;738,3;-7047,3
+  | Jul/Jul/2026;310843,6;308285,4;1753,3;4311,5
+  | Ago/Aug/2026;360670,1;378786,9;0,0;-18116,8
+  | Set/Sep/2026;436290,9;427184,0;0,0;9106,8
+  | Out/Oct/2026;796654,9;788487,7;0,0;8167,1
+  | Nov/Nov/2026;27543,6;27934,4;0,0;-390,8
+  | 2026(*);4477725,7;4442553,1;4636,1;39808,6
+  | (*) Ate dia 3 Nov - Until Nov 3
+  |      
+  | Ano / Year;Compras / Buyers (A);Vendas / Sellers (B);IPO / Follow On (C);A+C-B (Saldo) / A+C-B (Balance)
+  | 2025;3566069,8;3540596,8;1397,2;26870,4
+  | 2024;3355063,0;3387171,0;7909,9;-24198,2
+  | 2023;3421173,4;3376320,1;11101,3;55954,6
+  | 2022;4147649,8;4046825,6;18970,2;119794,3
+  | 2021;4179722,7;4186875,1;48690,4;41538,0
+  | 2020;3425799,8;3465463,3;40364,6;701,2
+  | 2019;1895754,5;1940271,9;38019,0;-6498,4
+  | 2018;1487106,1;1498627,2;6689,6;-4831,5
+  | 2017;1045625,5;1031271,5;25200,8;39554,8
+  | 2016;967617,6;953292,2;5216,1;19541,5
+  | (***) Dados de IPO / Follow On ainda nao disponibilizados
+  |      
