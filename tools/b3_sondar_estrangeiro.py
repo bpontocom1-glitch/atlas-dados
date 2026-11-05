@@ -31,6 +31,16 @@ def main() -> None:
                 out.append(f"  url: {m}")
         except Exception as e:  # noqa: BLE001
             out.append(f"== {url}: falhou ({e})")
+    csv_url = "https://sistemaswebb3-listados.b3.com.br/marketDataProxy/MarketDataCall/GetDownloadMarketData/RELATORIO_DADOS_DE_MERCADO.csv"
+    try:
+        req = urllib.request.Request(csv_url, headers={"User-Agent": "Mozilla/5.0 (atlas-dados)"})
+        with urllib.request.urlopen(req, timeout=60) as r:
+            raw = r.read()
+        text = raw.decode("latin-1")
+        out.append(f"== CSV: HTTP {r.status}, {len(raw)} bytes, {len(text.splitlines())} linhas")
+        out.extend("  | " + ln[:400] for ln in text.splitlines()[:120])
+    except Exception as e:  # noqa: BLE001
+        out.append(f"== CSV falhou ({e})")
     Path("sondagem").mkdir(exist_ok=True)
     Path("sondagem/estrangeiro.txt").write_text("\n".join(out), encoding="utf-8")
     print("\n".join(out))
