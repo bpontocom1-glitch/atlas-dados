@@ -154,13 +154,41 @@ def download(url: str) -> bytes | None:
 NICE = [2, 3, 4, 5, 8, 10, 20, 1 / 2, 1 / 3, 1 / 4, 1 / 5, 1 / 8, 1 / 10, 1 / 20]
 
 
-def adjust_splits(ticker: str, candles: list[list]) -> list[dict]:
+#: Dia em que tantos ativos (ou mais) saltam 25%+ no mesmo sentido é crash/euforia de
+#: mercado, não desdobramento (desdobramentos são de uma empresa só). Ex.: 26/10/2026.
+MARKET_GAP_TICKERS = 3
+BIG_GAP = 0.25
+
+
+def market_gap_days(series: dict[str, list[list]]) -> set[str]:
+    """Datas em que vários ativos abriram com salto grande no mesmo sentido."""
+    down: dict[str, int] = {}
+    up: dict[str, int] = {}
+    for candles in series.values():
+        for i in range(1, len(candles)):
+            prev, cur = candles[i - 1][4], candles[i][1]
+            if prev <= 0 or cur <= 0:
+                continue
+            r = cur / prev
+            if r <= 1 - BIG_GAP:
+                down[candles[i][0]] = down.get(candles[i][0], 0) + 1
+            elif r >= 1 / (1 - BIG_GAP):
+                up[candles[i][0]] = up.get(candles[i][0], 0) + 1
+    return {d for d, n in down.items() if n >= MARKET_GAP_TICKERS} | {
+        d for d, n in up.items() if n >= MARKET_GAP_TICKERS
+    }
+
+
+def adjust_splits(ticker: str, candles: list[list], skip_days: set[str] | None = None) -> list[dict]:
     """Ajusta para trás os saltos que batem com razões de desdobramento/grupamento.
 
     candles: [[date, o, h, l, c, v], ...] ordenados. Altera no lugar.
+    skip_days: datas de salto do mercado inteiro (crash), que nunca são tratadas como desdobramento.
     """
     adjustments = []
     for i in range(1, len(candles)):
+        if skip_days and candles[i][0] in skip_days:
+            continue
         prev_close = candles[i - 1][4]
         open_ = candles[i][1]
         if prev_close <= 0 or open_ <= 0:
@@ -392,11 +420,15 @@ def build_years(first: int, last: int) -> int:
         print(f"{y}: ok ({sum(len(v) for v in spots.values())} candles até aqui)")
     if not spots:
         return 1
+    raw = {t: [[d, *by_day[d]] for d in sorted(by_day)] for t, by_day in spots.items()}
+    crash_days = market_gap_days(raw)
+    if crash_days:
+        print("dias de salto do mercado (não ajustados):", sorted(crash_days))
     prices = {}
     adjustments = []
-    for t, by_day in sorted(spots.items()):
-        candles = [[d, *by_day[d]] for d in sorted(by_day)]
-        adjustments += adjust_splits(t, candles)
+    for t in sorted(raw):
+        candles = raw[t]
+        adjustments += adjust_splits(t, candles, crash_days)
         prices[t] = candles
     selic = selic_series(f"{first}-01-01", date.today().isoformat())
     iv = compute_iv(spots, options, selic)
@@ -450,10 +482,12 @@ def append_day(day: date | None) -> int:
             continue
         split_today = False
         for t, by_day in spots.items():
-            candles = prices.setdefault(t, [])
-            candles.append([iso, *by_day[iso]])
+            prices.setdefault(t, []).append([iso, *by_day[iso]])
+        crash_days = market_gap_days({t: prices[t][-2:] for t in spots if len(prices[t]) >= 2})
+        for t in spots:
+            candles = prices[t]
             # adjust_splits sobre os 2 últimos já ajusta o penúltimo; o resto vem aqui
-            new = adjust_splits(t, candles[-2:]) if len(candles) >= 2 else []
+            new = adjust_splits(t, candles[-2:], crash_days) if len(candles) >= 2 else []
             if new:
                 k = 1 / new[0]["factor"]
                 for c in candles[:-2]:
