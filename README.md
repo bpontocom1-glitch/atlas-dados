@@ -196,3 +196,14 @@ Do relatório oficial "Dados de Mercado" da B3 (CSV), atualizado pelo Action di�
 (compras, vendas, IPO/follow-on, saldo, em R$ milhões) e o saldo diário, obtido pela diferença
 entre os acumulados do mês de execuções seguidas (`estrangeiro/acumulado.json`). A B3 publica
 com cerca de dois pregões de defasagem.
+
+---
+
+## Sensibilidades medidas (`fatores/betas.json`)
+
+Calculadas pelo Action diário (`tools/b3_fatores.py`): regressão dos retornos diários de cada
+ativo contra o mercado (BOVA11), a variação dos juros (Tesouro Prefixado de ~3 anos, sempre o
+mesmo título de um dia para o outro), o dólar (PTAX, Banco Central) e o Brent (EIA via FRED),
+nos últimos ~2 anos. Os coeficientes de juros, dólar e petróleo são o efeito além do mercado;
+`t` mostra se o efeito é claro (|t| ≥ 2). Minério e China não têm série diária gratuita e
+continuam com sensibilidade definida à mão no Atlas.
