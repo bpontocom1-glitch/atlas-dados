@@ -207,3 +207,14 @@ mesmo título de um dia para o outro), o dólar (PTAX, Banco Central) e o Brent 
 nos últimos ~2 anos. Os coeficientes de juros, dólar e petróleo são o efeito além do mercado;
 `t` mostra se o efeito é claro (|t| ≥ 2). Minério e China não têm série diária gratuita e
 continuam com sensibilidade definida à mão no Atlas.
+
+---
+
+## Histórico do viés de abertura (`abertura/`)
+
+Montado pelo Action diário (`tools/b3_abertura.py`): para cada pregão com relatório, o viés de
+abertura publicado para o WIN e o WDO e o que o contrato mais negociado fez de fato, pelo
+Boletim Diário da B3 (abertura, máxima, mínima, fechamento, ajuste e ajuste do dia anterior).
+`historico.json` traz dia a dia; `placar.json` traz o acerto por confiança e os erros recentes,
+e é lido pela tarefa do relatório da manhã. Movimento menor que 0,15% (WIN) ou 0,10% (WDO)
+conta como lateral.
