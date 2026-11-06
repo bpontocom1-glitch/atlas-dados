@@ -120,8 +120,28 @@ def rate_changes(start: date) -> tuple[dict[str, float], dict[str, dict]]:
     return changes, level
 
 
-def brent_series() -> dict[str, float]:
-    text = fetch(FRED_BRENT, timeout=180).decode("utf-8")
+EIA_BRENT_XLS = "https://www.eia.gov/dnav/pet/hist_xls/RBRTEd.xls"
+
+
+def brent_series() -> tuple[dict[str, float], dict]:
+    """Brent diário. Primeiro o arquivo oficial da EIA; se falhar, a mesma série no FRED."""
+    try:
+        import xlrd  # noqa: PLC0415 — instalado só no Action
+
+        book = xlrd.open_workbook(file_contents=fetch(EIA_BRENT_XLS, timeout=120))
+        sheet = book.sheet_by_name("Data 1")
+        out = {}
+        for r in range(3, sheet.nrows):
+            cell, value = sheet.cell(r, 0), sheet.cell(r, 1)
+            if cell.ctype == xlrd.XL_CELL_DATE and isinstance(value.value, float):
+                d = xlrd.xldate.xldate_as_datetime(cell.value, book.datemode).date().isoformat()
+                if d >= "2018-12-01":
+                    out[d] = value.value
+        if out:
+            return out, {"title": "EIA — Europe Brent Spot Price FOB (RBRTE, diário)", "url": EIA_BRENT_XLS}
+    except Exception as e:  # noqa: BLE001
+        print("EIA indisponível:", e)
+    text = fetch(FRED_BRENT, timeout=60, tries=1).decode("utf-8")
     out = {}
     for row in csv.reader(io.StringIO(text)):
         if len(row) == 2 and row[0][:2] in ("19", "20"):
@@ -129,7 +149,7 @@ def brent_series() -> dict[str, float]:
                 out[row[0]] = float(row[1])
             except ValueError:
                 pass
-    return out
+    return out, {"title": "EIA — Brent (FRED DCOILBRENTEU)", "url": "https://fred.stlouisfed.org/series/DCOILBRENTEU"}
 
 
 def log_returns(series: dict[str, float]) -> dict[str, float]:
@@ -207,9 +227,10 @@ def main() -> int:
     factors_used = ["mercado", "juros", "dolar"]
     brent: dict[str, float] = {}
     try:
-        brent = log_returns(brent_series())
+        raw_brent, brent_source = brent_series()
+        brent = log_returns(raw_brent)
         factors_used.append("petroleo")
-        sources["petroleo"] = {"title": "EIA — Brent (FRED DCOILBRENTEU)", "url": "https://fred.stlouisfed.org/series/DCOILBRENTEU"}
+        sources["petroleo"] = brent_source
     except Exception as e:  # noqa: BLE001
         print("Brent indisponível, fator fica fora:", e)
 
