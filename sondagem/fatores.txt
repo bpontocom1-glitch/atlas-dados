@@ -1,0 +1,22 @@
+SGS 1: jan/2019 22 pontos [{'data': '02/01/2019', 'valor': '3.8595'}, {'data': '03/01/2019', 'valor': '3.7683'}] ... últimos [{'data': '04/11/2026', 'valor': '5.4778'}, {'data': '05/11/2026', 'valor': '5.4621'}]
+SGS 432: jan/2019 31 pontos [{'data': '01/01/2019', 'valor': '6.50'}, {'data': '02/01/2019', 'valor': '6.50'}] ... últimos [{'data': '08/12/2026', 'valor': '13.75'}, {'data': '09/12/2026', 'valor': '13.75'}]
+SGS 4389: jan/2019 22 pontos [{'data': '02/01/2019', 'valor': '6.40'}, {'data': '03/01/2019', 'valor': '6.40'}] ... últimos [{'data': '04/11/2026', 'valor': '13.65'}, {'data': '03/11/2026', 'valor': '13.65'}]
+SGS 7805: jan/2019 21 pontos [{'data': '02/01/2019', 'valor': '6.42'}, {'data': '03/01/2019', 'valor': '6.44'}] ... últimos [{'data': '27/09/2019', 'valor': '4.88'}, {'data': '30/09/2019', 'valor': '4.87'}]
+SGS 7806: jan/2019 21 pontos [{'data': '02/01/2019', 'valor': '6.45'}, {'data': '03/01/2019', 'valor': '6.49'}] ... últimos [{'data': '27/09/2019', 'valor': '4.86'}, {'data': '30/09/2019', 'valor': '4.85'}]
+SGS 7807: jan/2019 22 pontos [{'data': '02/01/2019', 'valor': '917256'}, {'data': '03/01/2019', 'valor': '920732'}] ... últimos [{'data': '29/06/2023', 'valor': '2293161'}, {'data': '30/06/2023', 'valor': '2313385'}]
+SGS 7808: jan/2019 22 pontos [{'data': '02/01/2019', 'valor': '331330'}, {'data': '03/01/2019', 'valor': '332601'}] ... últimos [{'data': '12/09/2019', 'valor': '424004'}, {'data': '13/09/2019', 'valor': '422068'}]
+SGS 7809: jan/2019 21 pontos [{'data': '02/01/2019', 'valor': '23346'}, {'data': '03/01/2019', 'valor': '22686'}] ... últimos [{'data': '27/09/2019', 'valor': '26820'}, {'data': '30/09/2019', 'valor': '26917'}]
+SGS 7810: jan/2019 21 pontos [{'data': '02/01/2019', 'valor': '6666'}, {'data': '03/01/2019', 'valor': '6464'}] ... últimos [{'data': '27/09/2019', 'valor': '7940'}, {'data': '30/09/2019', 'valor': '7999'}]
+SGS 7811: jan/2019 1 pontos [{'data': '01/01/2019', 'valor': '0.0000'}] ... últimos [{'data': '01/10/2026', 'valor': '0.1616'}, {'data': '01/11/2026', 'valor': '0.1196'}]
+SGS 7812: jan/2019 1 pontos [{'data': '01/01/2019', 'valor': '0.0000'}] ... últimos [{'data': '01/10/2026', 'valor': '1.9564'}, {'data': '01/11/2026', 'valor': '1.5979'}]
+SGS 7813: jan/2019 1 pontos [{'data': '01/01/2019', 'valor': '0.5021'}] ... últimos [{'data': '01/10/2026', 'valor': '0.9749'}, {'data': '01/11/2026', 'valor': '0.9125'}]
+SGS 7814: jan/2019 1 pontos [{'data': '01/01/2019', 'valor': '5.9046'}] ... últimos [{'data': '01/10/2026', 'valor': '12.3470'}, {'data': '01/11/2026', 'valor': '12.8035'}]
+SGS 7815: jan/2019 1 pontos [{'data': '01/01/2019', 'valor': '0.57'}] ... últimos [{'data': '01/12/2026', 'valor': '0.74'}, {'data': '01/11/2026', 'valor': '0.74'}]
+SGS 7816: jan/2019 1 pontos [{'data': '01/01/2019', 'valor': '6.40'}] ... últimos [{'data': '01/07/2019', 'valor': '6.00'}, {'data': '01/08/2019', 'valor': '5.75'}]
+SGS 7817: jan/2019 1 pontos [{'data': '01/01/2019', 'valor': '6.40'}] ... últimos [{'data': '01/07/2019', 'valor': '5.93'}, {'data': '01/08/2019', 'valor': '5.63'}]
+SGS 7818: jan/2019 1 pontos [{'data': '01/01/2019', 'valor': '6.40'}] ... últimos [{'data': '01/07/2019', 'valor': '5.82'}, {'data': '01/08/2019', 'valor': '5.50'}]
+SGS 7819: jan/2019 1 pontos [{'data': '01/01/2019', 'valor': '6.40'}] ... últimos [{'data': '01/07/2019', 'valor': '5.71'}, {'data': '01/08/2019', 'valor': '5.42'}]
+SGS 7820: jan/2019 1 pontos [{'data': '01/01/2019', 'valor': '6.38'}] ... últimos [{'data': '01/07/2019', 'valor': '5.57'}, {'data': '01/08/2019', 'valor': '5.34'}]
+FRED Brent: falhou (The read operation timed out)
+FRED minério (mensal): falhou (The read operation timed out)
+Tesouro Direto taxas: HTTP 200, 14649520 bytes: Tipo Titulo;Data Vencimento;Data Base;Taxa Compra Manha;Taxa Venda Manha;PU Compra Manha;PU Venda Manha;PU Base Manha | Tesouro Selic;01/03/2029;30/10/2026;0,06;0,07;20185,67;20170,66;20170,66 | Tesouro Selic;01/03/2031;30/10/2026;0,10;0,11;20120,75;20101,76;20101,76 | Tesouro Selic;01/03/2027;30/10/2026;0,02;0,03;20210,04;20199,05;20199,05 | Tesouro Selic;01/03/2028;30/10/2026;0,02;0,03;20204,87;20191,85
