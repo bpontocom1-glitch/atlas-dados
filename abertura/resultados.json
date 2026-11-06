@@ -1,0 +1,68 @@
+{
+"2026-10-30": {
+"WIN": {
+"contract": "WINZ26",
+"open": 170910.0,
+"high": 171600.0,
+"low": 169070.0,
+"close": 170350.0,
+"settle": 170165.0,
+"prevSettle": 171499.0,
+"contracts": 20890318.0
+},
+"WDO": {
+"contract": "WDOZ26",
+"open": 5422.0,
+"high": 5494.0,
+"low": 5418.0,
+"close": 5470.0,
+"settle": 5488.06,
+"prevSettle": 5428.075,
+"contracts": 3378993.0
+}
+},
+"2026-11-03": {
+"WIN": {
+"contract": "WINZ26",
+"open": 169340.0,
+"high": 169355.0,
+"low": 166470.0,
+"close": 168035.0,
+"settle": 167551.0,
+"prevSettle": 170165.0,
+"contracts": 20896265.0
+},
+"WDO": {
+"contract": "WDOZ26",
+"open": 5518.0,
+"high": 5546.0,
+"low": 5498.0,
+"close": 5519.0,
+"settle": 5523.767,
+"prevSettle": 5488.06,
+"contracts": 3039221.0
+}
+},
+"2026-11-04": {
+"WIN": {
+"contract": "WINZ26",
+"open": 169365.0,
+"high": 170090.0,
+"low": 168390.0,
+"close": 169530.0,
+"settle": 169650.0,
+"prevSettle": 167551.0,
+"contracts": 21245955.0
+},
+"WDO": {
+"contract": "WDOZ26",
+"open": 5480.0,
+"high": 5526.0,
+"low": 5477.0,
+"close": 5486.5,
+"settle": 5489.585,
+"prevSettle": 5523.767,
+"contracts": 2871841.0
+}
+}
+}

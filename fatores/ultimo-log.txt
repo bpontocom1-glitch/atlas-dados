@@ -1,0 +1,27 @@
+OK: 26 ativos, fatores ['mercado', 'juros', 'dolar', 'petroleo'], janela 2024-10-09→2026-11-03
+  ABEV3 mercado=+0.692(t=+12.5) juros=+0.007(t=+1.8) dolar=+0.133(t=+1.3) petroleo=-0.046(t=-2.4) R2=0.279
+  AXIA3 mercado=+1.072(t=+16.1) juros=+0.005(t=+1.0) dolar=-0.039(t=-0.3) petroleo=-0.059(t=-2.5) R2=0.436
+  B3SA3 mercado=+1.694(t=+26.6) juros=-0.023(t=-4.8) dolar=-0.360(t=-3.0) petroleo=-0.027(t=-1.2) R2=0.748
+  BBAS3 mercado=+1.173(t=+19.7) juros=-0.024(t=-5.3) dolar=-0.194(t=-1.7) petroleo=-0.007(t=-0.4) R2=0.635
+  BBDC4 mercado=+1.248(t=+26.3) juros=-0.012(t=-3.4) dolar=-0.052(t=-0.6) petroleo=-0.024(t=-1.4) R2=0.71
+  BEEF3 mercado=+1.194(t=+10.0) juros=-0.009(t=-1.0) dolar=+0.306(t=+1.3) petroleo=-0.017(t=-0.4) R2=0.219
+  BPAC11 mercado=+1.454(t=+27.4) juros=-0.011(t=-2.6) dolar=-0.281(t=-2.8) petroleo=-0.065(t=-3.5) R2=0.743
+  CMIG4 mercado=+0.878(t=+19.1) juros=+0.003(t=+0.8) dolar=+0.047(t=+0.5) petroleo=-0.027(t=-1.7) R2=0.505
+  CSAN3 mercado=+2.181(t=+21.4) juros=-0.035(t=-4.5) dolar=-0.420(t=-2.1) petroleo=+0.051(t=+1.4) R2=0.66
+  CSNA3 mercado=+1.482(t=+12.5) juros=+0.016(t=+1.8) dolar=-0.320(t=-1.4) petroleo=-0.056(t=-1.3) R2=0.323
+  CYRE3 mercado=+1.851(t=+20.3) juros=-0.047(t=-6.8) dolar=-0.039(t=-0.2) petroleo=-0.058(t=-1.8) R2=0.649
+  EMBJ3 mercado=+0.506(t=+5.2) juros=+0.018(t=+2.5) dolar=+0.457(t=+2.5) petroleo=-0.211(t=-6.2) R2=0.123
+  EQTL3 mercado=+1.270(t=+29.5) juros=-0.023(t=-7.2) dolar=-0.097(t=-1.2) petroleo=-0.020(t=-1.3) R2=0.782
+  GGBR4 mercado=+0.667(t=+9.5) juros=+0.020(t=+3.7) dolar=+0.026(t=+0.2) petroleo=-0.020(t=-0.8) R2=0.173
+  ITSA4 mercado=+1.036(t=+26.4) juros=+0.002(t=+0.6) dolar=-0.105(t=-1.4) petroleo=-0.047(t=-3.5) R2=0.69
+  ITUB4 mercado=+0.996(t=+24.2) juros=-0.000(t=-0.0) dolar=-0.124(t=-1.6) petroleo=-0.048(t=-3.3) R2=0.661
+  LREN3 mercado=+1.813(t=+20.6) juros=-0.012(t=-1.9) dolar=-0.084(t=-0.5) petroleo=-0.026(t=-0.8) R2=0.591
+  MGLU3 mercado=+2.823(t=+18.8) juros=-0.060(t=-5.3) dolar=-0.148(t=-0.5) petroleo=+0.022(t=+0.4) R2=0.598
+  PETR4 mercado=+0.687(t=+12.8) juros=+0.002(t=+0.6) dolar=+0.197(t=+1.9) petroleo=+0.236(t=+12.6) R2=0.403
+  PRIO3 mercado=+0.596(t=+8.2) juros=+0.015(t=+2.8) dolar=+0.094(t=+0.7) petroleo=+0.323(t=+12.7) R2=0.321
+  RENT3 mercado=+1.876(t=+23.9) juros=-0.033(t=-5.6) dolar=-0.042(t=-0.3) petroleo=-0.062(t=-2.3) R2=0.695
+  SBSP3 mercado=+1.122(t=+22.9) juros=-0.013(t=-3.4) dolar=-0.007(t=-0.1) petroleo=-0.040(t=-2.3) R2=0.651
+  SUZB3 mercado=+0.201(t=+3.1) juros=+0.015(t=+3.2) dolar=+0.372(t=+3.0) petroleo=-0.049(t=-2.2) R2=0.078
+  USIM5 mercado=+1.007(t=+9.9) juros=+0.015(t=+2.0) dolar=-0.103(t=-0.5) petroleo=-0.030(t=-0.8) R2=0.209
+  VALE3 mercado=+0.590(t=+9.7) juros=+0.025(t=+5.5) dolar=-0.102(t=-0.9) petroleo=-0.043(t=-2.0) R2=0.198
+  WEGE3 mercado=+0.535(t=+7.2) juros=+0.019(t=+3.3) dolar=+0.210(t=+1.5) petroleo=-0.094(t=-3.6) R2=0.121

@@ -1,0 +1,73 @@
+{
+ "version": 1,
+ "generatedAt": "2026-11-06T12:16:28Z",
+ "summary": {
+  "WIN": {
+   "n": 3,
+   "byConfidence": {
+    "baixa": {
+     "n": 2,
+     "openHits": 1,
+     "dayHits": 1
+    },
+    "media": {
+     "n": 1,
+     "openHits": 1,
+     "dayHits": 1
+    }
+   }
+  },
+  "WDO": {
+   "n": 3,
+   "byConfidence": {
+    "baixa": {
+     "n": 3,
+     "openHits": 1,
+     "dayHits": 2
+    }
+   }
+  }
+ },
+ "recentMisses": [
+  {
+   "date": "2026-11-03",
+   "contract": "WIN",
+   "bias": "neutro",
+   "confidence": "baixa",
+   "opened": "baixa",
+   "day": "baixa",
+   "drivers": [
+    "A favor de alta: EWZ +0,88% (US$ 32,77) e índice de ADRs +0,65% na segunda, com a B3 fechada; Itaú ADR +2,17% e Embraer +3,62%",
+    "A favor de alta: Ibovespa em sobrevenda (IFR de 25,4) após -18,12% na semana; Nasdaq futuro +0,46%",
+    "A favor de baixa: Europa em queda (DAX -0,76%, FTSE -0,62%), Dow futuro -0,42% e Xangai -0,82%",
+    "A favor de baixa: ADR da Petrobras -2,31% na segunda com o petróleo -7%; proposta de teto da Selic assusta o mercado"
+   ]
+  },
+  {
+   "date": "2026-11-03",
+   "contract": "WDO",
+   "bias": "neutro",
+   "confidence": "baixa",
+   "opened": "alta",
+   "day": "alta",
+   "drivers": [
+    "A favor de alta: risco fiscal sem resposta, proposta de teto da Selic e expectativa de pausa no Copom mantêm a pressão sobre o real; estrutura gráfica diária segue positiva",
+    "A favor de baixa: o dólar não mostra força no exterior hoje e EWZ/ADRs subiram na segunda, sinal de algum alívio para ativos brasileiros",
+    "Dólar subiu 9,04% na semana passada, a R$ 5,4443, o que abre espaço para realização"
+   ]
+  },
+  {
+   "date": "2026-10-30",
+   "contract": "WDO",
+   "bias": "alta",
+   "confidence": "baixa",
+   "opened": "baixa",
+   "day": "alta",
+   "drivers": [
+    "Aversão a risco global (tecnologia, cripto, petróleo) favorece o dólar contra emergentes",
+    "Dólar subiu 0,89% ontem, a R$ 5,387, com risco fiscal sem resposta",
+    "Sexta antes de feriado tende a estimular proteção"
+   ]
+  }
+ ]
+}
