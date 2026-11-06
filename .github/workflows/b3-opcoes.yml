@@ -49,6 +49,10 @@ jobs:
         if: ${{ inputs.sondar }}
         continue-on-error: true
         run: python3 tools/b3_sondar_estrangeiro.py
+      - name: Sondar séries de fatores
+        if: ${{ inputs.sondar }}
+        continue-on-error: true
+        run: python3 tools/b3_sondar_fatores.py
       - name: Publicar
         run: |
           if [ -n "$(git status --porcelain opcoes sondagem historico estrangeiro)" ]; then
