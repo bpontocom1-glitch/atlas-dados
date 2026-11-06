@@ -1,0 +1,250 @@
+{
+ "version": 1,
+ "date": "2026-11-06",
+ "generatedAt": "2026-11-06T11:49:00Z",
+ "edition": "abertura",
+ "summary": "Edição de abertura feita perto do pregão (a tarefa automática atrasou). Viés do dia neutro, puxando para baixa, com confiança baixa: o Ibovespa caiu 0,82% ontem, a 166.191 pontos, após o Copom manter a Selic em 13,75% com tom duro, e hoje o exterior pesa — Europa cai entre 1,3% e 1,7%, a Ásia teve forte venda de tecnologia (Nikkei -6%) e o Dow futuro recua cerca de 0,7%, enquanto S&P e Nasdaq futuros sobem. O Brent cai 1,4%, a US$ 96,92, o que pesa sobre petroleiras. O principal gatilho é o payroll dos EUA às 10h30; no Brasil, o ruído fiscal segue antes do pronunciamento de Lula no domingo (8).",
+ "factors": [
+  {
+   "factor": "petroleo",
+   "direction": "baixa",
+   "comment": "Brent -1,39%, a US$ 96,92, e WTI -1,55% na manhã, com risco de nova escalada EUA-Irã no radar."
+  },
+  {
+   "factor": "dolar",
+   "direction": "alta",
+   "comment": "Dólar subiu 0,67% ontem, a R$ 5,4876; dia de aversão a risco lá fora e incerteza fiscal aqui."
+  },
+  {
+   "factor": "risco-fiscal",
+   "direction": "incerto",
+   "comment": "Lula reuniu economistas e fará pronunciamento no domingo (8) sobre metas fiscais."
+  },
+  {
+   "factor": "juros",
+   "direction": "incerto",
+   "comment": "Copom manteve a Selic em 13,75%, apontando piora das expectativas de inflação; sem taxas de DI desta manhã nas fontes."
+  }
+ ],
+ "macro": [
+  {
+   "title": "Copom duro",
+   "detail": "A Selic foi mantida em 13,75% por unanimidade, com o comunicado citando piora das expectativas de inflação e incerteza elevada, o que pesou sobre a bolsa ontem."
+  },
+  {
+   "title": "Payroll às 10h30",
+   "detail": "O relatório de emprego dos EUA de outubro testa as apostas de novo corte de juros pelo Fed; consenso de 65 mil vagas e desemprego perto de 4,2%."
+  },
+  {
+   "title": "Fiscal no Brasil",
+   "detail": "Lula convocou economistas e prepara pronunciamento no domingo sobre metas fiscais; o mercado espera sinais de ajuste."
+  }
+ ],
+ "geopolitics": [
+  {
+   "title": "Venda de tecnologia na Ásia",
+   "detail": "Nikkei caiu cerca de 6% e o Kospi chegou a cair 8,8%, com temor de regulação mais dura do setor de tecnologia após as eleições americanas."
+  },
+  {
+   "title": "Europa em queda",
+   "detail": "STOXX 600 -1,39%, DAX -1,48% e FTSE 100 -1,53% na abertura, acompanhando Ásia e Wall Street."
+  },
+  {
+   "title": "EUA-Irã",
+   "detail": "O petróleo cai, mas o risco de nova escalada do conflito segue no radar após as eleições americanas."
+  }
+ ],
+ "sectors": [
+  {
+   "sector": "Índice",
+   "bias": "negativo",
+   "confidence": "baixa",
+   "rationale": "Exterior negativo (Europa e Ásia em queda, Dow futuro em baixa) e ruído fiscal antes do pronunciamento de domingo.",
+   "against": [
+    "S&P e Nasdaq futuros sobem",
+    "EWZ quase estável (-0,06%) no pré-mercado",
+    "Payroll pode mudar o humor às 10h30"
+   ]
+  },
+  {
+   "sector": "Petróleo e gás",
+   "bias": "negativo",
+   "confidence": "baixa",
+   "rationale": "Brent recua 1,39%, a US$ 96,92, depois de subir forte ontem.",
+   "against": [
+    "Risco geopolítico EUA-Irã pode virar o petróleo",
+    "Petrobras já caiu 1,07% ontem"
+   ]
+  }
+ ],
+ "assets": [],
+ "events": [
+  {
+   "date": "2026-11-05",
+   "title": "Resultados do 3T26 após o fechamento: Suzano, Localiza, Lojas Renner e Sabesp; Magazine Luiza (data divergente entre fontes: hoje ou 9/11)",
+   "impact": "medio",
+   "kind": "resultado",
+   "tickers": [
+    "SUZB3",
+    "RENT3",
+    "LREN3",
+    "SBSP3",
+    "MGLU3"
+   ]
+  },
+  {
+   "date": "2026-11-06",
+   "title": "EUA: payroll de outubro (consenso Reuters: 65 mil vagas, desemprego perto de 4,2%)",
+   "impact": "alto",
+   "kind": "indicador",
+   "tickers": [],
+   "time": "10:30"
+  },
+  {
+   "date": "2026-11-08",
+   "title": "Pronunciamento de Lula em rede nacional sobre metas fiscais (domingo)",
+   "impact": "alto",
+   "kind": "politica",
+   "tickers": []
+  },
+  {
+   "date": "2026-11-09",
+   "title": "Resultados do 3T26: Itaúsa (e Magazine Luiza, segundo outra fonte)",
+   "impact": "medio",
+   "kind": "resultado",
+   "tickers": [
+    "ITSA4",
+    "MGLU3"
+   ]
+  },
+  {
+   "date": "2026-11-10",
+   "title": "Ata do Copom; resultados do 3T26: Embraer (antes da abertura), Petrobras, CSN e BTG Pactual (após o fechamento)",
+   "impact": "alto",
+   "kind": "resultado",
+   "tickers": [
+    "PETR4",
+    "BPAC11",
+    "EMBJ3",
+    "CSNA3"
+   ]
+  },
+  {
+   "date": "2026-11-11",
+   "title": "Resultados do 3T26: Banco do Brasil e Equatorial",
+   "impact": "alto",
+   "kind": "resultado",
+   "tickers": [
+    "BBAS3",
+    "EQTL3"
+   ]
+  },
+  {
+   "date": "2026-11-12",
+   "title": "Resultados do 3T26: B3, Cyrela e Cemig",
+   "impact": "medio",
+   "kind": "resultado",
+   "tickers": [
+    "B3SA3",
+    "CYRE3",
+    "CMIG4"
+   ]
+  },
+  {
+   "date": "2026-11-13",
+   "title": "Cosan: resultado do 3T26",
+   "impact": "medio",
+   "kind": "resultado",
+   "tickers": [
+    "CSAN3"
+   ]
+  }
+ ],
+ "opening": [
+  {
+   "contract": "WIN",
+   "bias": "neutro",
+   "confidence": "baixa",
+   "drivers": [
+    "Ibovespa caiu 0,82% ontem, a 166.191,45 pontos",
+    "Europa cai entre 1,3% e 1,7% e Nikkei -6%",
+    "Dow futuro -0,67%; Brent -1,39%"
+   ],
+   "against": [
+    "S&P 500 futuro +0,40% e Nasdaq futuro +1,52%",
+    "EWZ -0,06%, quase estável",
+    "Payroll às 10h30 pode inverter"
+   ],
+   "note": "Neutro com inclinação de baixa; aguarde o payroll antes de se expor."
+  },
+  {
+   "contract": "WDO",
+   "bias": "alta",
+   "confidence": "baixa",
+   "drivers": [
+    "Dólar subiu 0,67% ontem, a R$ 5,4876",
+    "Aversão a risco global e ruído fiscal antes de domingo"
+   ],
+   "against": [
+    "Petróleo em queda",
+    "Payroll fraco tende a enfraquecer o dólar no mundo"
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "title": "Dólar vai a R$ 5,48 com petróleo e Ibovespa recua após Copom manter juros",
+   "url": "https://www.cnnbrasil.com.br/economia/money/mercado/mercado-financeiro-ibovespa-dolar-5-novembro-2026/",
+   "publisher": "CNN Brasil",
+   "publishedAt": "2026-11-05"
+  },
+  {
+   "title": "Payroll fecha semana antes de pronunciamento de Lula ao mercado; Ibovespa em dólar cai nesta sexta-feira (6)",
+   "url": "https://www.moneytimes.com.br/payroll-fecha-semana-antes-de-pronunciamento-de-lula-ao-mercado-ibovespa-em-dolar-cai-nesta-sexta-feira-6-rens/",
+   "publisher": "Money Times",
+   "publishedAt": "2026-11-06"
+  },
+  {
+   "title": "Dow Jones Futuro cai à espera do payroll; Nikkei despenca 6% no Japão",
+   "url": "https://www.infomoney.com.br/mercados/dow-jones-futuro-cai-a-espera-do-payroll-nikkei-despenca-6-no-japao/",
+   "publisher": "InfoMoney",
+   "publishedAt": "2026-11-06"
+  },
+  {
+   "title": "Lula convoca reunião com economistas próximos ao PT",
+   "url": "https://www.jornaldocomercio.com/economia/2026/11/1269390-lula-convoca-reuniao-com-economistas-proximos-ao-pt.html",
+   "publisher": "Jornal do Comércio",
+   "publishedAt": "2026-11-05"
+  },
+  {
+   "title": "Lula fará pronunciamento neste domingo para anunciar medidas de ajuste e tentar acalmar mercado",
+   "url": "https://www.seudinheiro.com/2026/economia/lula-fara-pronunciamento-neste-domingo-para-anunciar-medidas-de-ajuste-e-tentar-acalmar-mercado-jcav/",
+   "publisher": "Seu Dinheiro",
+   "publishedAt": "2026-11-04"
+  },
+  {
+   "title": "Balanços do 3T26: Itaú, Prio, Suzano e Vivara divulgam resultados nesta semana",
+   "url": "https://timesbrasil.com.br/empresas-e-negocios/balancos-do-3t26-itau-prio-suzano-e-vivara-divulgam-resultados-nesta-semana-veja-lista-completa/",
+   "publisher": "Times Brasil",
+   "publishedAt": "2026-11-02"
+  },
+  {
+   "title": "Calendário de resultados do 3T26",
+   "url": "https://www.moneytimes.com.br/calendario-de-resultados-do-3t26-balancos-vale-vale3-petrobras-petr4-itau-itub4-mlem/",
+   "publisher": "Money Times",
+   "publishedAt": "2026-11-04"
+  },
+  {
+   "title": "Calendário de balanços do terceiro trimestre de 2026",
+   "url": "https://forbes.com.br/forbes-money/2026/10/calendario-balancos-terceiro-trimestre-2026/",
+   "publisher": "Forbes Brasil",
+   "publishedAt": "2026-10-22"
+  },
+  {
+   "title": "Resultados 3T26: calendário de balanços da B3",
+   "url": "https://bpmoney.com.br/negocios/empresas-na-bolsa/resultados-3t26-calendario-balancos-b3/",
+   "publisher": "BPMoney",
+   "publishedAt": "2026-10-13"
+  }
+ ]
+}
