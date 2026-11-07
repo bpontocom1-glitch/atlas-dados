@@ -1,13 +1,13 @@
 {
  "version": 1,
- "generatedAt": "2026-11-06T16:55:25Z",
+ "generatedAt": "2026-11-07T03:11:49Z",
  "summary": {
   "WIN": {
-   "n": 3,
+   "n": 4,
    "byConfidence": {
     "baixa": {
-     "n": 2,
-     "openHits": 1,
+     "n": 3,
+     "openHits": 2,
      "dayHits": 1
     },
     "media": {
@@ -18,10 +18,10 @@
    }
   },
   "WDO": {
-   "n": 3,
+   "n": 4,
    "byConfidence": {
     "baixa": {
-     "n": 3,
+     "n": 4,
      "openHits": 1,
      "dayHits": 2
     }
@@ -29,6 +29,18 @@
   }
  },
  "recentMisses": [
+  {
+   "date": "2026-11-06",
+   "contract": "WDO",
+   "bias": "alta",
+   "confidence": "baixa",
+   "opened": "lateral",
+   "day": "lateral",
+   "drivers": [
+    "Dólar subiu 0,67% ontem, a R$ 5,4876",
+    "Aversão a risco global e ruído fiscal antes de domingo"
+   ]
+  },
   {
    "date": "2026-11-03",
    "contract": "WIN",
