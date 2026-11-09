@@ -1,250 +1,82 @@
 {
- "version": 1,
- "date": "2026-11-06",
- "generatedAt": "2026-11-06T11:49:00Z",
- "edition": "abertura",
- "summary": "Edição de abertura feita perto do pregão (a tarefa automática atrasou). Viés do dia neutro, puxando para baixa, com confiança baixa: o Ibovespa caiu 0,82% ontem, a 166.191 pontos, após o Copom manter a Selic em 13,75% com tom duro, e hoje o exterior pesa — Europa cai entre 1,3% e 1,7%, a Ásia teve forte venda de tecnologia (Nikkei -6%) e o Dow futuro recua cerca de 0,7%, enquanto S&P e Nasdaq futuros sobem. O Brent cai 1,4%, a US$ 96,92, o que pesa sobre petroleiras. O principal gatilho é o payroll dos EUA às 10h30; no Brasil, o ruído fiscal segue antes do pronunciamento de Lula no domingo (8).",
- "factors": [
-  {
-   "factor": "petroleo",
-   "direction": "baixa",
-   "comment": "Brent -1,39%, a US$ 96,92, e WTI -1,55% na manhã, com risco de nova escalada EUA-Irã no radar."
+  "version": 1,
+  "date": "2026-11-09",
+  "generatedAt": "2026-11-09T10:45:10Z",
+  "edition": "abertura",
+  "summary": "Viés geral levemente positivo, com confiança baixa. Lá fora a manhã é de apetite moderado: Dow futuro sobe cerca de 0,6%, S&P 500 futuro entre +0,2% e +0,4%, Europa em alta e o EWZ avança 0,85%. O petróleo recua perto de 2% (Brent na casa de US$ 96-97) com sinais de diálogo EUA-Irã, o que pesa sobre Petrobras e Prio e alivia combustíveis e logística. No Brasil, o pronunciamento de Lula no domingo reafirmou o compromisso fiscal, mas não trouxe medidas concretas de ajuste, o que limita a recuperação dos ativos locais. O principal gatilho do dia é a reação do câmbio e dos DIs ao discurso, com Focus às 8h25; na semana, ata do Copom e CPI dos EUA na terça e uma bateria de balanços (Magazine Luiza hoje após o fechamento, Petrobras amanhã).",
+  "factors": [
+    { "factor": "petroleo", "direction": "baixa", "comment": "Brent entre -1,4% e -2% nesta manhã (US$ 96-97), depois de Trump dizer que novos ataques ao Irã são muito improváveis se as negociações avançarem." },
+    { "factor": "minerio", "direction": "estavel", "comment": "Dalian -0,29%, a 687,5 iuanes; restrições à produção de aço na China por qualidade do ar preocupam a demanda." },
+    { "factor": "china", "direction": "incerto", "comment": "Inflação ao produtor de 5,7% (maior em mais de quatro anos) e ao consumidor de 0,7%, abaixo do esperado; Xangai +0,32%." },
+    { "factor": "juros", "direction": "incerto", "comment": "DIs recuaram na sexta (DI1F31 a 14,90%) em correção técnica; o discurso sem medidas e o CPI americano de terça podem devolver prêmio." },
+    { "factor": "dolar", "direction": "incerto", "comment": "Dólar fechou a sexta a R$ 5,5087 (+0,37%); hoje o dólar recua no exterior, mas petróleo em queda e discurso sem medidas pesam contra o real." },
+    { "factor": "risco-fiscal", "direction": "incerto", "comment": "Lula prometeu responsabilidade fiscal e disse se preocupar com a dívida, mas não anunciou cortes nem metas novas." }
+  ],
+  "macro": [
+    { "title": "Pronunciamento de Lula", "detail": "Em cerca de oito minutos na noite de domingo, o presidente falou em compromisso com a responsabilidade fiscal, preocupação com a dívida e juros altos, isenção da cesta básica e reforma política, sem apresentar medidas de ajuste — o que o mercado esperava." },
+    { "title": "Payroll forte e Fed", "detail": "Os EUA criaram 165 mil vagas em outubro, contra cerca de 65 mil esperadas; as apostas de alta de juros pelo Fed em dezembro subiram para perto de 77%. O CPI sai na terça." },
+    { "title": "Copom e agenda local", "detail": "Selic em 13,75%; a ata do Copom sai na terça e a inflação oficial do Brasil na quinta. Hoje há IGP-DI de outubro e IPC-S às 8h e Focus às 8h25." },
+    { "title": "Atividade fraca", "detail": "Projeções de PIB de 2027 foram revisadas para algo entre 0,3% e 0,5%; a XP passou a estimar 0,3%." }
+  ],
+  "geopolitics": [
+    { "title": "EUA-Irã", "detail": "Trump disse ser muito improvável ordenar novos ataques a Teerã enquanto as conversas avançam, mas Marco Rubio minimizou a chance de progresso relevante. O Brent já caiu 16% na semana passada." },
+    { "title": "Nvidia sob investigação", "detail": "Conselho da Nvidia investiga relação do CEO Jensen Huang com uma suposta espiã chinesa; a ação cai no pré-mercado e segura o Nasdaq futuro perto da estabilidade." },
+    { "title": "Feriado nos EUA", "detail": "Quarta-feira (11) é feriado nos EUA, o que pode reduzir a liquidez no meio da semana." }
+  ],
+  "sectors": [
+    { "sector": "Índice", "bias": "positivo", "confidence": "baixa", "rationale": "Exterior positivo (Dow futuro +0,6%, Europa em alta, Nikkei +2,3%) e EWZ +0,85% indicam continuidade da recuperação da sexta (+1,39%).", "against": ["Discurso de Lula sem medidas fiscais pode frustrar", "Petróleo em queda pesa sobre Petrobras", "CPI americano de terça e apostas de alta do Fed"] },
+    { "sector": "Petróleo e gás", "bias": "negativo", "confidence": "media", "rationale": "Brent recua entre 1,4% e 2% nesta manhã e acumula queda forte desde a semana passada com a distensão EUA-Irã; PETR4 já caiu 1,28% na sexta.", "against": ["Rubio cético com as negociações; risco geopolítico pode virar o preço", "Petrobras divulga o 3T26 amanhã após o fechamento"] },
+    { "sector": "Combustíveis e logística", "bias": "positivo", "confidence": "baixa", "rationale": "Petróleo mais barato reduz custo de combustíveis e tende a ajudar distribuidoras e logística (Cosan).", "against": ["Juros ainda altos pesam sobre empresas alavancadas", "Cosan divulga resultado na sexta (13)"] },
+    { "sector": "Mineração", "bias": "neutro", "confidence": "baixa", "rationale": "Minério praticamente estável em Dalian (-0,29%); China com preços ao produtor em alta, mas restrições à produção de aço e dúvidas sobre demanda.", "against": ["Vale subiu 2,19% na sexta e pode realizar"] },
+    { "sector": "Siderurgia", "bias": "neutro", "confidence": "baixa", "rationale": "Restrições ambientais à produção de aço na China e minério estável sem direção clara; CSN divulga resultado amanhã.", "against": [] },
+    { "sector": "Bancos", "bias": "neutro", "confidence": "baixa", "rationale": "Bancos lideraram a alta da sexta (BB +3,88%, Bradesco +3,12%, Itaú +1,40%); exterior ajuda, mas o discurso sem medidas pode limitar o fluxo para ativos domésticos. Itaúsa divulga hoje e BB na quarta.", "against": ["Realização depois da alta forte da sexta", "Resultado do BB na quarta"] },
+    { "sector": "Consumo e varejo", "bias": "neutro", "confidence": "baixa", "rationale": "Juros futuros caíram na sexta e Renner subiu 4,20% após o balanço, mas o fiscal sem resposta e a Selic de 13,75% seguem pesando; Magazine Luiza divulga hoje após o fechamento.", "against": ["Curva pode voltar a subir com o discurso sem medidas"] },
+    { "sector": "Saneamento", "bias": "positivo", "confidence": "baixa", "rationale": "Sabesp subiu 6,99% na sexta após o resultado do 3T26, e a recepção ao balanço pode seguir.", "against": ["Juros altos e devolução de parte da alta"] }
+  ],
+  "assets": [
+    { "ticker": "PETR4", "bias": "negativo", "note": "Brent em queda; balanço do 3T26 amanhã após o fechamento." },
+    { "ticker": "SBSP3", "bias": "positivo", "note": "Subiu 6,99% na sexta com o resultado do 3T26." },
+    { "ticker": "MGLU3", "bias": "neutro", "note": "Resultado do 3T26 hoje após o fechamento; teleconferência amanhã às 9h." }
+  ],
+  "events": [
+    { "date": "2026-11-09", "time": "08:00", "title": "Brasil: IGP-DI de outubro e IPC-S da 1ª quadrissemana de novembro", "impact": "baixo", "kind": "indicador", "tickers": [] },
+    { "date": "2026-11-09", "time": "08:25", "title": "Brasil: Boletim Focus (primeiro após o Copom)", "impact": "medio", "kind": "indicador", "tickers": [] },
+    { "date": "2026-11-09", "title": "Resultados do 3T26: Itaúsa (horário não informado) e Magazine Luiza (após o fechamento)", "impact": "medio", "kind": "resultado", "tickers": ["ITSA4", "MGLU3"] },
+    { "date": "2026-11-10", "title": "Ata do Copom e CPI de outubro dos EUA", "impact": "alto", "kind": "indicador", "tickers": [] },
+    { "date": "2026-11-10", "title": "Resultados do 3T26: BTG Pactual (antes da abertura), Embraer (horário não informado), Petrobras e CSN (após o fechamento)", "impact": "alto", "kind": "resultado", "tickers": ["BPAC11", "EMBJ3", "PETR4", "CSNA3"] },
+    { "date": "2026-11-11", "title": "Resultados do 3T26 após o fechamento: Banco do Brasil, Equatorial e Minerva; feriado nos EUA", "impact": "alto", "kind": "resultado", "tickers": ["BBAS3", "EQTL3", "BEEF3"] },
+    { "date": "2026-11-12", "title": "Brasil: inflação oficial de outubro", "impact": "alto", "kind": "indicador", "tickers": [] },
+    { "date": "2026-11-12", "title": "Resultados do 3T26 após o fechamento: Cyrela, Cemig e B3", "impact": "medio", "kind": "resultado", "tickers": ["CYRE3", "CMIG4", "B3SA3"] },
+    { "date": "2026-11-13", "title": "Cosan: resultado do 3T26 após o fechamento", "impact": "medio", "kind": "resultado", "tickers": ["CSAN3"] }
+  ],
+  "rates": {
+    "asOf": "Fechamento de 06/11",
+    "items": [
+      { "contract": "DI1F28", "rate": 14.295, "change": -0.032 },
+      { "contract": "DI1F29", "rate": 14.665, "change": -0.064 },
+      { "contract": "DI1F31", "rate": 14.900, "change": -0.078 }
+    ]
   },
-  {
-   "factor": "dolar",
-   "direction": "alta",
-   "comment": "Dólar subiu 0,67% ontem, a R$ 5,4876; dia de aversão a risco lá fora e incerteza fiscal aqui."
-  },
-  {
-   "factor": "risco-fiscal",
-   "direction": "incerto",
-   "comment": "Lula reuniu economistas e fará pronunciamento no domingo (8) sobre metas fiscais."
-  },
-  {
-   "factor": "juros",
-   "direction": "incerto",
-   "comment": "Copom manteve a Selic em 13,75%, apontando piora das expectativas de inflação; sem taxas de DI desta manhã nas fontes."
-  }
- ],
- "macro": [
-  {
-   "title": "Copom duro",
-   "detail": "A Selic foi mantida em 13,75% por unanimidade, com o comunicado citando piora das expectativas de inflação e incerteza elevada, o que pesou sobre a bolsa ontem."
-  },
-  {
-   "title": "Payroll às 10h30",
-   "detail": "O relatório de emprego dos EUA de outubro testa as apostas de novo corte de juros pelo Fed; consenso de 65 mil vagas e desemprego perto de 4,2%."
-  },
-  {
-   "title": "Fiscal no Brasil",
-   "detail": "Lula convocou economistas e prepara pronunciamento no domingo sobre metas fiscais; o mercado espera sinais de ajuste."
-  }
- ],
- "geopolitics": [
-  {
-   "title": "Venda de tecnologia na Ásia",
-   "detail": "Nikkei caiu cerca de 6% e o Kospi chegou a cair 8,8%, com temor de regulação mais dura do setor de tecnologia após as eleições americanas."
-  },
-  {
-   "title": "Europa em queda",
-   "detail": "STOXX 600 -1,39%, DAX -1,48% e FTSE 100 -1,53% na abertura, acompanhando Ásia e Wall Street."
-  },
-  {
-   "title": "EUA-Irã",
-   "detail": "O petróleo cai, mas o risco de nova escalada do conflito segue no radar após as eleições americanas."
-  }
- ],
- "sectors": [
-  {
-   "sector": "Índice",
-   "bias": "negativo",
-   "confidence": "baixa",
-   "rationale": "Exterior negativo (Europa e Ásia em queda, Dow futuro em baixa) e ruído fiscal antes do pronunciamento de domingo.",
-   "against": [
-    "S&P e Nasdaq futuros sobem",
-    "EWZ quase estável (-0,06%) no pré-mercado",
-    "Payroll pode mudar o humor às 10h30"
-   ]
-  },
-  {
-   "sector": "Petróleo e gás",
-   "bias": "negativo",
-   "confidence": "baixa",
-   "rationale": "Brent recua 1,39%, a US$ 96,92, depois de subir forte ontem.",
-   "against": [
-    "Risco geopolítico EUA-Irã pode virar o petróleo",
-    "Petrobras já caiu 1,07% ontem"
-   ]
-  }
- ],
- "assets": [],
- "events": [
-  {
-   "date": "2026-11-05",
-   "title": "Resultados do 3T26 após o fechamento: Suzano, Localiza, Lojas Renner e Sabesp; Magazine Luiza (data divergente entre fontes: hoje ou 9/11)",
-   "impact": "medio",
-   "kind": "resultado",
-   "tickers": [
-    "SUZB3",
-    "RENT3",
-    "LREN3",
-    "SBSP3",
-    "MGLU3"
-   ]
-  },
-  {
-   "date": "2026-11-06",
-   "title": "EUA: payroll de outubro (consenso Reuters: 65 mil vagas, desemprego perto de 4,2%)",
-   "impact": "alto",
-   "kind": "indicador",
-   "tickers": [],
-   "time": "10:30"
-  },
-  {
-   "date": "2026-11-08",
-   "title": "Pronunciamento de Lula em rede nacional sobre metas fiscais (domingo)",
-   "impact": "alto",
-   "kind": "politica",
-   "tickers": []
-  },
-  {
-   "date": "2026-11-09",
-   "title": "Resultados do 3T26: Itaúsa (e Magazine Luiza, segundo outra fonte)",
-   "impact": "medio",
-   "kind": "resultado",
-   "tickers": [
-    "ITSA4",
-    "MGLU3"
-   ]
-  },
-  {
-   "date": "2026-11-10",
-   "title": "Ata do Copom; resultados do 3T26: Embraer (antes da abertura), Petrobras, CSN e BTG Pactual (após o fechamento)",
-   "impact": "alto",
-   "kind": "resultado",
-   "tickers": [
-    "PETR4",
-    "BPAC11",
-    "EMBJ3",
-    "CSNA3"
-   ]
-  },
-  {
-   "date": "2026-11-11",
-   "title": "Resultados do 3T26: Banco do Brasil e Equatorial",
-   "impact": "alto",
-   "kind": "resultado",
-   "tickers": [
-    "BBAS3",
-    "EQTL3"
-   ]
-  },
-  {
-   "date": "2026-11-12",
-   "title": "Resultados do 3T26: B3, Cyrela e Cemig",
-   "impact": "medio",
-   "kind": "resultado",
-   "tickers": [
-    "B3SA3",
-    "CYRE3",
-    "CMIG4"
-   ]
-  },
-  {
-   "date": "2026-11-13",
-   "title": "Cosan: resultado do 3T26",
-   "impact": "medio",
-   "kind": "resultado",
-   "tickers": [
-    "CSAN3"
-   ]
-  }
- ],
- "opening": [
-  {
-   "contract": "WIN",
-   "bias": "neutro",
-   "confidence": "baixa",
-   "drivers": [
-    "Ibovespa caiu 0,82% ontem, a 166.191,45 pontos",
-    "Europa cai entre 1,3% e 1,7% e Nikkei -6%",
-    "Dow futuro -0,67%; Brent -1,39%"
-   ],
-   "against": [
-    "S&P 500 futuro +0,40% e Nasdaq futuro +1,52%",
-    "EWZ -0,06%, quase estável",
-    "Payroll às 10h30 pode inverter"
-   ],
-   "note": "Neutro com inclinação de baixa; aguarde o payroll antes de se expor."
-  },
-  {
-   "contract": "WDO",
-   "bias": "alta",
-   "confidence": "baixa",
-   "drivers": [
-    "Dólar subiu 0,67% ontem, a R$ 5,4876",
-    "Aversão a risco global e ruído fiscal antes de domingo"
-   ],
-   "against": [
-    "Petróleo em queda",
-    "Payroll fraco tende a enfraquecer o dólar no mundo"
-   ]
-  }
- ],
- "sources": [
-  {
-   "title": "Dólar vai a R$ 5,48 com petróleo e Ibovespa recua após Copom manter juros",
-   "url": "https://www.cnnbrasil.com.br/economia/money/mercado/mercado-financeiro-ibovespa-dolar-5-novembro-2026/",
-   "publisher": "CNN Brasil",
-   "publishedAt": "2026-11-05"
-  },
-  {
-   "title": "Payroll fecha semana antes de pronunciamento de Lula ao mercado; Ibovespa em dólar cai nesta sexta-feira (6)",
-   "url": "https://www.moneytimes.com.br/payroll-fecha-semana-antes-de-pronunciamento-de-lula-ao-mercado-ibovespa-em-dolar-cai-nesta-sexta-feira-6-rens/",
-   "publisher": "Money Times",
-   "publishedAt": "2026-11-06"
-  },
-  {
-   "title": "Dow Jones Futuro cai à espera do payroll; Nikkei despenca 6% no Japão",
-   "url": "https://www.infomoney.com.br/mercados/dow-jones-futuro-cai-a-espera-do-payroll-nikkei-despenca-6-no-japao/",
-   "publisher": "InfoMoney",
-   "publishedAt": "2026-11-06"
-  },
-  {
-   "title": "Lula convoca reunião com economistas próximos ao PT",
-   "url": "https://www.jornaldocomercio.com/economia/2026/11/1269390-lula-convoca-reuniao-com-economistas-proximos-ao-pt.html",
-   "publisher": "Jornal do Comércio",
-   "publishedAt": "2026-11-05"
-  },
-  {
-   "title": "Lula fará pronunciamento neste domingo para anunciar medidas de ajuste e tentar acalmar mercado",
-   "url": "https://www.seudinheiro.com/2026/economia/lula-fara-pronunciamento-neste-domingo-para-anunciar-medidas-de-ajuste-e-tentar-acalmar-mercado-jcav/",
-   "publisher": "Seu Dinheiro",
-   "publishedAt": "2026-11-04"
-  },
-  {
-   "title": "Balanços do 3T26: Itaú, Prio, Suzano e Vivara divulgam resultados nesta semana",
-   "url": "https://timesbrasil.com.br/empresas-e-negocios/balancos-do-3t26-itau-prio-suzano-e-vivara-divulgam-resultados-nesta-semana-veja-lista-completa/",
-   "publisher": "Times Brasil",
-   "publishedAt": "2026-11-02"
-  },
-  {
-   "title": "Calendário de resultados do 3T26",
-   "url": "https://www.moneytimes.com.br/calendario-de-resultados-do-3t26-balancos-vale-vale3-petrobras-petr4-itau-itub4-mlem/",
-   "publisher": "Money Times",
-   "publishedAt": "2026-11-04"
-  },
-  {
-   "title": "Calendário de balanços do terceiro trimestre de 2026",
-   "url": "https://forbes.com.br/forbes-money/2026/10/calendario-balancos-terceiro-trimestre-2026/",
-   "publisher": "Forbes Brasil",
-   "publishedAt": "2026-10-22"
-  },
-  {
-   "title": "Resultados 3T26: calendário de balanços da B3",
-   "url": "https://bpmoney.com.br/negocios/empresas-na-bolsa/resultados-3t26-calendario-balancos-b3/",
-   "publisher": "BPMoney",
-   "publishedAt": "2026-10-13"
-  }
- ]
+  "opening": [
+    { "contract": "WIN", "bias": "alta", "confidence": "baixa",
+      "drivers": ["EWZ +0,85%, a US$ 32,25, nesta manhã", "Dow futuro +0,6% e S&P 500 futuro +0,2% a +0,4% (5h45-7h10)", "Europa em alta (DAX +0,3% a +0,8%, Stoxx 600 +0,3% a +0,6%) e Nikkei +2,3%"],
+      "against": ["Brent -1,4% a -2% pesa sobre Petrobras, de grande peso no índice", "Pronunciamento de Lula sem medidas fiscais concretas", "Nasdaq futuro estável/negativo com a investigação na Nvidia"],
+      "note": "Indicadores externos majoritariamente positivos, mas o discurso de domingo é fator doméstico novo e ambíguo; confiança baixa." },
+    { "contract": "WDO", "bias": "neutro", "confidence": "baixa",
+      "drivers": ["A favor de baixa: dólar recua cerca de 0,3% no exterior nesta manhã, devolvendo parte da alta pós-payroll", "A favor de alta: petróleo em queda (Brent -1,4% a -2%) tende a enfraquecer o real", "A favor de alta: pronunciamento de Lula sem medidas de ajuste"],
+      "against": ["Fluxo para bolsa com exterior positivo pode derrubar o dólar", "Focus às 8h25 pode mexer nas expectativas"],
+      "note": "Sinais divididos: dólar global mais fraco contra petróleo em queda e frustração fiscal. Sem dados de moedas emergentes pares nesta manhã nas fontes." }
+  ],
+  "sources": [
+    { "title": "Ibovespa fecha semana em alta de 0,34% aos 168 mil pontos; dólar sobe a R$ 5,50 após payroll dos EUA", "url": "https://timesbrasil.com.br/investimentos/bolsa/ibovespa-fecha-semana-em-alta-de-034-aos-168-mil-pontos-dolar-sobe-a-r-550-apos-payroll-dos-eua/", "publisher": "Times Brasil", "publishedAt": "2026-11-06" },
+    { "title": "Ibovespa fecha com ganhos e tem primeira semana positiva depois de três; dólar sobe", "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-06112026/", "publisher": "InfoMoney", "publishedAt": "2026-11-06" },
+    { "title": "Taxas ignoram payroll e recuam, ainda em correção de disparada pós-eleição", "url": "https://www.opovo.com.br/noticias/economia/2026/11/06/taxas-ignoram-payroll-e-recuam-ainda-em-correcao-de-disparada-pos-eleicao.html", "publisher": "O Povo / Estadão Conteúdo", "publishedAt": "2026-11-06" },
+    { "title": "Mercado digere discurso de Lula enquanto espera inflação; Ibovespa em dólar sobe nesta segunda-feira (9)", "url": "https://moneytimes.com.br/mercado-digere-discurso-de-lula-enquanto-espera-inflacao-ibovespa-em-dolar-sobe-nesta-segunda-feira-9-rens", "publisher": "Money Times", "publishedAt": "2026-11-09" },
+    { "title": "Dow Jones Futuro sobe em início de semana marcada por inflação e balanços de IA", "url": "https://infomoney.com.br/mercados/dow-jones-futuro-sobe-em-inicio-de-semana-marcada-por-inflacao-e-balancos-de-ia", "publisher": "InfoMoney", "publishedAt": "2026-11-09" },
+    { "title": "Wall St ensaia recuperação com queda do petróleo; investigação na Nvidia limita ganhos", "url": "https://www.bloomberglinea.com.br/mercados/wall-st-ensaia-recuperacao-com-queda-do-petroleo-investigacao-na-nvidia-limita-ganhos/", "publisher": "Bloomberg Línea", "publishedAt": "2026-11-09" },
+    { "title": "Global Economy Briefing: Fed Hike Bets Lift Dollar After Strong US Jobs Data", "url": "https://www.riotimesonline.com/global-economy-briefing-november-9-2026/", "publisher": "The Rio Times", "publishedAt": "2026-11-09" },
+    { "title": "Lula cita compromisso fiscal e diz que Brasil 'não é lugar para quem foge de responsabilidades'", "url": "https://www.otempo.com.br/politica/governo/2026/11/8/lula-cita-compromisso-fiscal-e-diz-que-brasil-nao-e-lugar-para-quem-foge-de-responsabilidades", "publisher": "O Tempo", "publishedAt": "2026-11-08" },
+    { "title": "Tempo real: Ibovespa reage a pronunciamento de Lula e primeiro Boletim Focus pós-Copom", "url": "https://www.moneytimes.com.br/tempo-real-9-11-26-davs/", "publisher": "Money Times", "publishedAt": "2026-11-09" },
+    { "title": "3T26: Petrobras, Banco do Brasil, B3 e mais; veja quais empresas divulgam balanços nesta semana", "url": "https://www.moneytimes.com.br/3t26-petrobras-petr4-banco-do-brasil-bbas3-e-b3-b3sa3-balancos-nesta-semana-mlem/", "publisher": "Money Times", "publishedAt": "2026-11-09" }
+  ]
 }
