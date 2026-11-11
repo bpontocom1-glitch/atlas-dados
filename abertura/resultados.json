@@ -108,5 +108,27 @@
 "prevSettle": 5523.964,
 "contracts": 2191334.0
 }
+},
+"2026-11-10": {
+"WIN": {
+"contract": "WINZ26",
+"open": 173720.0,
+"high": 175350.0,
+"low": 172450.0,
+"close": 173305.0,
+"settle": 173209.0,
+"prevSettle": 174164.0,
+"contracts": 21326651.0
+},
+"WDO": {
+"contract": "WDOZ26",
+"open": 5544.0,
+"high": 5631.5,
+"low": 5537.5,
+"close": 5603.0,
+"settle": 5607.281,
+"prevSettle": 5533.057,
+"contracts": 3282773.0
+}
 }
 }

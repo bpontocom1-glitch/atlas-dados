@@ -1,12 +1,12 @@
 {
  "version": 1,
- "generatedAt": "2026-11-10T17:15:28Z",
+ "generatedAt": "2026-11-11T02:59:23Z",
  "summary": {
   "WIN": {
-   "n": 5,
+   "n": 6,
    "byConfidence": {
     "baixa": {
-     "n": 4,
+     "n": 5,
      "openHits": 3,
      "dayHits": 2
     },
@@ -18,10 +18,10 @@
    }
   },
   "WDO": {
-   "n": 5,
+   "n": 6,
    "byConfidence": {
     "baixa": {
-     "n": 5,
+     "n": 6,
      "openHits": 2,
      "dayHits": 2
     }
@@ -29,6 +29,32 @@
   }
  },
  "recentMisses": [
+  {
+   "date": "2026-11-10",
+   "contract": "WIN",
+   "bias": "alta",
+   "confidence": "baixa",
+   "opened": "baixa",
+   "day": "baixa",
+   "drivers": [
+    "Europa em alta nesta manhã: Stoxx 600 +0,72%, DAX +0,97%, CAC +0,99% (InfoMoney, 5h48)",
+    "Ásia fechou em alta: Nikkei +2,87%, Kospi +4%, Hang Seng +0,44%",
+    "Dow futuro +0,48% e S&P 500 futuro +0,16% (5h48)"
+   ]
+  },
+  {
+   "date": "2026-11-10",
+   "contract": "WDO",
+   "bias": "neutro",
+   "confidence": "baixa",
+   "opened": "alta",
+   "day": "alta",
+   "drivers": [
+    "A favor de alta: Waller apoiou alta de juros em dezembro e o Treasury de 2 anos subiu cerca de 4-5 pb; chance de alta do Fed precificada em 84%",
+    "A favor de alta: petróleo em nova queda (Brent -2,1%) tende a enfraquecer o real",
+    "A favor de baixa: apetite a risco na Ásia e na Europa favorece moedas emergentes; EUR/USD de volta acima de 1,1225"
+   ]
+  },
   {
    "date": "2026-11-06",
    "contract": "WDO",
