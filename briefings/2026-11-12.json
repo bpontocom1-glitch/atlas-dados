@@ -1,0 +1,419 @@
+{
+  "version": 1,
+  "date": "2026-11-12",
+  "generatedAt": "2026-11-12T10:44:53Z",
+  "edition": "abertura",
+  "summary": "Viés geral levemente negativo e de baixa convicção para a abertura. Desde o fim do pregão de ontem, o humor externo piorou: a Nvidia caiu cerca de 7% a 8% fora do horário regular com notícias de que o conselho avalia afastar o CEO, e os futuros de Nasdaq (-0,8% a -1%) e S&P 500 (-0,4% a -0,5%) recuam, com a Ásia em queda (Hang Seng -1,2%, Nikkei -0,7%). O dólar segue firme lá fora (euro na mínima desde maio de 2025, a 1,107) e o Treasury de 2 anos sobe 3 pb, a 4,77%. No Brasil, o Banco do Brasil decepcionou forte (lucro recorrente de R$ 1,3 bi e guidance de 2026 cortado à metade), o que pesa sobre bancos; o pacote fiscal (R$ 50-60 bi em 2027) segue como alívio, mas depende do Senado, que decide hoje se vota. O gatilho principal é o IPCA de outubro às 9h (projeções entre 0,21% e 0,29%), que sai antes da abertura dos futuros e pode redefinir juros e câmbio. WIN com viés de baixa e WDO com viés de alta, ambos com confiança baixa.",
+  "factors": [
+    {
+      "factor": "juros",
+      "direction": "incerto",
+      "comment": "DIs fecharam ontem em queda (jan/28 a 14,17%; jan/35 a 15,00%) com o plano fiscal, mas lá fora o Treasury de 2 anos sobe 3 pb e o mercado volta a precificar alta do Fed em dezembro; o IPCA às 9h decide a direção."
+    },
+    {
+      "factor": "dolar",
+      "direction": "alta",
+      "comment": "Dólar global firme perto da máxima em 19 meses, euro a 1,107 e aversão a risco com a Nvidia; contra isso, peso mexicano e chileno levemente mais fortes de madrugada."
+    },
+    {
+      "factor": "petroleo",
+      "direction": "estavel",
+      "comment": "Brent oscilou entre US$ 91,6 e cerca de US$ 93, perto da mínima em dois meses, sem direção clara."
+    },
+    {
+      "factor": "minerio",
+      "direction": "incerto",
+      "comment": "Sem cotação confiável de minério desde a noite nas fontes consultadas."
+    },
+    {
+      "factor": "china",
+      "direction": "incerto",
+      "comment": "Conversa positiva Wang Yi-Rubio antes do encontro Xi-Trump na APEC, mas Hang Seng cai 1,2% hoje."
+    },
+    {
+      "factor": "risco-fiscal",
+      "direction": "baixa",
+      "comment": "Governo propôs medidas com impacto de R$ 50-60 bi em 2027 e limite de 2% ao crescimento real do gasto; analistas veem efeito limitado e a votação no Senado pode ficar para depois."
+    }
+  ],
+  "macro": [
+    {
+      "title": "Fechamento de ontem",
+      "detail": "Ibovespa +0,42%, a 172.060 pontos; dólar -0,43%, a R$ 5,56, com o plano fiscal. Magazine Luiza liderou as altas (+7,66%) e Petrobras PN caiu 3,11% após balanço abaixo do esperado."
+    },
+    {
+      "title": "Pacote fiscal",
+      "detail": "Projeto apresentado pelo senador Jaques Wagner prevê impacto de R$ 50-60 bi em 2027, bloqueios adicionais e teto de 2% para o crescimento real do gasto, sem mudar metas de primário. Alcolumbre reúne líderes hoje para decidir se vota; oposição acha que não haverá tempo hoje."
+    },
+    {
+      "title": "IPCA de outubro às 9h",
+      "detail": "Bradesco projeta 0,29% no mês (pressão de alimentos) e Itaú 0,21%, com 12 meses subindo para cerca de 4,7%. A ata do Copom indicou Selic em 13,75% por mais tempo e elevou a projeção de inflação de 2026 para 5,6%."
+    },
+    {
+      "title": "EUA: inflação e Fed",
+      "detail": "CPI de outubro subiu 0,4% (núcleo 0,3%), acima do esperado; o mercado volta a precificar alta de juros do Fed em dezembro. Treasury de 10 anos perto de 5%. Hoje: pedidos de seguro-desemprego às 10h30 e vários dirigentes do Fed ao longo do dia."
+    },
+    {
+      "title": "Banco do Brasil decepciona",
+      "detail": "Lucro recorrente de R$ 1,3 bi no 3T26 (-66,5% em um ano), contra consenso perto de R$ 3 bi; ROAE de 2,8%. Guidance de lucro 2026 caiu de R$ 18-22 bi para R$ 9-11 bi e o de custo do crédito subiu para R$ 80-83 bi, por causa do agronegócio."
+    }
+  ],
+  "geopolitics": [
+    {
+      "title": "EUA-China",
+      "detail": "Wang Yi e Marco Rubio tiveram conversa descrita como positiva, cerca de uma semana antes do encontro de líderes da APEC em Shenzhen, onde Xi e Trump devem se reunir."
+    },
+    {
+      "title": "Nvidia e o setor de IA",
+      "detail": "Ações da Nvidia caem cerca de 7% a 8% fora do pregão com relatos de que o conselho avalia afastar o CEO Jensen Huang; decisão era esperada para hoje. Contágio sobre tecnologia global, com ASML -3% na Europa."
+    }
+  ],
+  "sectors": [
+    {
+      "sector": "Índice",
+      "bias": "negativo",
+      "confidence": "baixa",
+      "rationale": "Futuros americanos e Ásia em queda pela crise na Nvidia e BB pesando sobre bancos; a bolsa brasileira tem pouca tecnologia, o que limita o contágio.",
+      "against": [
+        "Europa em alta (Stoxx 600 +0,3% em recorde)",
+        "IPCA abaixo do esperado pode derrubar juros e ajudar a bolsa",
+        "Avanço do pacote fiscal no Senado"
+      ]
+    },
+    {
+      "sector": "Bancos",
+      "bias": "negativo",
+      "confidence": "media",
+      "rationale": "BB cortou o guidance de lucro de 2026 à metade, elevou o custo do crédito e reduziu dividendos ao mínimo obrigatório; o problema de crédito no agro pode reacender cautela com o setor.",
+      "against": [
+        "Itaú com ROE de 23,6% mostra que o problema é concentrado no BB",
+        "Parte da piora já era esperada pelo mercado"
+      ]
+    },
+    {
+      "sector": "Petróleo e gás",
+      "bias": "neutro",
+      "confidence": "baixa",
+      "rationale": "Brent perto da mínima em dois meses e sem direção na madrugada; Petrobras já ajustou ontem o balanço e os proventos abaixo do esperado.",
+      "against": [
+        "Nova queda do Brent abaixo de US$ 91"
+      ]
+    },
+    {
+      "sector": "Mineração",
+      "bias": "neutro",
+      "confidence": "baixa",
+      "rationale": "Sem leitura confiável de minério desde a noite; sinais de China mistos (diálogo com EUA positivo, Hang Seng em queda).",
+      "against": [
+        "Aversão a risco global"
+      ]
+    },
+    {
+      "sector": "Siderurgia",
+      "bias": "neutro",
+      "confidence": "baixa",
+      "rationale": "Segue o quadro de minério e China sem direção clara.",
+      "against": []
+    },
+    {
+      "sector": "Papel e celulose",
+      "bias": "positivo",
+      "confidence": "baixa",
+      "rationale": "Dólar global forte e real tendendo a enfraquecer favorecem exportadores como Suzano.",
+      "against": [
+        "Se o IPCA e o fiscal fortalecerem o real, o efeito se perde"
+      ]
+    },
+    {
+      "sector": "Proteínas",
+      "bias": "neutro",
+      "confidence": "baixa",
+      "rationale": "Dólar firme ajuda exportadores, mas a Minerva divulgou resultado ontem à noite e não encontramos números confirmados.",
+      "against": [
+        "Reação ao balanço da Minerva"
+      ]
+    },
+    {
+      "sector": "Consumo e varejo",
+      "bias": "neutro",
+      "confidence": "baixa",
+      "rationale": "Varejistas subiram forte ontem com o alívio fiscal e nos juros; hoje dependem do IPCA, já que Selic alta por mais tempo pesa sobre o setor.",
+      "against": [
+        "IPCA acima do esperado",
+        "Realização após a alta de ontem"
+      ]
+    },
+    {
+      "sector": "Construção civil",
+      "bias": "neutro",
+      "confidence": "baixa",
+      "rationale": "Sensível a juros: IPCA às 9h define o rumo; Cyrela divulga resultado após o fechamento.",
+      "against": [
+        "Treasuries em alta pressionam a curva"
+      ]
+    },
+    {
+      "sector": "Energia elétrica",
+      "bias": "neutro",
+      "confidence": "baixa",
+      "rationale": "Setor sensível a juros, sem gatilho próprio além dos balanços (Equatorial ontem, Cemig hoje).",
+      "against": []
+    },
+    {
+      "sector": "Serviços financeiros",
+      "bias": "neutro",
+      "confidence": "baixa",
+      "rationale": "B3 divulga resultado após o fechamento; aversão a risco pode reduzir volumes.",
+      "against": []
+    }
+  ],
+  "assets": [
+    {
+      "ticker": "BBAS3",
+      "bias": "negativo",
+      "note": "Lucro recorrente de R$ 1,3 bi no 3T26, bem abaixo do consenso; guidance cortado à metade e dividendos no mínimo obrigatório. Teleconferência às 9h."
+    },
+    {
+      "ticker": "PETR4",
+      "bias": "neutro",
+      "note": "Caiu 3,11% ontem com balanço e proventos abaixo do esperado; Brent sem direção."
+    },
+    {
+      "ticker": "MGLU3",
+      "bias": "neutro",
+      "note": "Subiu 7,66% ontem; risco de realização se o IPCA vier pior."
+    },
+    {
+      "ticker": "SUZB3",
+      "bias": "positivo",
+      "note": "Dólar global forte favorece exportadora."
+    }
+  ],
+  "events": [
+    {
+      "date": "2026-11-11",
+      "title": "Resultados do 3T26 divulgados após o fechamento de ontem: Banco do Brasil, Equatorial e Minerva",
+      "impact": "alto",
+      "kind": "resultado",
+      "tickers": [
+        "BBAS3",
+        "EQTL3",
+        "BEEF3"
+      ]
+    },
+    {
+      "date": "2026-11-12",
+      "time": "09:00",
+      "title": "Brasil: IPCA de outubro (projeções de 0,21% a 0,29% no mês)",
+      "impact": "alto",
+      "kind": "indicador"
+    },
+    {
+      "date": "2026-11-12",
+      "time": "09:00",
+      "title": "Teleconferência de resultados do Banco do Brasil",
+      "impact": "medio",
+      "kind": "resultado",
+      "tickers": [
+        "BBAS3"
+      ]
+    },
+    {
+      "date": "2026-11-12",
+      "time": "10:30",
+      "title": "EUA: pedidos semanais de seguro-desemprego; fala de Beth Hammack (Fed)",
+      "impact": "medio",
+      "kind": "indicador"
+    },
+    {
+      "date": "2026-11-12",
+      "time": "12:00",
+      "title": "Michael Barr (Fed) fala",
+      "impact": "baixo",
+      "kind": "politica"
+    },
+    {
+      "date": "2026-11-12",
+      "time": "13:15",
+      "title": "Austan Goolsbee (Fed) fala",
+      "impact": "baixo",
+      "kind": "politica"
+    },
+    {
+      "date": "2026-11-12",
+      "time": "15:10",
+      "title": "Mary Daly (Fed) fala; Jeff Schmid às 15h30",
+      "impact": "baixo",
+      "kind": "politica"
+    },
+    {
+      "date": "2026-11-12",
+      "title": "Senado: Alcolumbre decide com líderes se vota o projeto de ajuste fiscal",
+      "impact": "medio",
+      "kind": "politica"
+    },
+    {
+      "date": "2026-11-12",
+      "title": "Nvidia: conselho pode decidir hoje sobre o futuro do CEO",
+      "impact": "medio",
+      "kind": "outro"
+    },
+    {
+      "date": "2026-11-12",
+      "title": "Resultados do 3T26 após o fechamento: B3, Cemig e Cyrela",
+      "impact": "alto",
+      "kind": "resultado",
+      "tickers": [
+        "B3SA3",
+        "CMIG4",
+        "CYRE3"
+      ]
+    },
+    {
+      "date": "2026-11-13",
+      "title": "Resultado do 3T26: Cosan",
+      "impact": "medio",
+      "kind": "resultado",
+      "tickers": [
+        "CSAN3"
+      ]
+    },
+    {
+      "date": "2026-11-13",
+      "title": "EUA: inflação ao produtor (PPI)",
+      "impact": "medio",
+      "kind": "indicador"
+    },
+    {
+      "date": "2026-11-17",
+      "title": "Resultado trimestral da Nvidia",
+      "impact": "medio",
+      "kind": "outro"
+    }
+  ],
+  "rates": {
+    "asOf": "Fechamento de 11/11 (fim da tarde)",
+    "items": [
+      {
+        "contract": "DI1F28",
+        "rate": 14.17,
+        "change": -0.042
+      },
+      {
+        "contract": "DI1F35",
+        "rate": 15.0,
+        "change": -0.05
+      }
+    ]
+  },
+  "opening": [
+    {
+      "contract": "WIN",
+      "bias": "baixa",
+      "confidence": "baixa",
+      "drivers": [
+        "Futuros americanos em queda desde a noite: Nasdaq -0,8% a -1% e S&P 500 -0,4% a -0,5% (Dow estável), às 4h59 de Nova York",
+        "Nvidia cai cerca de 7% a 8% fora do pregão com a crise no comando",
+        "Ásia em queda: Hang Seng -1,2%, Nikkei -0,7%, Kospi -0,6%",
+        "Banco do Brasil divulgou após o fechamento lucro de R$ 1,3 bi e cortou o guidance à metade, pesando sobre bancos"
+      ],
+      "against": [
+        "Europa em alta: Stoxx 600 +0,3%, em recorde, no início do pregão",
+        "IPCA às 9h pode surpreender para baixo e derrubar juros",
+        "Bolsa brasileira tem pouco peso de tecnologia",
+        "Sem leitura do EWZ e dos ADRs na madrugada nas fontes"
+      ],
+      "note": "Maioria dos sinais externos negativa, mas EWZ sem confirmação e IPCA às 9h, logo na abertura; confiança baixa."
+    },
+    {
+      "contract": "WDO",
+      "bias": "alta",
+      "confidence": "baixa",
+      "drivers": [
+        "Dólar global firme perto da máxima em 19 meses; euro rompeu 1,11 desde a meia-noite e foi a 1,107",
+        "Treasury de 2 anos +3 pb, a 4,77%, e 10 anos perto de 5%, com o mercado precificando alta do Fed em dezembro",
+        "Aversão a risco com a queda das big techs nos futuros"
+      ],
+      "against": [
+        "Peso mexicano (18,61, -0,09%) e peso chileno (982,08, -0,22%) levemente mais fortes à 1h31",
+        "Pacote fiscal segue como alívio para o real",
+        "Brent estável, sem pressão de commodities",
+        "IPCA às 9h pode mudar a direção"
+      ],
+      "note": "Sinais globais pró-dólar, mas moedas pares do real estáveis; placar recente do WDO com confiança baixa é fraco, por isso confiança baixa."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Com pacote fiscal no radar, Ibovespa termina a quarta-feira no azul",
+      "url": "https://www.otempo.com.br/economia/2026/11/11/com-pacote-fiscal-no-radar-ibovespa-termina-a-quarta-feira-no-azul",
+      "publisher": "O Tempo",
+      "publishedAt": "2026-11-11"
+    },
+    {
+      "title": "Taxas dos DIs fecham em queda com plano fiscal do governo no foco",
+      "url": "https://www.infomoney.com.br/mercados/taxas-dos-dis-fecham-em-queda-com-plano-fiscal-do-governo-no-foco/",
+      "publisher": "InfoMoney/Reuters",
+      "publishedAt": "2026-11-11"
+    },
+    {
+      "title": "Pacote fiscal, reação ao balanço do BB, IPCA e mais destaques desta quinta-feira",
+      "url": "https://www.infomoney.com.br/mercados/pacote-fiscal-balanco-bb-ipca-agenda-12112026/",
+      "publisher": "InfoMoney",
+      "publishedAt": "2026-11-12"
+    },
+    {
+      "title": "Petrobras reage ao balanço e BB divulga resultado: o que move os mercados hoje",
+      "url": "https://exame.com/invest/mercados/petrobras-reage-ao-balanco-e-bb-divulga-resultado-o-que-move-os-mercados-hoje",
+      "publisher": "Exame",
+      "publishedAt": "2026-11-11"
+    },
+    {
+      "title": "Banco do Brasil (BBAS3): lucro tomba 66,5% e vai a R$ 1,3 bilhão no 3T26",
+      "url": "https://www.moneytimes.com.br/banco-do-brasil-bbas3-lucro-no-3t26-expectativas-rentabilidade-inadimplencia-ainda-preocupa-miql/",
+      "publisher": "Money Times",
+      "publishedAt": "2026-11-11"
+    },
+    {
+      "title": "Banco do Brasil (BBAS3) corta guidance de lucro pela metade",
+      "url": "https://www.seudinheiro.com/2026/empresas/banco-do-brasil-bbas3-corta-guidance-de-lucro-pela-metade-e-avisa-a-conta-do-agronegocio-ainda-nao-terminou-de-chegar-miql/",
+      "publisher": "Seu Dinheiro",
+      "publishedAt": "2026-11-11"
+    },
+    {
+      "title": "Banco do Brasil (BBAS3) deixa acionistas sem dividendos no trimestre",
+      "url": "https://www.moneytimes.com.br/banco-do-brasil-bbas3-deixa-acionistas-sem-dividendos-no-trimestre-e-derruba-lucro-distribuido-para-minimo-obrigatorio/",
+      "publisher": "Money Times",
+      "publishedAt": "2026-11-11"
+    },
+    {
+      "title": "Nvidia Leadership Crisis Drags on U.S. Stock Futures, Pressures AI Trade",
+      "url": "https://www.marketscreener.com/news/nvidia-leadership-crisis-drags-on-u-s-stock-futures-pressures-ai-trade-update-ce785ed8da8afe27",
+      "publisher": "MarketScreener/Dow Jones",
+      "publishedAt": "2026-11-12"
+    },
+    {
+      "title": "Market Quick Take - Nvidia stumble weighs on sentiment",
+      "url": "https://www.home.saxo/en-mena/content/articles/macro/market-quick-take---nvidia-stumble-weighs-on-sentiment---12-november-2026-12112026",
+      "publisher": "Saxo",
+      "publishedAt": "2026-11-12"
+    },
+    {
+      "title": "Destaques da manhã (12.11.2026)",
+      "url": "https://xtb.com/pt/analise-de-mercado/noticias-de-mercado/destaques-da-manha-12-11-2026",
+      "publisher": "XTB",
+      "publishedAt": "2026-11-12"
+    },
+    {
+      "title": "Latin American Pulse for Thursday, November 12, 2026",
+      "url": "https://www.riotimesonline.com/latin-american-pulse-for-thursday-november-12-2026/",
+      "publisher": "The Rio Times",
+      "publishedAt": "2026-11-12"
+    },
+    {
+      "title": "Confira o calendário de resultados do 3º trimestre de 2026",
+      "url": "https://www.infomoney.com.br/mercados/calendario-de-resultados-terceiro-trimestre-2026-da-bolsa-brasileira/",
+      "publisher": "InfoMoney"
+    }
+  ]
+}
