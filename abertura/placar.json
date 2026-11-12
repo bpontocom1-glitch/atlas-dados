@@ -1,14 +1,14 @@
 {
  "version": 1,
- "generatedAt": "2026-11-11T17:25:23Z",
+ "generatedAt": "2026-11-12T04:11:06Z",
  "summary": {
   "WIN": {
-   "n": 6,
+   "n": 7,
    "byConfidence": {
     "baixa": {
-     "n": 5,
-     "openHits": 3,
-     "dayHits": 2
+     "n": 6,
+     "openHits": 4,
+     "dayHits": 3
     },
     "media": {
      "n": 1,
@@ -18,10 +18,10 @@
    }
   },
   "WDO": {
-   "n": 6,
+   "n": 7,
    "byConfidence": {
     "baixa": {
-     "n": 6,
+     "n": 7,
      "openHits": 2,
      "dayHits": 2
     }
@@ -29,6 +29,19 @@
   }
  },
  "recentMisses": [
+  {
+   "date": "2026-11-11",
+   "contract": "WDO",
+   "bias": "neutro",
+   "confidence": "baixa",
+   "opened": "baixa",
+   "day": "baixa",
+   "drivers": [
+    "A favor de alta: índice DXY +0,23% (102,37) nesta manhã",
+    "A favor de baixa: Brent em alta (+0,6% a +1,2%) e bolsas globais positivas tendem a favorecer o real",
+    "Neutro: peso mexicano praticamente estável (18,62 por dólar, +0,02%)"
+   ]
+  },
   {
    "date": "2026-11-10",
    "contract": "WIN",
