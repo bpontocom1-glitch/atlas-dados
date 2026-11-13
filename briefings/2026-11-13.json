@@ -1,0 +1,524 @@
+{
+  "version": 1,
+  "date": "2026-11-13",
+  "generatedAt": "2026-11-13T10:45:36Z",
+  "edition": "abertura",
+  "summary": "Viés geral do dia: neutro, com leve inclinação negativa para ativos sensíveis a juros. O pregão de ontem já precificou o tombo do Banco do Brasil, o dólar a R$ 5,65 (maior nível em 17 meses) e a disparada dos juros longos (DI1F31 +0,23 pp, a 15,10%). Depois do fechamento, o Senado aprovou o texto-base do ajuste fiscal por 45 a 31, mas os destaques ficaram para terça (17) e o mercado vê o pacote como insuficiente para a dívida. Na madrugada, os sinais externos estão mistos: índice do dólar estável (103,12), Treasuries de 2 e 10 anos nas máximas em semanas (4,89% e 5,14%), futuros de Nova York perto da estabilidade e Brent firme perto de US$ 96. Viés de abertura neutro para WIN e WDO, com confiança baixa. Principal gatilho: PPI dos EUA às 10h30, logo depois da fala de Galípolo (10h20), que pode reforçar as apostas de alta do Fed em dezembro; às 9h sai o varejo de setembro. Destaque positivo para exportadores (papel e celulose, bens de capital) com o dólar alto e para a B3 após resultado; negativo para construção, varejo e locadoras com juros longos em alta.",
+  "factors": [
+    {
+      "factor": "juros",
+      "direction": "alta",
+      "comment": "Ontem os DIs subiram forte apesar do IPCA de outubro abaixo do esperado (0,14%): DI1F29 a 14,76% (+0,207 pp) e DI1F31 a 15,10% (+0,232 pp), com aversão a risco externa, Treasury de 10 anos acima de 5,1% e frustração com o alcance do pacote fiscal. Nesta manhã o Treasury de 2 anos está em 4,89% e o de 10 anos em 5,14%, máximas em semanas."
+    },
+    {
+      "factor": "dolar",
+      "direction": "alta",
+      "comment": "Dólar à vista fechou ontem a R$ 5,6507 (+1,58%), maior nível em 17 meses, e o contrato de dezembro a R$ 5,6695 (+1,20%). Na madrugada o índice do dólar está praticamente estável (103,12, +0,04%), a caminho do maior ganho semanal em mais de um mês."
+    },
+    {
+      "factor": "petroleo",
+      "direction": "alta",
+      "comment": "Brent subiu mais de 3% ontem, para cerca de US$ 95,8, com notícias de que o comando militar dos EUA pediu a Israel e países do Golfo que se preparassem para possível retomada da guerra com o Irã; nesta manhã sobe 0,34%, a US$ 96,07."
+    },
+    {
+      "factor": "minerio",
+      "direction": "incerto",
+      "comment": "Não encontramos cotação confiável do minério em Dalian nesta madrugada; a única referência (Rio Times) mostra preço sem variação."
+    },
+    {
+      "factor": "china",
+      "direction": "incerto",
+      "comment": "Hang Seng cai cerca de 1% a 1,5% e Xangai oscila perto da estabilidade; os EUA preparam restrições mais duras à exportação de chips antes do encontro Trump-Xi na APEC, em 18 e 19 de novembro."
+    },
+    {
+      "factor": "risco-fiscal",
+      "direction": "incerto",
+      "comment": "Senado aprovou o texto-base do ajuste fiscal (45 a 31) com impacto de até R$ 60 bi em 2027 e teto de crescimento de gastos de 2%; os destaques serão votados na terça (17). Analistas avaliam que as medidas ajudam a meta, mas não freiam a alta da dívida/PIB."
+    }
+  ],
+  "macro": [
+    {
+      "title": "Fechamento de quinta (12/11)",
+      "detail": "Ibovespa recuou cerca de 0,4%, a 171.324 pontos (O Repórter registra 170.680, -0,80%; as fontes divergem). Dólar subiu 1,58%, a R$ 5,6507, maior nível em 17 meses. Banco do Brasil caiu 8,35% (R$ 15,48) após o balanço; CSN caiu 6,42%. Petrobras subiu 2,64%, Suzano 4,16% e Azzas 9,95%."
+    },
+    {
+      "title": "Juros futuros em forte alta",
+      "detail": "DI1F28 a 14,29% (+0,111 pp), DI1F29 a 14,76% (+0,207 pp) e DI1F31 a 15,10% (+0,232 pp) no fechamento, com a curva ignorando o IPCA benigno e seguindo Treasuries, petróleo e o ceticismo com o pacote fiscal. O prefixado 2037 do Tesouro chegou a 15,27%."
+    },
+    {
+      "title": "Ajuste fiscal: texto-base aprovado no Senado",
+      "detail": "Placar de 45 a 31 na noite de quinta. O projeto corta 10% de benefícios fiscais, limita o uso de créditos tributários, fixa em 2% o teto de crescimento das despesas e corta repasses a estados e municípios; impacto estimado de R$ 50 bi a R$ 60 bi em 2027, sem mudar as metas de superávit. Destaques ficam para terça (17)."
+    },
+    {
+      "title": "Resultados de ontem à noite",
+      "detail": "B3: lucro recorrente de cerca de R$ 1,4 bi no 3T26 (+10% em um ano), receita total de R$ 3,05 bi (+11,1%) e volume médio diário em ações de R$ 28,6 bi (+26%). Cyrela: lucro de R$ 481 mi (-21%), receita de R$ 2,38 bi (+12%), vendas líquidas de R$ 2,12 bi (-14%) e lançamentos 16% menores. Cemig também divulgou, mas não confirmamos os números."
+    },
+    {
+      "title": "EUA: Fed e inflação",
+      "detail": "Mercado precifica alta de 25 pb do Fed em 9 de dezembro com probabilidade elevada; a chance de 50 pb subiu para 14,5%. John Williams (Fed de NY) disse que a inflação segue alta. PPI de outubro sai às 10h30, com consenso de +0,4% no mês e 6,6% em 12 meses."
+    },
+    {
+      "title": "Agenda doméstica",
+      "detail": "Vendas no varejo (PMC) de setembro às 9h, com projeção de -0,3% no mês. Galípolo fala no Barclays Day às 10h20. Selic em 13,75%."
+    }
+  ],
+  "geopolitics": [
+    {
+      "title": "EUA-Irã",
+      "detail": "Trump disse que os EUA não precisam de acordo com o Irã; a Guarda Revolucionária alegou ter destruído um radar americano no Bahrein, sem confirmação. O risco de retomada do conflito sustenta o Brent perto de US$ 96."
+    },
+    {
+      "title": "EUA-China e chips",
+      "detail": "Washington prepara restrições mais duras à exportação de chips; encontro Trump-Xi na APEC, em Shenzhen, previsto para 18 e 19 de novembro."
+    },
+    {
+      "title": "Nvidia e setor de IA",
+      "detail": "Com a saída de Jensen Huang, a Nvidia caiu 4,3% na quinta e 11% na semana; resultado em 17/11. O IPO da Anthropic tem precificação prevista para 18/11. Bitcoin caiu abaixo de US$ 70 mil."
+    },
+    {
+      "title": "Japão",
+      "detail": "Iene passou de 160 por dólar pela primeira vez desde setembro, e a ministra das Finanças alertou contra movimentos bruscos, elevando o risco de intervenção."
+    }
+  ],
+  "sectors": [
+    {
+      "sector": "Índice",
+      "bias": "neutro",
+      "confidence": "baixa",
+      "rationale": "Exterior misto na madrugada (futuros de Nova York perto da estabilidade, Ásia dividida, Europa estável) e aprovação do texto-base fiscal sem convencer o mercado. Juros longos altos seguem pesando, mas Petrobras e exportadoras ajudam.",
+      "against": [
+        "PPI dos EUA forte às 10h30 pode reforçar alta do Fed e derrubar a bolsa",
+        "Leitura positiva da aprovação do texto-base pode aliviar juros e dólar"
+      ]
+    },
+    {
+      "sector": "Serviços financeiros",
+      "bias": "positivo",
+      "confidence": "baixa",
+      "rationale": "B3 mostrou lucro recorrente de cerca de R$ 1,4 bi (+10%) e receita +11%, com volume médio em ações +26% no trimestre; a volatilidade recente tende a manter os volumes altos.",
+      "against": [
+        "Fontes divergem sobre o lucro da B3 (recorrente x contábil)",
+        "Bolsa em queda e juros altos afastam investidor pessoa física"
+      ]
+    },
+    {
+      "sector": "Bancos",
+      "bias": "neutro",
+      "confidence": "baixa",
+      "rationale": "O tombo do Banco do Brasil (-8,35%) já foi precificado ontem; analistas ainda veem risco de novas revisões no BB, mas Itaú e Bradesco não têm notícia nova.",
+      "against": [
+        "Nova rodada de rebaixamentos do BB pode contaminar o setor",
+        "Juros longos em alta pesam sobre a marcação dos ativos"
+      ]
+    },
+    {
+      "sector": "Petróleo e gás",
+      "bias": "positivo",
+      "confidence": "baixa",
+      "rationale": "Brent firme perto de US$ 96 (+0,34% nesta manhã), após subir mais de 3% ontem com o risco de nova guerra com o Irã; dólar alto também melhora a receita em reais.",
+      "against": [
+        "Dados indicam excedente de oferta global de petróleo",
+        "Notícia de distensão com o Irã pode derrubar o Brent rapidamente",
+        "Petrobras já subiu 2,64% ontem"
+      ]
+    },
+    {
+      "sector": "Mineração",
+      "bias": "neutro",
+      "confidence": "baixa",
+      "rationale": "Sem cotação confiável do minério nesta madrugada; Hang Seng em queda e ameaça de novas restrições americanas à China pesam, mas o dólar alto ajuda a Vale.",
+      "against": [
+        "Queda do minério em Dalian",
+        "Piora das relações EUA-China antes da APEC"
+      ]
+    },
+    {
+      "sector": "Siderurgia",
+      "bias": "neutro",
+      "confidence": "baixa",
+      "rationale": "Segue minério e China sem direção clara; CSN caiu 6,42% ontem. Dólar alto favorece exportação, mas juros altos pesam sobre a demanda doméstica e sobre as empresas endividadas.",
+      "against": [
+        "Aversão a risco com a China"
+      ]
+    },
+    {
+      "sector": "Papel e celulose",
+      "bias": "positivo",
+      "confidence": "baixa",
+      "rationale": "Dólar no maior nível em 17 meses (R$ 5,65) aumenta a receita em reais de exportadoras como a Suzano, que subiu 4,16% ontem.",
+      "against": [
+        "Alta já foi forte ontem; risco de realização",
+        "Recuo do dólar se a votação fiscal for bem recebida"
+      ]
+    },
+    {
+      "sector": "Bens de capital",
+      "bias": "positivo",
+      "confidence": "baixa",
+      "rationale": "WEG e Embraer têm boa parte da receita em dólar; o câmbio a R$ 5,65 favorece o resultado em reais.",
+      "against": [
+        "Juros longos em alta pesam sobre ações de crescimento com múltiplo alto",
+        "Desaceleração industrial nos EUA e na Europa"
+      ]
+    },
+    {
+      "sector": "Consumo e varejo",
+      "bias": "negativo",
+      "confidence": "baixa",
+      "rationale": "Juros longos subiram mais de 0,2 pp ontem e o varejo de setembro, às 9h, tem projeção de queda de 0,3% no mês; crédito mais caro e dólar alto pesam sobre o consumo.",
+      "against": [
+        "IPCA benigno e núcleos baixos podem voltar ao foco",
+        "Varejo acima do esperado às 9h"
+      ]
+    },
+    {
+      "sector": "Construção civil",
+      "bias": "negativo",
+      "confidence": "baixa",
+      "rationale": "Cyrela teve lucro 21% menor, vendas líquidas -14% e lançamentos -16% no 3T26; juros longos em forte alta encarecem o financiamento imobiliário.",
+      "against": [
+        "Margem bruta da Cyrela subiu para 34% e a dívida caiu",
+        "Alívio nos juros longos se o ajuste fiscal for bem recebido"
+      ]
+    },
+    {
+      "sector": "Locação de veículos",
+      "bias": "negativo",
+      "confidence": "baixa",
+      "rationale": "Setor muito endividado e sensível a juros; a alta dos DIs longos ontem pesa sobre o custo de capital das locadoras.",
+      "against": [
+        "Queda dos juros longos com melhora fiscal ou Treasuries"
+      ]
+    },
+    {
+      "sector": "Energia elétrica",
+      "bias": "neutro",
+      "confidence": "baixa",
+      "rationale": "Juros longos em alta pesam sobre elétricas, mas são ativos defensivos; Cemig divulgou resultado ontem e não confirmamos os números.",
+      "against": [
+        "Reação ao balanço da Cemig",
+        "Continuação da alta dos juros longos"
+      ]
+    },
+    {
+      "sector": "Saneamento",
+      "bias": "neutro",
+      "confidence": "baixa",
+      "rationale": "Sem notícia nova da Sabesp; juros longos em alta pesam, mas o perfil defensivo compensa.",
+      "against": [
+        "Juros longos em alta"
+      ]
+    },
+    {
+      "sector": "Combustíveis e logística",
+      "bias": "neutro",
+      "confidence": "baixa",
+      "rationale": "Cosan divulga resultado do 3T26 hoje; petróleo caro encarece combustíveis e frete, e os juros altos pesam sobre empresas alavancadas.",
+      "against": [
+        "Reação forte ao balanço da Cosan em qualquer direção"
+      ]
+    },
+    {
+      "sector": "Proteínas",
+      "bias": "neutro",
+      "confidence": "baixa",
+      "rationale": "Dólar alto favorece exportadores como a Minerva, mas sem notícia nova confirmada desde o balanço.",
+      "against": [
+        "Recuo do dólar"
+      ]
+    },
+    {
+      "sector": "Bebidas",
+      "bias": "neutro",
+      "confidence": "baixa",
+      "rationale": "Sem notícia nova da Ambev; dólar alto encarece insumos cotados em moeda americana.",
+      "against": []
+    }
+  ],
+  "assets": [
+    {
+      "ticker": "B3SA3",
+      "bias": "positivo",
+      "note": "Lucro recorrente de cerca de R$ 1,4 bi no 3T26 (+10%), receita +11% e volume médio em ações +26%."
+    },
+    {
+      "ticker": "CYRE3",
+      "bias": "negativo",
+      "note": "Lucro de R$ 481 mi no 3T26 (-21%), vendas líquidas -14% e lançamentos -16%; juros longos em alta."
+    },
+    {
+      "ticker": "BBAS3",
+      "bias": "neutro",
+      "note": "Caiu 8,35% ontem, a R$ 15,48, após lucro recorrente 66,5% menor e corte de guidance; risco de novas revisões, mas parte do choque já está no preço."
+    },
+    {
+      "ticker": "SUZB3",
+      "bias": "positivo",
+      "note": "Subiu 4,16% ontem com o dólar no maior nível em 17 meses."
+    },
+    {
+      "ticker": "PETR4",
+      "bias": "positivo",
+      "note": "Subiu 2,64% ontem com o Brent; petróleo segue firme perto de US$ 96 nesta manhã."
+    },
+    {
+      "ticker": "CSAN3",
+      "bias": "neutro",
+      "note": "Divulga resultado do 3T26 hoje; Atlas suspende sugestões."
+    },
+    {
+      "ticker": "CMIG4",
+      "bias": "neutro",
+      "note": "Divulgou resultado do 3T26 ontem; números não confirmados nas fontes."
+    }
+  ],
+  "events": [
+    {
+      "date": "2026-11-12",
+      "title": "Resultados do 3T26 divulgados após o fechamento de ontem: B3, Cemig e Cyrela",
+      "impact": "alto",
+      "kind": "resultado",
+      "tickers": [
+        "B3SA3",
+        "CMIG4",
+        "CYRE3"
+      ]
+    },
+    {
+      "date": "2026-11-13",
+      "time": "07:00",
+      "title": "Zona do euro: PIB do 3º trimestre",
+      "impact": "baixo",
+      "kind": "indicador"
+    },
+    {
+      "date": "2026-11-13",
+      "time": "09:00",
+      "title": "Brasil: vendas no varejo (PMC) de setembro; projeção de -0,3% no mês",
+      "impact": "medio",
+      "kind": "indicador"
+    },
+    {
+      "date": "2026-11-13",
+      "time": "10:20",
+      "title": "Gabriel Galípolo (presidente do BC) fala no Barclays Day",
+      "impact": "medio",
+      "kind": "politica"
+    },
+    {
+      "date": "2026-11-13",
+      "time": "10:30",
+      "title": "EUA: inflação ao produtor (PPI) de outubro; consenso +0,4% no mês",
+      "impact": "alto",
+      "kind": "indicador"
+    },
+    {
+      "date": "2026-11-13",
+      "time": "12:50",
+      "title": "Michelle Bowman (Fed) fala",
+      "impact": "baixo",
+      "kind": "politica"
+    },
+    {
+      "date": "2026-11-13",
+      "time": "14:00",
+      "title": "Mary Daly (Fed) fala",
+      "impact": "baixo",
+      "kind": "politica"
+    },
+    {
+      "date": "2026-11-13",
+      "time": "21:00",
+      "title": "Philip Jefferson (Fed) fala",
+      "impact": "baixo",
+      "kind": "politica"
+    },
+    {
+      "date": "2026-11-13",
+      "title": "Resultado do 3T26: Cosan",
+      "impact": "medio",
+      "kind": "resultado",
+      "tickers": [
+        "CSAN3"
+      ]
+    },
+    {
+      "date": "2026-11-17",
+      "title": "Senado: votação dos destaques do projeto de ajuste fiscal",
+      "impact": "alto",
+      "kind": "politica"
+    },
+    {
+      "date": "2026-11-17",
+      "title": "Resultado trimestral da Nvidia",
+      "impact": "medio",
+      "kind": "outro"
+    },
+    {
+      "date": "2026-11-18",
+      "title": "Encontro Trump-Xi na APEC, em Shenzhen (18 e 19/11)",
+      "impact": "medio",
+      "kind": "politica"
+    }
+  ],
+  "rates": {
+    "asOf": "Fechamento de 12/11",
+    "items": [
+      {
+        "contract": "DI1F28",
+        "rate": 14.29,
+        "change": 0.111
+      },
+      {
+        "contract": "DI1F29",
+        "rate": 14.76,
+        "change": 0.207
+      },
+      {
+        "contract": "DI1F31",
+        "rate": 15.1,
+        "change": 0.232
+      }
+    ]
+  },
+  "opening": [
+    {
+      "contract": "WIN",
+      "bias": "neutro",
+      "confidence": "baixa",
+      "drivers": [
+        "A favor de alta: Senado aprovou o texto-base do ajuste fiscal (45 a 31) depois do fechamento de ontem",
+        "A favor de alta: Brent +0,34%, a US$ 96,07, nesta manhã (ajuda Petrobras); Nikkei +0,8%",
+        "A favor de baixa: futuros de Nasdaq -0,32% e S&P 500 -0,16% (XTB, 7h13 de Lisboa); outras leituras mostram S&P levemente positivo",
+        "A favor de baixa: Hang Seng -1% a -1,55%; Treasuries de 2 e 10 anos em 4,89% e 5,14%, máximas em semanas"
+      ],
+      "against": [
+        "PPI dos EUA às 10h30 e Galípolo às 10h20, dentro dos primeiros 90 minutos",
+        "Varejo de setembro às 9h",
+        "Sem leitura do EWZ e dos ADRs no after-market e no pré-mercado nas fontes"
+      ],
+      "note": "Indicadores divididos e evento de impacto alto cedo; placar recente do WIN com confiança baixa: 5 de 7 acertos na abertura."
+    },
+    {
+      "contract": "WDO",
+      "bias": "neutro",
+      "confidence": "baixa",
+      "drivers": [
+        "Neutro: índice do dólar praticamente estável na madrugada (103,12, +0,04%) frente a 103,16 no fechamento de ontem",
+        "A favor de alta: Treasury de 2 anos a 4,89% e de 10 anos a 5,14%, máximas em semanas, com apostas de alta do Fed em dezembro",
+        "A favor de baixa: aprovação do texto-base do ajuste fiscal no Senado na noite de ontem",
+        "A favor de baixa: Brent em leve alta (+0,34%), favorável ao real"
+      ],
+      "against": [
+        "Peso mexicano fechou ontem a cerca de 18,60 e não há leitura dele nesta manhã nas fontes",
+        "Mercado considera o pacote insuficiente para a dívida; destaques só na terça",
+        "PPI dos EUA às 10h30 pode mover o dólar global"
+      ],
+      "note": "Sinais da madrugada divididos; placar do WDO com confiança baixa fraco (3 de 8 na abertura), por isso neutro."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Dólar a R$ 5,65 é o maior valor em 17 meses, e Ibovespa cai",
+      "url": "https://tvsimbrasil.com.br/brasil/economia/noticia/2026/11/12/dolar-sobe-565-maior-nivel-17-meses-ibovespa-cai",
+      "publisher": "TV Sim Brasil",
+      "publishedAt": "2026-11-12"
+    },
+    {
+      "title": "Dólar avança 1,61% e fecha a R$ 5,651; Ibovespa recua",
+      "url": "https://oreporter.com/economia/dolar-sobe-5-651-pacote-fiscal-ipca-ibovespa-fecha-queda-12-novembro",
+      "publisher": "O Repórter",
+      "publishedAt": "2026-11-12"
+    },
+    {
+      "title": "São Paulo Daily Brief — Friday, November 13, 2026",
+      "url": "https://www.riotimesonline.com/sao-paulo-daily-brief-for-friday-november-13-2026/",
+      "publisher": "The Rio Times",
+      "publishedAt": "2026-11-13"
+    },
+    {
+      "title": "Global Economy Briefing — November 13, 2026",
+      "url": "https://www.riotimesonline.com/global-economy-briefing-november-13-2026/",
+      "publisher": "The Rio Times",
+      "publishedAt": "2026-11-13"
+    },
+    {
+      "title": "Taxas de juros ignoram IPCA abaixo do previsto e disparam com aversão a risco externa",
+      "url": "https://www.dgabc.com.br/Noticia/4368486/taxas-de-juros-ignoram-ipca-abaixo-do-previsto-e-disparam-com-aversao-a-risco-externa",
+      "publisher": "Diário do Grande ABC",
+      "publishedAt": "2026-11-12"
+    },
+    {
+      "title": "DI sobe forte nesta quinta com mercado frustrado pelo pacote fiscal",
+      "url": "https://bpmoney.com.br/mercado/di-sobe-frustracao-mercado-pacote-fiscal-governo/",
+      "publisher": "BPMoney",
+      "publishedAt": "2026-11-12"
+    },
+    {
+      "title": "Tesouro Direto hoje: Prefixado 2037 dispara a 15,27% após IPCA",
+      "url": "https://euqueroinvestir.com/renda-fixa/tesouro-direto-hoje-prefixado-2037-dispara-1527",
+      "publisher": "Eu Quero Investir",
+      "publishedAt": "2026-11-12"
+    },
+    {
+      "title": "Senado aprova texto-base de projeto de ajuste fiscal para diminuir gastos em até R$ 60 bilhões",
+      "url": "https://www.brasildefato.com.br/2026/11/12/senado-aprova-texto-base-de-projeto-de-ajuste-fiscal-para-diminuir-gastos-em-ate-r-60-bilhoes/",
+      "publisher": "Brasil de Fato",
+      "publishedAt": "2026-11-12"
+    },
+    {
+      "title": "Mercado reage a texto do ajuste fiscal no Congresso e balanços",
+      "url": "https://www.moneytimes.com.br/mercado-reage-a-texto-do-ajuste-fiscal-no-congresso-e-balancos-ibovespa-em-dolar-sobe-nesta-sexta-feira-13-rens/",
+      "publisher": "Money Times",
+      "publishedAt": "2026-11-13"
+    },
+    {
+      "title": "Varejo brasileiro, inflação ao produtor nos EUA e PIB europeu movimentam a sexta",
+      "url": "https://www.infomoney.com.br/mercados/varejo-brasileiro-inflacao-eua-pib-europa-agenda-13112026/",
+      "publisher": "InfoMoney",
+      "publishedAt": "2026-11-13"
+    },
+    {
+      "title": "Destaques da manhã 13/11: Nvidia afunda 11% e Jensen Huang abandona o cargo de CEO",
+      "url": "https://xtb.com/pt/analise-de-mercado/noticias-de-mercado/destaques-da-manha-13-11-26",
+      "publisher": "XTB",
+      "publishedAt": "2026-11-13"
+    },
+    {
+      "title": "Futuros de Wall St oscilam antes de dados de inflação nos EUA e com pressão sobre techs",
+      "url": "https://www.bloomberglinea.com.br/mercados/futuros-de-wall-st-oscilam-antes-de-dados-de-inflacao-nos-eua-e-com-pressao-sobre-techs/",
+      "publisher": "Bloomberg Línea",
+      "publishedAt": "2026-11-13"
+    },
+    {
+      "title": "Peso mexicano se debilita y así cotiza el dólar este viernes",
+      "url": "https://www.nmas.com.mx/economia/dolar/peso-mexicano-se-debilita-y-asi-cotiza-el-dolar-estadounidense-este-viernes-13-noviembre-2026/",
+      "publisher": "N+",
+      "publishedAt": "2026-11-13"
+    },
+    {
+      "title": "B3 (B3SA3) lucra R$ 1,4 bilhão no 3º trimestre de 2026",
+      "url": "https://bpmoney.com.br/negocios/empresas-na-bolsa/b3-b3sa3-lucro-14-bilhao-terceiro-trimestre-2026/",
+      "publisher": "BPMoney",
+      "publishedAt": "2026-11-12"
+    },
+    {
+      "title": "Cyrela (CYRE3) lucra R$ 481 mi no 3T26, queda de 21%",
+      "url": "https://bpmoney.com.br/negocios/empresas-na-bolsa/cyrela-cyre3-lucro-481-milhoes-terceiro-trimestre-2026/",
+      "publisher": "BPMoney",
+      "publishedAt": "2026-11-12"
+    },
+    {
+      "title": "Calendário de resultados do 3T26",
+      "url": "https://oespecialista.safra.com.br/calendario-resultados-3t26/",
+      "publisher": "Safra",
+      "publishedAt": "2026-11-01"
+    },
+    {
+      "title": "Taxas dos DIs e Ibovespa ao vivo 12/11/2026",
+      "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-12112026/",
+      "publisher": "InfoMoney",
+      "publishedAt": "2026-11-12"
+    }
+  ]
+}
