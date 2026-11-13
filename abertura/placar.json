@@ -1,14 +1,14 @@
 {
  "version": 1,
- "generatedAt": "2026-11-12T17:43:40Z",
+ "generatedAt": "2026-11-13T03:34:18Z",
  "summary": {
   "WIN": {
-   "n": 7,
+   "n": 8,
    "byConfidence": {
     "baixa": {
-     "n": 6,
-     "openHits": 4,
-     "dayHits": 3
+     "n": 7,
+     "openHits": 5,
+     "dayHits": 4
     },
     "media": {
      "n": 1,
@@ -18,12 +18,12 @@
    }
   },
   "WDO": {
-   "n": 7,
+   "n": 8,
    "byConfidence": {
     "baixa": {
-     "n": 7,
-     "openHits": 2,
-     "dayHits": 2
+     "n": 8,
+     "openHits": 3,
+     "dayHits": 3
     }
    }
   }
