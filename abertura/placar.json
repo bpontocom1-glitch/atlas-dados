@@ -1,13 +1,13 @@
 {
  "version": 1,
- "generatedAt": "2026-11-13T17:21:51Z",
+ "generatedAt": "2026-11-14T03:32:07Z",
  "summary": {
   "WIN": {
-   "n": 8,
+   "n": 9,
    "byConfidence": {
     "baixa": {
-     "n": 7,
-     "openHits": 5,
+     "n": 8,
+     "openHits": 6,
      "dayHits": 4
     },
     "media": {
@@ -18,10 +18,10 @@
    }
   },
   "WDO": {
-   "n": 8,
+   "n": 9,
    "byConfidence": {
     "baixa": {
-     "n": 8,
+     "n": 9,
      "openHits": 3,
      "dayHits": 3
     }
@@ -29,6 +29,20 @@
   }
  },
  "recentMisses": [
+  {
+   "date": "2026-11-13",
+   "contract": "WDO",
+   "bias": "neutro",
+   "confidence": "baixa",
+   "opened": "baixa",
+   "day": "baixa",
+   "drivers": [
+    "Neutro: índice do dólar praticamente estável na madrugada (103,12, +0,04%) frente a 103,16 no fechamento de ontem",
+    "A favor de alta: Treasury de 2 anos a 4,89% e de 10 anos a 5,14%, máximas em semanas, com apostas de alta do Fed em dezembro",
+    "A favor de baixa: aprovação do texto-base do ajuste fiscal no Senado na noite de ontem",
+    "A favor de baixa: Brent em leve alta (+0,34%), favorável ao real"
+   ]
+  },
   {
    "date": "2026-11-11",
    "contract": "WDO",
