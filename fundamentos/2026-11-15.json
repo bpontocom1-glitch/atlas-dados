@@ -1,0 +1,675 @@
+{
+  "version": 1,
+  "generatedAt": "2026-11-15T12:34:33Z",
+  "companies": [
+    {
+      "ticker": "PETR4",
+      "period": "3T26",
+      "reportedAt": "2026-11-10",
+      "revenue": 169300,
+      "revenueYoyPct": 32.4,
+      "netIncome": 47900,
+      "netIncomeYoyPct": 67.9,
+      "ebitda": 94500,
+      "ebitdaYoyPct": 45.1,
+      "highlights": [
+        "Lucro e EBITDA são os ajustados (sem eventos exclusivos); o lucro contábil foi de R$ 39,7 bi, alta de 21,5% no ano.",
+        "Receita e geração de caixa bem maiores na comparação anual, com produção recorde; houve recuo frente ao 2T26."
+      ],
+      "sources": [
+        {
+          "title": "Petrobras registra alta no lucro líquido de 21,5% no 3º trimestre, para R$ 39,7 bilhões",
+          "url": "https://www.folhape.com.br/economia/petrobras-registra-alta-no-lucro-liquido-de-215-no-3o-trimestre/523519/",
+          "publisher": "Folha de Pernambuco (Estadão Conteúdo)",
+          "publishedAt": "2026-11-10"
+        },
+        {
+          "title": "Petrobras lucra R$ 39,8 bilhões no 3T26 e eleva projeção de produção para até 3,4 milhões de boed",
+          "url": "https://cenarioenergia.com.br/2026/11/11/petrobras-lucra-r-398-bilhoes-no-3t26-e-eleva-projecao-de-producao-para-ate-34-milhoes-de-boed/",
+          "publisher": "Cenário Energia",
+          "publishedAt": "2026-11-11"
+        }
+      ]
+    },
+    {
+      "ticker": "PRIO3",
+      "period": "3T26",
+      "reportedAt": "2026-11-04",
+      "revenueYoyPct": 146,
+      "netIncomeYoyPct": 468,
+      "ebitdaYoyPct": 235,
+      "netDebtToEbitda": 1.1,
+      "highlights": [
+        "Reporta em dólar: só variações e alavancagem registradas; EBITDA ajustado e lucro de US$ 521 mi (o contábil subiu 707%).",
+        "Produção recorde de cerca de 192 mil barris/dia e Brent mais alto explicam o salto, com custo de extração bem menor."
+      ],
+      "sources": [
+        {
+          "title": "PRIO registra lucro de US$ 521 milhões no terceiro trimestre de 2026, alta de 468% em um ano",
+          "url": "https://timesbrasil.com.br/brasil/prio-registra-lucro-de-us-521-milhoes-no-terceiro-trimestre-de-2026-alta-de-468-em-um-ano/",
+          "publisher": "Times Brasil (CNBC)",
+          "publishedAt": "2026-11-05"
+        },
+        {
+          "title": "PRIO (PRIO3): lucro salta 468% no 3T26 e chega a US$ 521 milhões",
+          "url": "https://euqueroinvestir.com/acoes/prio-prio3-lucro-468-3t26-521-milhoes",
+          "publisher": "Eu Quero Investir",
+          "publishedAt": "2026-11-04"
+        },
+        {
+          "title": "Lucro da Prio (PRIO3) explode 707% com produção recorde e Brent mais caro",
+          "url": "https://investidor10.com.br/noticias/lucro-da-prio-prio3-explode-707-com-producao-recorde-e-brent-mais-caro-123695/",
+          "publisher": "Investidor10",
+          "publishedAt": "2026-11-04"
+        }
+      ]
+    },
+    {
+      "ticker": "VALE3",
+      "period": "3T26",
+      "reportedAt": "2026-10-29",
+      "revenueYoyPct": 2,
+      "netIncomeYoyPct": -53,
+      "ebitdaYoyPct": -20,
+      "highlights": [
+        "Vale reporta em dólar: só as variações (base US$) foram registradas; lucro contábil de US$ 1,25 bi, abaixo do consenso.",
+        "Minério mais barato cortou o lucro pela metade; EBITDA proforma recuou 20% com receita estável."
+      ],
+      "sources": [
+        {
+          "title": "Lucro líquido da Vale (VALE3) cai 53% no 3T26, para US$ 1,25 bilhão, abaixo das expectativas do mercado",
+          "url": "https://www.moneytimes.com.br/lucro-liquido-da-vale-vale3-cai-54-no-3t26-para-us-125-bilhao-abaixo-das-expectativas-do-mercado-bdap/",
+          "publisher": "Money Times",
+          "publishedAt": "2026-10-29"
+        },
+        {
+          "title": "Vale (VALE3) tem lucro líquido de US$ 1,25 bi no 3º tri, queda anual de 53%",
+          "url": "https://www.infomoney.com.br/mercados/vale-vale3-balanco-3t26/",
+          "publisher": "InfoMoney",
+          "publishedAt": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "ticker": "GGBR4",
+      "period": "3T26",
+      "reportedAt": "2026-10-26",
+      "revenue": 18691,
+      "revenueYoyPct": 3.9,
+      "netIncome": 1523,
+      "netIncomeYoyPct": 39.7,
+      "ebitda": 3771,
+      "ebitdaYoyPct": 37.8,
+      "netDebtToEbitda": 0.58,
+      "highlights": [
+        "Lucro e EBITDA ajustados subiram quase 40%, puxados pela operação da América do Norte.",
+        "Brasil e América do Sul mais fracos e menor volume de aço limitaram a receita; alavancagem baixa."
+      ],
+      "sources": [
+        {
+          "title": "América do Norte puxa alta do lucro da Gerdau no 3T26",
+          "url": "https://euqueroinvestir.com/mercados/gerdau-balanco-3t26",
+          "publisher": "Eu Quero Investir",
+          "publishedAt": "2026-10-26"
+        },
+        {
+          "title": "Lucro da Gerdau (GGBR4) Cresce 43% e Chega a R$ 1,6 Bilhão no 3º Trimestre",
+          "url": "https://forbes.com.br/geral/2026/10/lucro-gerdau-terceiro-trimestre-2026/",
+          "publisher": "Forbes Brasil",
+          "publishedAt": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "ticker": "CSNA3",
+      "period": "3T26",
+      "reportedAt": "2026-11-12",
+      "revenue": 10490,
+      "revenueYoyPct": -11.1,
+      "netIncome": -1250,
+      "ebitda": 1880,
+      "ebitdaYoyPct": -43.5,
+      "netDebtToEbitda": 4.23,
+      "highlights": [
+        "Prejuízo de R$ 1,25 bi, revertendo o lucro de um ano antes; EBITDA é o ajustado e caiu mais de 40%.",
+        "Alavancagem subiu para cerca de 4,2 vezes, com dívida líquida perto de R$ 45 bi."
+      ],
+      "sources": [
+        {
+          "title": "CSN registra prejuízo de R$ 1,25 bilhão no terceiro trimestre e dívida líquida chega a R$ 44,9 bilhões",
+          "url": "https://timesbrasil.com.br/empresas-e-negocios/csn-registra-prejuizo-de-r-125-bilhao-no-terceiro-trimestre-e-divida-liquida-chega-a-r-449-bilhoes/",
+          "publisher": "Times Brasil (CNBC)",
+          "publishedAt": "2026-11-13"
+        }
+      ]
+    },
+    {
+      "ticker": "USIM5",
+      "period": "3T26",
+      "reportedAt": "2026-10-30",
+      "revenue": 6202,
+      "revenueYoyPct": -6,
+      "netIncome": 243,
+      "ebitda": 558,
+      "ebitdaYoyPct": 29,
+      "netDebtToEbitda": -0.2,
+      "highlights": [
+        "Lucro contábil reverteu o prejuízo bilionário do 3T25, o que distorce a comparação anual.",
+        "EBITDA ajustado subiu no ano, mas caiu frente ao 2T26 e o resultado ficou abaixo das estimativas; empresa tem caixa líquido."
+      ],
+      "sources": [
+        {
+          "title": "Usiminas atinge lucro de R$ 243 milhões e reverte prejuízo no 3T26",
+          "url": "https://euqueroinvestir.com/acoes/usiminas-atinge-lucro-de-r-243-milhoes-e-reverte-prejuizo-no-3t26",
+          "publisher": "Eu Quero Investir",
+          "publishedAt": "2026-10-30"
+        }
+      ]
+    },
+    {
+      "ticker": "WEGE3",
+      "period": "3T26",
+      "reportedAt": "2026-10-21",
+      "revenue": 10860,
+      "revenueYoyPct": 5.7,
+      "netIncome": 1670,
+      "netIncomeYoyPct": 0.9,
+      "ebitda": 2350,
+      "ebitdaYoyPct": 3.1,
+      "netMarginPct": 15.3,
+      "highlights": [
+        "Números contábeis (a WEG não divulga ajustado); lucro praticamente estável e um pouco abaixo do esperado.",
+        "Mercado externo chegou a recorde de 62,5% da receita; margem levemente menor; caixa líquido."
+      ],
+      "sources": [
+        {
+          "title": "WEG tem lucro de R$ 1,6 bilhão no 3º tri, e mercado externo chega a 62,5% da receita, recorde da empresa",
+          "url": "https://timesbrasil.com.br/empresas-e-negocios/weg-lucro-terceiro-trimestre-mercado-externo-recorde/",
+          "publisher": "Times Brasil",
+          "publishedAt": "2026-10-21"
+        },
+        {
+          "title": "WEG lucra R$ 1,67 bilhão no 3º trimestre, abaixo do que o mercado esperava",
+          "url": "https://bpmoney.com.br/negocios/empresas-na-bolsa/weg-wege3-lucro-167-bilhao-3-trimestre-2026/",
+          "publisher": "BP Money",
+          "publishedAt": "2026-10-21"
+        }
+      ]
+    },
+    {
+      "ticker": "ITUB4",
+      "period": "3T26",
+      "reportedAt": "2026-11-03",
+      "netIncome": 12617,
+      "roePct": 23.6,
+      "highlights": [
+        "Lucro recorrente gerencial de R$ 12,6 bi, sustentado pela margem financeira; as matérias divergem na variação anual (+6,2% ou +6,7%), por isso ela foi omitida.",
+        "Custo do crédito maior e inadimplência de 90 dias em 2,0% frearam o avanço; ROE recuou frente ao 2T26."
+      ],
+      "sources": [
+        {
+          "title": "Itaú Unibanco Tem Lucro Líquido Recorrente de R$12,6 Bi no 3º Tri",
+          "url": "https://forbes.com.br/forbes-money/2026/11/itau-unibanco-tem-lucro-liquido-recorrente-de-r126-bi-no-3o-tri/",
+          "publisher": "Forbes Brasil",
+          "publishedAt": "2026-11-04"
+        },
+        {
+          "title": "Itaú (ITUB4) lucra R$ 12,6 bilhões no 3T26, em linha com o esperado; veja o que pesou no balanço",
+          "url": "https://www.seudinheiro.com/2026/empresas/itau-itub4-com-lucro-roe-rentabilidade-banco-balanco-do-3t26-miql/",
+          "publisher": "Seu Dinheiro",
+          "publishedAt": "2026-11-03"
+        }
+      ]
+    },
+    {
+      "ticker": "BBDC4",
+      "period": "3T26",
+      "reportedAt": "2026-10-22",
+      "netIncome": 7109,
+      "netIncomeYoyPct": 14.6,
+      "roePct": 16.1,
+      "highlights": [
+        "Lucro recorrente cresceu com margem financeira maior e despesas sob controle; ROE é o recorrente.",
+        "Inadimplência e provisões em alta seguraram o ganho."
+      ],
+      "sources": [
+        {
+          "title": "Bradesco lucra R$ 7,1 bilhões e alcança R$ 38 bilhões em receitas no 3º trimestre",
+          "url": "https://timesbrasil.com.br/empresas-e-negocios/bradesco-lucra-r-71-bilhoes-e-alcanca-r-38-bilhoes-em-receitas-no-3o-trimestre/",
+          "publisher": "Times Brasil",
+          "publishedAt": "2026-10-22"
+        },
+        {
+          "title": "Bradesco tem lucro líquido recorrente de R$ 7,1 bi no 3º trimestre, alta de 14,6% na base anual",
+          "url": "https://www.jornaldocomercio.com/economia/2026/10/1267934-bradesco-tem-lucro-liquido-recorrente-de-rs-71-bi-no-3-trimestre-alta-de-146-na-base-anual.html",
+          "publisher": "Jornal do Comércio",
+          "publishedAt": "2026-10-22"
+        }
+      ]
+    },
+    {
+      "ticker": "BBAS3",
+      "period": "3T26",
+      "reportedAt": "2026-11-11",
+      "netIncome": 1270,
+      "netIncomeYoyPct": -66.5,
+      "roePct": 2.8,
+      "highlights": [
+        "Lucro ajustado despencou cerca de dois terços no ano e o ROE caiu para menos de 3%.",
+        "Custo do crédito e inadimplência em forte alta pesaram; o banco cortou pela metade a projeção de lucro de 2026."
+      ],
+      "sources": [
+        {
+          "title": "BB tem queda de 66,5% no lucro e reduz previsão para 2026",
+          "url": "https://timesbrasil.com.br/empresas-e-negocios/bancos-fintechs/bb-tem-queda-de-665-no-lucro-e-reduz-previsao-para-2026/",
+          "publisher": "Times Brasil (CNBC)",
+          "publishedAt": "2026-11-11"
+        },
+        {
+          "title": "Banco do Brasil: balanço do 3T26",
+          "url": "https://euqueroinvestir.com/mercados/banco-do-brasil-balanco-3t26-lucro",
+          "publisher": "Eu Quero Investir",
+          "publishedAt": "2026-11-11"
+        }
+      ]
+    },
+    {
+      "ticker": "BPAC11",
+      "period": "3T26",
+      "reportedAt": "2026-11-12",
+      "netIncome": 5300,
+      "netIncomeYoyPct": 17,
+      "roePct": 26.4,
+      "highlights": [
+        "Lucro ajustado recorde, com alta de 17% no ano; ROAE recuou um pouco frente ao 3T25 mas segue elevado.",
+        "Banco aprovou nova recompra de ações."
+      ],
+      "sources": [
+        {
+          "title": "BTG Pactual tem lucro recorde de R$ 5,3 bilhões e aprova recompra de até R$ 2 bilhões",
+          "url": "https://exame.com/invest/mercados/btg-pactual-tem-lucro-recorde-de-r-53-bilhoes-e-aprova-recompra-de-ate-r-2-bilhoes/",
+          "publisher": "Exame",
+          "publishedAt": "2026-11-12"
+        }
+      ]
+    },
+    {
+      "ticker": "ITSA4",
+      "period": "3T26",
+      "reportedAt": "2026-11-09",
+      "netIncome": 5062,
+      "netIncomeYoyPct": 24.8,
+      "roePct": 21.1,
+      "highlights": [
+        "Lucro e ROE recorrentes; o contábil subiu menos (cerca de 18%) por itens não recorrentes negativos.",
+        "Contribuição do Itaú Unibanco e menor despesa com dívida da holding sustentaram o resultado."
+      ],
+      "sources": [
+        {
+          "title": "Itaúsa eleva lucro recorrente em 24,8% no terceiro trimestre",
+          "url": "https://timesbrasil.com.br/empresas-e-negocios/itausa-eleva-lucro-recorrente-em-248-no-terceiro-trimestre/",
+          "publisher": "Times Brasil (CNBC)",
+          "publishedAt": "2026-11-09"
+        }
+      ]
+    },
+    {
+      "ticker": "B3SA3",
+      "period": "3T26",
+      "reportedAt": "2026-11-12",
+      "revenue": 2760,
+      "revenueYoyPct": 11,
+      "netIncome": 1380,
+      "netIncomeYoyPct": 9.9,
+      "ebitda": 1890,
+      "ebitdaYoyPct": 9.4,
+      "highlights": [
+        "Lucro e EBITDA recorrentes; o lucro contábil foi maior, de R$ 1,63 bi.",
+        "Receitas cresceram dois dígitos, com negócios fora do pregão ganhando peso."
+      ],
+      "sources": [
+        {
+          "title": "B3 (B3SA3) tem lucro líquido recorrente de R$ 1,4 bilhão, alta anual de 10%",
+          "url": "https://www.infomoney.com.br/mercados/b3-b3sa3-resultados-terceiro-trimestre-2026/",
+          "publisher": "InfoMoney",
+          "publishedAt": "2026-11-12"
+        },
+        {
+          "title": "B3 lucra R$ 1,38 bi em base recorrente no 3º trimestre de 2026",
+          "url": "https://bmcnews.com.br/empresas-e-negocios/b3-lucra-r-1-38-bi-em-base-recorrente-no-3o-trimestre-de-2026/",
+          "publisher": "BM&C News",
+          "publishedAt": "2026-11-13"
+        }
+      ]
+    },
+    {
+      "ticker": "ABEV3",
+      "period": "3T26",
+      "reportedAt": "2026-10-29",
+      "revenue": 21594.6,
+      "revenueYoyPct": 3.6,
+      "netIncome": 4393.6,
+      "netIncomeYoyPct": 14.3,
+      "ebitda": 7270.9,
+      "ebitdaYoyPct": 3.0,
+      "highlights": [
+        "Lucro e EBITDA normalizados; o lucro contábil caiu 10% contra base forte.",
+        "Reajustes de preço sustentaram o crescimento, mas o volume de cerveja no Brasil foi fraco; empresa tem caixa líquido."
+      ],
+      "sources": [
+        {
+          "title": "Ambev S.A. — Form 6-K (release 3T26)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001565025/000129281426005034/abevpr3q26_6k.htm",
+          "publisher": "SEC / Ambev",
+          "publishedAt": "2026-10-29"
+        },
+        {
+          "title": "Ambev (ABEV3) lucra R$ 4,37 bilhões no 3º trimestre, acima do esperado pelo mercado",
+          "url": "https://www.infomoney.com.br/mercados/ambev-abev3-resultados-terceiro-trimestre-2026/",
+          "publisher": "InfoMoney",
+          "publishedAt": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "ticker": "MGLU3",
+      "period": "3T26",
+      "reportedAt": "2026-11-09",
+      "revenue": 8940,
+      "revenueYoyPct": -0.9,
+      "netIncome": 13.9,
+      "netIncomeYoyPct": -34.6,
+      "ebitda": 710.1,
+      "ebitdaYoyPct": -0.2,
+      "highlights": [
+        "Lucro e EBITDA são os ajustados; no contábil houve prejuízo de R$ 10,7 mi.",
+        "Receita praticamente estável e margem EBITDA ajustada perto de 8%; juros seguem pesando no resultado."
+      ],
+      "sources": [
+        {
+          "title": "Magazine Luiza fecha terceiro trimestre de 2026 com prejuízo de R$ 10,7 milhões",
+          "url": "https://timesbrasil.com.br/empresas-e-negocios/magazine-luiza-fecha-terceiro-trimestre-de-2026-com-prejuizo-de-r-107-milhoes/",
+          "publisher": "Times Brasil (CNBC)",
+          "publishedAt": "2026-11-09"
+        },
+        {
+          "title": "Magazine Luiza (MGLU3) lucra R$ 14 milhões no 3T26, queda de 34%",
+          "url": "https://investidor10.com.br/noticias/magazine-luiza-mglu3-lucra-r-14-milhoes-no-3t26-queda-de-34-123791/",
+          "publisher": "Investidor10",
+          "publishedAt": "2026-11-09"
+        }
+      ]
+    },
+    {
+      "ticker": "LREN3",
+      "period": "3T26",
+      "reportedAt": "2026-11-05",
+      "revenue": 3029,
+      "revenueYoyPct": -1.6,
+      "netIncome": 187.1,
+      "netIncomeYoyPct": -24.5,
+      "ebitda": 570.9,
+      "ebitdaYoyPct": -3.9,
+      "highlights": [
+        "Lucro ajustado (reportado: R$ 246,4 mi, -11,8%); receita é a líquida do varejo, com vendas em mesmas lojas negativas e projeções de receita retiradas.",
+        "A queda forte no braço financeiro (Realize) foi o que mais pesou; margem bruta do varejo foi recorde para um 3º trimestre."
+      ],
+      "sources": [
+        {
+          "title": "Renner tem lucro de R$ 246,4 milhões no 3º trimestre de 2026",
+          "url": "https://timesbrasil.com.br/empresas-e-negocios/moda-textil/lojas-renner-registra-queda-de-118-no-lucro-do-terceiro-trimestre-de-2026/",
+          "publisher": "Times Brasil (CNBC)",
+          "publishedAt": "2026-11-05"
+        },
+        {
+          "title": "Renner vê lucro cair 11,8% e retira projeções de receita",
+          "url": "https://euqueroinvestir.com/mercados/renner-balanco-3t26-lucro",
+          "publisher": "Eu Quero Investir",
+          "publishedAt": "2026-11-05"
+        }
+      ]
+    },
+    {
+      "ticker": "SUZB3",
+      "period": "3T26",
+      "reportedAt": "2026-11-05",
+      "revenue": 16520,
+      "revenueYoyPct": 36,
+      "netIncome": 2080,
+      "netIncomeYoyPct": 6,
+      "ebitda": 5670,
+      "ebitdaYoyPct": 9,
+      "netDebtToEbitda": 3.7,
+      "highlights": [
+        "EBITDA ajustado e lucro contábil; receita subiu com celulose mais cara e a consolidação da Arbex, mas a margem EBITDA encolheu.",
+        "Alavancagem em dólar subiu para 3,7x (3,4x pro forma com a Arbex)."
+      ],
+      "sources": [
+        {
+          "title": "Suzano (SUZB3) lucra R$ 2,08 bilhões no 3T26, alta de 6%",
+          "url": "https://euqueroinvestir.com/mercados/suzano-balanco-3t26-lucro",
+          "publisher": "Eu Quero Investir",
+          "publishedAt": "2026-11-05"
+        }
+      ]
+    },
+    {
+      "ticker": "RENT3",
+      "period": "3T26",
+      "reportedAt": "2026-11-05",
+      "revenue": 12278,
+      "revenueYoyPct": 14.4,
+      "netIncome": 1125,
+      "netIncomeYoyPct": 29.1,
+      "ebitda": 4029,
+      "ebitdaYoyPct": 13.7,
+      "highlights": [
+        "Comparação contra o 3T25 ajustado; a fonte não deixa claro se o 3T26 é ajustado.",
+        "Aluguel e frotas cresceram com margem melhor, enquanto a margem de seminovos no Brasil caiu."
+      ],
+      "sources": [
+        {
+          "title": "Localiza (RENT3): lucro sobe 29,1% no 3T26 e chega a R$ 1,1 bilhão",
+          "url": "https://euqueroinvestir.com/acoes/localiza-rent3-lucro-3t26-resultados",
+          "publisher": "Eu Quero Investir",
+          "publishedAt": "2026-11-05"
+        }
+      ]
+    },
+    {
+      "ticker": "CYRE3",
+      "period": "3T26",
+      "reportedAt": "2026-11-12",
+      "revenue": 2382,
+      "revenueYoyPct": 12,
+      "netIncome": 481,
+      "netIncomeYoyPct": -21,
+      "roePct": 18.7,
+      "netMarginPct": 20.2,
+      "highlights": [
+        "Lucro caiu cerca de um quinto mesmo com receita maior, com despesas comerciais mais altas.",
+        "Margem bruta melhorou levemente; ROE é o dos últimos 12 meses."
+      ],
+      "sources": [
+        {
+          "title": "Cyrela (CYRE3) lucra R$ 481 milhões no terceiro trimestre, 21% menor que um ano antes",
+          "url": "https://www.moneytimes.com.br/cyrela-cyre3-lucra-r-481-milhoes-no-3o-trimestre-21-menos-que-um-ano-antes-bdap/",
+          "publisher": "Money Times",
+          "publishedAt": "2026-11-12"
+        }
+      ]
+    },
+    {
+      "ticker": "BEEF3",
+      "period": "3T26",
+      "reportedAt": "2026-11-11",
+      "revenue": 14500,
+      "revenueYoyPct": -6.4,
+      "netIncome": -717.3,
+      "ebitda": 1198.9,
+      "ebitdaYoyPct": -13.6,
+      "netDebtToEbitda": 3.2,
+      "highlights": [
+        "Prejuízo de R$ 717 mi, revertendo o lucro do 3T25; receita e EBITDA recuaram.",
+        "Alavancagem subiu para 3,2 vezes (era 2,5 um ano antes)."
+      ],
+      "sources": [
+        {
+          "title": "Minerva reverte lucro e tem prejuízo líquido de R$ 717,3 milhões no 3T26",
+          "url": "https://euqueroinvestir.com/acoes/minerva-reverte-lucro-e-tem-prejuizo-liquido-de-r-7173-milhoes-no-3t26",
+          "publisher": "Eu Quero Investir",
+          "publishedAt": "2026-11-11"
+        }
+      ]
+    },
+    {
+      "ticker": "CMIG4",
+      "period": "3T26",
+      "reportedAt": "2026-11-12",
+      "netIncome": 922.8,
+      "netIncomeYoyPct": 18,
+      "ebitda": 1993,
+      "ebitdaYoyPct": 31.1,
+      "netDebtToEbitda": 2.43,
+      "highlights": [
+        "Lucro e EBITDA ajustados; o contábil mais que dobrou (R$ 1,72 bi) por reversão de provisões.",
+        "Receita omitida por falta na fonte."
+      ],
+      "sources": [
+        {
+          "title": "Cemig mais que dobra lucro no 3T26; ajustado sobe 18%",
+          "url": "https://revistaempreende.com.br/cemig-lucro-3t26-reversao-provisoes/",
+          "publisher": "Revista Empreende",
+          "publishedAt": "2026-11-13"
+        }
+      ]
+    },
+    {
+      "ticker": "SBSP3",
+      "period": "3T26",
+      "reportedAt": "2026-11-05",
+      "revenue": 10141,
+      "revenueYoyPct": 7.6,
+      "netIncome": 1388,
+      "netIncomeYoyPct": -35.7,
+      "ebitda": 3982,
+      "ebitdaYoyPct": 29.7,
+      "netMarginPct": 14,
+      "highlights": [
+        "Lucro contábil caiu pelo resultado financeiro, que virou despesa; a operação melhorou, com EBITDA forte.",
+        "Receita inclui receita de construção; a fonte não indica ajustes no EBITDA."
+      ],
+      "sources": [
+        {
+          "title": "Sabesp tem lucro líquido de R$ 1,39 bilhão no 3T26, queda de 35,7%",
+          "url": "https://euqueroinvestir.com/acoes/sabesp-tem-lucro-liquido-de-r-139-bilhao-no-3t26-queda-de-357",
+          "publisher": "Eu Quero Investir",
+          "publishedAt": "2026-11-05"
+        },
+        {
+          "title": "Divulgações do terceiro trimestre de 2026: Sabesp lucrou R$ 1,38 bilhão, Allos teve alta de 131,4% no lucro",
+          "url": "https://trademap.com.br/noticias/news-8565358",
+          "publisher": "TradeMap",
+          "publishedAt": "2026-11-05"
+        }
+      ]
+    },
+    {
+      "ticker": "CSAN3",
+      "period": "3T26",
+      "reportedAt": "2026-11-13",
+      "revenue": 11288,
+      "revenueYoyPct": 6,
+      "netIncome": 190,
+      "ebitda": 4361,
+      "highlights": [
+        "Voltou ao lucro aos controladores, revertendo prejuízo de R$ 1,2 bi do 3T25.",
+        "EBITDA é o ajustado (sem variação anual na fonte); dívida líquida caiu quase pela metade em um ano."
+      ],
+      "sources": [
+        {
+          "title": "Cosan (CSAN3) lucra R$ 190 milhões no 3T26, reduz dívida e anuncia troca de CEO para 2027",
+          "url": "https://www.moneytimes.com.br/cosan-csan3-lucra-r-190-milhoes-no-3t26-reduz-divida-e-anuncia-troca-de-ceo-para-2027-pads/",
+          "publisher": "Money Times",
+          "publishedAt": "2026-11-14"
+        }
+      ]
+    },
+    {
+      "ticker": "EMBJ3",
+      "period": "3T26",
+      "reportedAt": "2026-11-10",
+      "revenue": 12100,
+      "revenueYoyPct": 11,
+      "netIncome": 379.8,
+      "netIncomeYoyPct": -15.6,
+      "ebitda": 1630,
+      "highlights": [
+        "Lucro e EBITDA ajustados; receita recorde para um terceiro trimestre e margem EBITDA maior.",
+        "Lucro ajustado caiu na comparação anual; guidance de receita foi elevado."
+      ],
+      "sources": [
+        {
+          "title": "Embraer (EMBJ3): Lucro ajustado cai 15,6% no 3T26, para R$ 379,8 milhões",
+          "url": "https://investidor10.com.br/noticias/embraer-embj3-lucro-ajustado-cai-15-6-no-3t26-para-r-379-8-milhoes-123795/",
+          "publisher": "Investidor10",
+          "publishedAt": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "ticker": "EQTL3",
+      "period": "3T26",
+      "reportedAt": "2026-11-11",
+      "revenue": 13644,
+      "revenueYoyPct": -1.2,
+      "netIncome": 535,
+      "netIncomeYoyPct": -37.1,
+      "ebitda": 3206,
+      "ebitdaYoyPct": 4.1,
+      "netDebtToEbitda": 3.1,
+      "highlights": [
+        "Lucro e EBITDA ajustados; lucro caiu mais de um terço apesar do EBITDA um pouco maior.",
+        "Alavancagem em torno de 3 vezes."
+      ],
+      "sources": [
+        {
+          "title": "Equatorial tem lucro líquido ajustado de R$ 535 mi no terceiro trimestre de 2026",
+          "url": "https://www.jornaldocomercio.com/economia/2026/11/1270223-equatorial-tem-lucro-liquido-ajustado-de-rs-535-mi-no-terceiro-trimestre-de-2026.html",
+          "publisher": "Jornal do Comércio (Estadão Conteúdo)",
+          "publishedAt": "2026-11-11"
+        }
+      ]
+    },
+    {
+      "ticker": "AXIA3",
+      "period": "3T26",
+      "reportedAt": "2026-11-04",
+      "revenue": 10037,
+      "revenueYoyPct": 0.3,
+      "netIncome": 1759,
+      "netIncomeYoyPct": -19.1,
+      "ebitda": 4533,
+      "ebitdaYoyPct": -23,
+      "netDebtToEbitda": 2.0,
+      "highlights": [
+        "Lucro e EBITDA ajustados em IFRS; no contábil, a empresa saiu de prejuízo no 3T25 para lucro de R$ 1,1 bi.",
+        "No critério regulatório o EBITDA ajustado cresceu, com transmissão e comercialização; alavancagem estável em 2,0x."
+      ],
+      "sources": [
+        {
+          "title": "Axia Energia reverte prejuízo e registra lucro líquido de R$ 1,11 bilhão no trimestre",
+          "url": "https://timesbrasil.com.br/empresas-e-negocios/energia/axia-energia-reverte-prejuizo-e-registra-lucro-liquido-de-r-111-bilhao-no-trimestre/",
+          "publisher": "Times Brasil (CNBC)",
+          "publishedAt": "2026-11-04"
+        },
+        {
+          "title": "Axia Energia (AXIA3) tem EBITDA de R$ 6,9 bilhões no 3T26, alta de 8,4%",
+          "url": "https://euqueroinvestir.com/acoes/axia-energia-axia3-ebitda-resultados-3t26",
+          "publisher": "Eu Quero Investir",
+          "publishedAt": "2026-11-04"
+        }
+      ]
+    }
+  ]
+}
