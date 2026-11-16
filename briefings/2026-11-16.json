@@ -1,0 +1,470 @@
+{
+  "version": 1,
+  "date": "2026-11-16",
+  "generatedAt": "2026-11-16T10:44:32Z",
+  "edition": "abertura",
+  "summary": "Viés geral levemente negativo para a bolsa e de dólar firme na abertura. Depois do fim do pregão de sexta, o exterior piorou: o DXY subiu 0,26% (103,43) no início da noite e chegou perto de 103,50 nesta manhã, a máxima desde abril de 2025; os Treasuries de 2 e 10 anos subiram para 4,86% e 5,14%; os futuros de Nasdaq caem cerca de 0,8% a 0,9% e de S&P 500 0,32%; Nikkei (-2,4%) e Kospi (-3,6%) recuaram. Na China, varejo (+0,4% a/a) e produção industrial (+4,8%) de outubro vieram abaixo do esperado, e o minério caiu 3,28% em Dalian, ao menor nível em mais de 16 meses: mineração e siderurgia são os setores mais expostos. A favor: Brent perto de US$ 96 com leve alta e o lucro de R$ 190 mi da Cosan, com dívida 48% menor. Gatilhos: Focus (8h25), IBC-Br de setembro (9h), reunião de Durigan com a presidente do BB (9h), fala de Warsh (Fed) às 14h e a expectativa pelo anúncio da equipe econômica; semana curta com feriado na sexta (20/11).",
+  "factors": [
+    {
+      "factor": "juros",
+      "direction": "incerto",
+      "comment": "Na sexta, os DIs longos caíram após o PPI americano abaixo do esperado (janeiro de 2035 a 15,155%, contra 15,249% no ajuste anterior) e o de 2028 ficou estável em 14,28%. Na madrugada, porém, os Treasuries voltaram a subir (2 anos a 4,86% e 10 anos a 5,14%), o que pode pressionar a curva local na abertura."
+    },
+    {
+      "factor": "dolar",
+      "direction": "alta",
+      "comment": "O dólar fechou sexta a R$ 5,65 (+0,05%), maior nível desde junho de 2025. Depois disso, o DXY subiu 0,26% por volta das 19h (103,43) e estava perto de 103,50 nesta manhã, com euro em 1,10, mínima em 19 meses, e o dólar australiano no menor nível desde janeiro."
+    },
+    {
+      "factor": "petroleo",
+      "direction": "estavel",
+      "comment": "Brent sexta fechou a US$ 95,84 (+0,02%). Nesta manhã, sobe cerca de 0,4% a 0,6%, entre US$ 96,24 e US$ 96,43, apesar da expectativa de excesso de oferta e de os embarques por Hormuz estarem quase normalizados."
+    },
+    {
+      "factor": "minerio",
+      "direction": "baixa",
+      "comment": "Minério de ferro caiu 3,28% em Dalian, a 648 iuanes (cerca de US$ 97,13) por tonelada, menor nível em mais de 16 meses, após dados fracos da China."
+    },
+    {
+      "factor": "china",
+      "direction": "baixa",
+      "comment": "Dados de outubro abaixo do esperado: vendas no varejo +0,4% a/a (projeção 0,8%), produção industrial +4,8% (projeção 5,3%) e investimento em ativos fixos -8,1% no ano. Xangai caiu 0,87%; Hang Seng subiu 0,49%."
+    },
+    {
+      "factor": "risco-fiscal",
+      "direction": "incerto",
+      "comment": "Lula volta ao país e o mercado espera a definição da equipe econômica e novas medidas; o Senado retoma na terça a votação dos destaques do ajuste fiscal. O líder da oposição, Rogério Marinho, criticou o pacote no fim de semana."
+    }
+  ],
+  "macro": [
+    {
+      "title": "Fechamento de sexta (13/11)",
+      "detail": "Ibovespa +0,66%, a 172.457,77 pontos (alta de cerca de 2,4% na semana), com apoio de Itaú e Petrobras; volume de R$ 16,75 bi. Dólar +0,05%, a R$ 5,65, maior patamar desde junho de 2025 e alta semanal de cerca de 2,6%."
+    },
+    {
+      "title": "Juros futuros na sexta",
+      "detail": "Os DIs fecharam em queda nos vértices longos, com realização após dias de alta, ajudados pelo PPI dos EUA abaixo do esperado e pelo varejo de setembro: janeiro de 2035 a 15,155% (ante 15,249%) e janeiro de 2028 estável em 14,28%. Galípolo disse que o BC não controla a curva."
+    },
+    {
+      "title": "Agenda doméstica de hoje",
+      "detail": "IGP-10 de novembro às 8h (projeção 0,68%), Focus às 8h25 (o primeiro desde o anúncio do pacote fiscal) e IBC-Br de setembro às 9h (projeção estável no mês). Durigan se reúne com Tarciana Medeiros (BB) às 9h; Galípolo fala às 19h em jantar da ABBC, fechado à imprensa."
+    },
+    {
+      "title": "Fed e EUA",
+      "detail": "Fala do presidente do Fed, Kevin Warsh, às 14h; John Williams às 11h05 e Empire State às 10h30. No domingo, Jeff Schmid (Fed) disse que a inflação está desconfortavelmente acima da meta. Na semana: ata do Fed, vendas no varejo dos EUA e resultado da Nvidia (terça, após o fechamento)."
+    },
+    {
+      "title": "China e Japão",
+      "detail": "Varejo, produção industrial e investimento da China em outubro abaixo do esperado. O PIB do Japão no 3º trimestre encolheu 0,1% anualizado (projeção de +0,3%); Nikkei caiu cerca de 2,4%."
+    }
+  ],
+  "geopolitics": [
+    {
+      "title": "EUA-Irã e Hormuz",
+      "detail": "O Irã lançou seis drones contra base aérea americana no Bahrein, todos interceptados, e relatou um petroleiro atingido por mina perto de Hormuz; mesmo assim, os embarques pelo estreito estão quase nos níveis anteriores à guerra."
+    },
+    {
+      "title": "Trump na Ásia",
+      "detail": "Trump viaja à Ásia para encontros com Xi Jinping e Vladimir Putin, enquanto Washington prepara restrições a chips."
+    },
+    {
+      "title": "Tecnologia",
+      "detail": "A Nvidia perdeu mais de US$ 500 bi em valor de mercado na semana passada após a saída de Jensen Huang, que, segundo o FT, negocia um possível retorno. Resultado da empresa na terça e IPO da Anthropic previstos para esta semana."
+    }
+  ],
+  "sectors": [
+    {
+      "sector": "Índice",
+      "bias": "negativo",
+      "confidence": "baixa",
+      "rationale": "Futuros de Nasdaq e S&P 500 em queda, EWZ -0,32%, Ásia majoritariamente negativa e minério em queda forte pesam sobre Vale e o índice; o dólar global forte também tende a tirar fluxo de emergentes.",
+      "against": [
+        "Brent em leve alta ajuda Petrobras",
+        "Europa estável/positiva (Stoxx 600 +0,08%)",
+        "Focus ou IBC-Br favoráveis e anúncio bem recebido da equipe econômica"
+      ]
+    },
+    {
+      "sector": "Mineração",
+      "bias": "negativo",
+      "confidence": "media",
+      "rationale": "Minério -3,28% em Dalian, no menor nível em mais de 16 meses, depois de dados fracos de varejo, indústria e investimento na China.",
+      "against": [
+        "Dólar mais alto melhora a receita em reais",
+        "Notícias positivas do encontro Trump-Xi"
+      ]
+    },
+    {
+      "sector": "Siderurgia",
+      "bias": "negativo",
+      "confidence": "baixa",
+      "rationale": "A demanda chinesa mais fraca e o minério em queda pressionam preços de aço; CSN ainda repercute o prejuízo do trimestre.",
+      "against": [
+        "Dólar alto ajuda a proteção contra importação de aço",
+        "Ações já caíram bastante na semana passada"
+      ]
+    },
+    {
+      "sector": "Petróleo e gás",
+      "bias": "positivo",
+      "confidence": "baixa",
+      "rationale": "Brent sobe cerca de 0,4% a 0,6%, perto de US$ 96, com risco no Golfo após ataque de drones iranianos; com dólar firme, a receita em reais de Petrobras e PRIO melhora.",
+      "against": [
+        "Expectativa de excesso de oferta e Hormuz quase normalizado",
+        "Refino chinês menor em outubro"
+      ]
+    },
+    {
+      "sector": "Bancos",
+      "bias": "neutro",
+      "confidence": "baixa",
+      "rationale": "Itaú ajudou o índice na sexta, mas o Banco do Brasil segue pressionado pela renegociação de dívidas rurais; reunião de Durigan com a presidente do BB às 9h pode mexer com a ação.",
+      "against": [
+        "Treasuries em alta e aversão a risco global",
+        "Notícia positiva da reunião no BB"
+      ]
+    },
+    {
+      "sector": "Serviços financeiros",
+      "bias": "neutro",
+      "confidence": "baixa",
+      "rationale": "Sem notícia nova relevante para B3, BTG e Itaúsa; juros longos caíram na sexta, mas os Treasuries sobem nesta manhã.",
+      "against": [
+        "Aversão a risco global reduz volumes e múltiplos"
+      ]
+    },
+    {
+      "sector": "Papel e celulose",
+      "bias": "positivo",
+      "confidence": "baixa",
+      "rationale": "O dólar forte (DXY perto de 103,50) beneficia a receita em reais de exportadoras como a Suzano.",
+      "against": [
+        "Dados fracos da China ameaçam a demanda por celulose"
+      ]
+    },
+    {
+      "sector": "Proteínas",
+      "bias": "positivo",
+      "confidence": "baixa",
+      "rationale": "Dólar firme favorece exportadores de carne como a Minerva.",
+      "against": [
+        "Consumo chinês mais fraco (varejo +0,4% a/a)"
+      ]
+    },
+    {
+      "sector": "Bens de capital",
+      "bias": "positivo",
+      "confidence": "baixa",
+      "rationale": "Dólar alto favorece receitas externas de WEG e Embraer.",
+      "against": [
+        "Queda das bolsas globais e de tecnologia pode afetar ações de crescimento"
+      ]
+    },
+    {
+      "sector": "Consumo e varejo",
+      "bias": "negativo",
+      "confidence": "baixa",
+      "rationale": "Juros em nível alto e Treasuries subindo de novo; dólar no maior nível desde junho de 2025 encarece importados.",
+      "against": [
+        "Queda dos DIs longos na sexta e varejo de setembro acima do esperado"
+      ]
+    },
+    {
+      "sector": "Construção civil",
+      "bias": "negativo",
+      "confidence": "baixa",
+      "rationale": "Juros altos e risco fiscal ainda sem definição da equipe econômica pesam sobre o setor.",
+      "against": [
+        "Curva longa caiu na sexta"
+      ]
+    },
+    {
+      "sector": "Locação de veículos",
+      "bias": "negativo",
+      "confidence": "baixa",
+      "rationale": "Setor muito sensível a juros; Treasuries em alta podem pressionar os DIs na abertura.",
+      "against": [
+        "Queda dos DIs longos na sexta"
+      ]
+    },
+    {
+      "sector": "Energia elétrica",
+      "bias": "neutro",
+      "confidence": "baixa",
+      "rationale": "Setor defensivo; o efeito dos juros é ambíguo (queda dos DIs na sexta, Treasuries em alta hoje).",
+      "against": [
+        "Alta dos DIs na abertura"
+      ]
+    },
+    {
+      "sector": "Saneamento",
+      "bias": "neutro",
+      "confidence": "baixa",
+      "rationale": "Sem notícia nova relevante para a Sabesp; sensibilidade a juros sem direção clara.",
+      "against": []
+    },
+    {
+      "sector": "Combustíveis e logística",
+      "bias": "positivo",
+      "confidence": "baixa",
+      "rationale": "A Cosan voltou ao lucro no 3T26 (R$ 190 mi, ante prejuízo de R$ 1,185 bi), com receita +6% e dívida líquida 48% menor que um ano antes; Compass, Rumo e Moove ajudaram.",
+      "against": [
+        "Troca de CEO em janeiro de 2027 traz incerteza",
+        "Petróleo mais caro encarece combustíveis e logística",
+        "Parte da melhora das investidas (Compass e Rumo) já era conhecida antes do balanço"
+      ]
+    },
+    {
+      "sector": "Bebidas",
+      "bias": "neutro",
+      "confidence": "baixa",
+      "rationale": "Sem notícia nova relevante para a Ambev.",
+      "against": []
+    }
+  ],
+  "assets": [
+    {
+      "ticker": "VALE3",
+      "bias": "negativo",
+      "note": "Minério -3,28% em Dalian, menor nível em mais de 16 meses, após dados fracos da China."
+    },
+    {
+      "ticker": "CSAN3",
+      "bias": "positivo",
+      "note": "Lucro de R$ 190 mi no 3T26, Ebitda ajustado de R$ 4,361 bi e dívida líquida 48% menor; CEO Marcelo Martins sai em 4/1/2027, com Guilherme Penin interino."
+    },
+    {
+      "ticker": "BBAS3",
+      "bias": "neutro",
+      "note": "Reunião de Durigan com Tarciana Medeiros às 9h; pressão da renegociação de dívidas rurais."
+    },
+    {
+      "ticker": "PETR4",
+      "bias": "positivo",
+      "note": "Brent perto de US$ 96, em leve alta nesta manhã."
+    }
+  ],
+  "events": [
+    {
+      "date": "2026-11-13",
+      "title": "Resultado do 3T26 da Cosan (divulgado após o fechamento de sexta): lucro de R$ 190 mi e troca de CEO",
+      "impact": "medio",
+      "kind": "resultado",
+      "tickers": [
+        "CSAN3"
+      ]
+    },
+    {
+      "date": "2026-11-16",
+      "time": "08:00",
+      "title": "Brasil: IGP-10 de novembro",
+      "impact": "baixo",
+      "kind": "indicador"
+    },
+    {
+      "date": "2026-11-16",
+      "time": "08:25",
+      "title": "Boletim Focus (BC)",
+      "impact": "medio",
+      "kind": "indicador"
+    },
+    {
+      "date": "2026-11-16",
+      "time": "09:00",
+      "title": "Brasil: IBC-Br de setembro",
+      "impact": "medio",
+      "kind": "indicador"
+    },
+    {
+      "date": "2026-11-16",
+      "time": "09:00",
+      "title": "Durigan (Fazenda) se reúne com Tarciana Medeiros (Banco do Brasil)",
+      "impact": "baixo",
+      "kind": "politica",
+      "tickers": [
+        "BBAS3"
+      ]
+    },
+    {
+      "date": "2026-11-16",
+      "time": "10:30",
+      "title": "EUA: índice Empire State de novembro",
+      "impact": "baixo",
+      "kind": "indicador"
+    },
+    {
+      "date": "2026-11-16",
+      "time": "11:05",
+      "title": "John Williams (Fed) fala",
+      "impact": "baixo",
+      "kind": "politica"
+    },
+    {
+      "date": "2026-11-16",
+      "time": "14:00",
+      "title": "Kevin Warsh, presidente do Fed, fala",
+      "impact": "medio",
+      "kind": "politica"
+    },
+    {
+      "date": "2026-11-16",
+      "time": "15:00",
+      "title": "Balança comercial semanal (Secex)",
+      "impact": "baixo",
+      "kind": "indicador"
+    },
+    {
+      "date": "2026-11-16",
+      "time": "19:00",
+      "title": "Galípolo (BC) em jantar da ABBC, fechado à imprensa",
+      "impact": "baixo",
+      "kind": "politica"
+    },
+    {
+      "date": "2026-11-16",
+      "title": "Possível anúncio da equipe econômica do novo mandato de Lula (sem data definida)",
+      "impact": "alto",
+      "kind": "politica"
+    },
+    {
+      "date": "2026-11-17",
+      "title": "Senado: votação dos destaques do projeto de ajuste fiscal",
+      "impact": "alto",
+      "kind": "politica"
+    },
+    {
+      "date": "2026-11-17",
+      "title": "Resultado trimestral da Nvidia (após o fechamento)",
+      "impact": "medio",
+      "kind": "outro"
+    },
+    {
+      "date": "2026-11-20",
+      "title": "Feriado da Consciência Negra: sem pregão na B3",
+      "impact": "medio",
+      "kind": "outro"
+    }
+  ],
+  "rates": {
+    "asOf": "Fechamento de 13/11",
+    "items": [
+      {
+        "contract": "DI1F28",
+        "rate": 14.28,
+        "change": 0.0
+      },
+      {
+        "contract": "DI1F35",
+        "rate": 15.155,
+        "change": -0.094
+      }
+    ]
+  },
+  "opening": [
+    {
+      "contract": "WIN",
+      "bias": "baixa",
+      "confidence": "media",
+      "drivers": [
+        "Futuros nos EUA em queda nesta manhã: Nasdaq -0,83% e S&P 500 -0,32% (InfoMoney, 5h45); Nasdaq -0,94% (Money Times, 7h)",
+        "EWZ -0,32%, a US$ 31,12",
+        "Ásia negativa: Nikkei -2,42%, Kospi -3,6%, Xangai -0,87%",
+        "Minério -3,28% em Dalian, a 648 iuanes, menor nível em mais de 16 meses: pesa sobre Vale",
+        "Dados de outubro da China abaixo do esperado e DXY na máxima desde abril de 2025"
+      ],
+      "against": [
+        "Europa estável a positiva (Stoxx 600 +0,08%, CAC +0,28%)",
+        "Brent em leve alta (+0,4% a +0,6%) ajuda Petrobras",
+        "Hang Seng +0,49%",
+        "Focus/IBC-Br às 8h25 e 9h podem mudar o tom"
+      ],
+      "note": "Vale e siderúrgicas tendem a liderar a pressão; Petrobras e Cosan podem compensar parte."
+    },
+    {
+      "contract": "WDO",
+      "bias": "alta",
+      "confidence": "baixa",
+      "drivers": [
+        "DXY +0,26% (103,43) por volta das 19h de sexta, depois do fim do pregão, e perto de 103,50 nesta manhã, máxima desde abril de 2025",
+        "Treasuries subiram na madrugada: 2 anos a 4,86% (4,84% na sexta) e 10 anos a 5,14% (5,13%)",
+        "Minério -3,28% e dados fracos da China tendem a enfraquecer o real; dólar australiano no menor nível desde janeiro",
+        "Aversão a risco na Ásia (Nikkei -2,4%, Kospi -3,6%)"
+      ],
+      "against": [
+        "Brent em leve alta favorece o real",
+        "Sem dado de peso mexicano e outras moedas emergentes nesta manhã",
+        "Dólar já subiu cerca de 2,6% na semana passada, o que abre espaço para realização",
+        "Anúncio bem recebido da equipe econômica ou Focus/IBC-Br"
+      ],
+      "note": "Placar recente: WDO acertou pouco com confiança baixa; mantida a confiança baixa."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Dólar fecha a R$ 5,65, maior patamar desde junho de 2025; Bolsa sobe 0,66%",
+      "url": "https://www.metropoles.com/brasil/dolar-ibovespa-bolsa-13-novembro",
+      "publisher": "Metrópoles",
+      "publishedAt": "2026-11-13"
+    },
+    {
+      "title": "Taxas de juros futuros fecham em queda nesta sexta-feira",
+      "url": "https://brasilemfolhas.com.br/2026/11/taxas-de-juros-futuros-fecham-em-queda-nesta-sexta-feira/",
+      "publisher": "Brasil em Folhas",
+      "publishedAt": "2026-11-13"
+    },
+    {
+      "title": "Investidores aguardam definição da equipe econômica em semana mais curta; Ibovespa em dólar cai nesta segunda-feira (16)",
+      "url": "https://www.moneytimes.com.br/investidores-aguardam-definicao-da-equipe-economica-em-semana-mais-curta-ibovespa-em-dolar-cai-nesta-segunda-feira-16-rens/",
+      "publisher": "Money Times",
+      "publishedAt": "2026-11-16"
+    },
+    {
+      "title": "Tempo real: Ibovespa começa semana de olho no IBC-Br e no Boletim Focus",
+      "url": "https://www.moneytimes.com.br/tempo-real-16-11-2026-davs/",
+      "publisher": "Money Times",
+      "publishedAt": "2026-11-16"
+    },
+    {
+      "title": "Dow Jones Futuro cai em semana decisiva para Nvidia e mercado de IA",
+      "url": "https://www.infomoney.com.br/mercados/dow-jones-futuro-cai-em-semana-decisiva-para-nvidia-e-mercado-de-ia/",
+      "publisher": "InfoMoney",
+      "publishedAt": "2026-11-16"
+    },
+    {
+      "title": "Market Quick Take - Fed Chair Warsh to speak today - 16 November 2026",
+      "url": "https://home.saxo/en-gb/content/articles/macro/market-quick-take---fed-chair-warsh-to-speak-today---16-november-2026-16112026",
+      "publisher": "Saxo Bank",
+      "publishedAt": "2026-11-16"
+    },
+    {
+      "title": "US Bond Yield Tops 5% as China Sales Slow",
+      "url": "https://www.riotimesonline.com/global-economy-briefing-november-16-2026/",
+      "publisher": "The Rio Times",
+      "publishedAt": "2026-11-16"
+    },
+    {
+      "title": "Forex Today: Can the US Dollar Stay Firm as Markets Begin the Week on a Cautious Note?",
+      "url": "https://www.tmgm.com/en-in/analysis/market-news/article/forex-today-markets-turn-cautious-to-start-week-us-dollar-holds-firm-202611160721",
+      "publisher": "TMGM (FXStreet)",
+      "publishedAt": "2026-11-16"
+    },
+    {
+      "title": "Ibovespa a 172.457,76 pontos: Focus, IBC-Br e Fed na agenda",
+      "url": "https://www.ativovirtual.com.br/avnews/artigos/ibovespa-a-17245776-pontos-focus-ibc-br-e-fed-na-agenda",
+      "publisher": "Ativo Virtual",
+      "publishedAt": "2026-11-16"
+    },
+    {
+      "title": "Vai rolar: Lula volta sob pressão fiscal; Nvidia testa mercado",
+      "url": "https://www.bomdiamercado.com.br/mercado-financeiro/giro-dos-mercados/vai-rolar-lula-volta-sob-pressao-fiscal-nvidia-testa-mercado/",
+      "publisher": "Bom Dia Mercado",
+      "publishedAt": "2026-11-16"
+    },
+    {
+      "title": "Cosan (CSAN3) lucra R$ 190 milhões no 3T26, reduz dívida e anuncia troca de CEO para 2027",
+      "url": "https://www.moneytimes.com.br/cosan-csan3-lucra-r-190-milhoes-no-3t26-reduz-divida-e-anuncia-troca-de-ceo-para-2027-pads/",
+      "publisher": "Money Times",
+      "publishedAt": "2026-11-14"
+    }
+  ]
+}
